@@ -1,0 +1,75 @@
+{
+  "sourceId": "wgi_2026",
+  "sourceVersion": "2026 workbook",
+  "sourceUrl": "https://www.worldbank.org/content/dam/sites/govindicators/doc/wgidataset_with_sourcedata-2026.xlsx",
+  "sourcePath": "data/raw/world_bank_wgi/2026/wgidataset_with_sourcedata-2026.xlsx",
+  "sourceSha256": "67c38d2e9253fb1a72ee302c3b7c47b2ba7b177a04673163796ca1666f506ecb",
+  "retrievedAt": "2026-10-06T15:54:00-04:00",
+  "licenseDecision": "local non-commercial research; redistribution subject to World Bank dataset terms",
+  "parserDependency": "openpyxl==3.1.5",
+  "sheets": {
+    "va": 5652,
+    "pv": 5644,
+    "ge": 5553,
+    "rq": 5554,
+    "rl": 5691,
+    "cc": 5588
+  },
+  "panelRows": 5696,
+  "coverage": [
+    1996,
+    2025
+  ],
+  "dimensions": {
+    "va": "voice_accountability",
+    "pv": "political_stability",
+    "ge": "government_effectiveness",
+    "rq": "regulatory_quality",
+    "rl": "rule_of_law",
+    "cc": "control_of_corruption"
+  },
+  "missingness": {
+    "voice_accountability": {
+      "column": "voice_accountability_estimate",
+      "nonMissing": 5652,
+      "totalRows": 5696,
+      "coverageRate": 0.9922752808988764
+    },
+    "political_stability": {
+      "column": "political_stability_estimate",
+      "nonMissing": 5644,
+      "totalRows": 5696,
+      "coverageRate": 0.9908707865168539
+    },
+    "government_effectiveness": {
+      "column": "government_effectiveness_estimate",
+      "nonMissing": 5553,
+      "totalRows": 5696,
+      "coverageRate": 0.9748946629213483
+    },
+    "regulatory_quality": {
+      "column": "regulatory_quality_estimate",
+      "nonMissing": 5554,
+      "totalRows": 5696,
+      "coverageRate": 0.9750702247191011
+    },
+    "rule_of_law": {
+      "column": "rule_of_law_estimate",
+      "nonMissing": 5691,
+      "totalRows": 5696,
+      "coverageRate": 0.999122191011236
+    },
+    "control_of_corruption": {
+      "column": "control_of_corruption_estimate",
+      "nonMissing": 5588,
+      "totalRows": 5696,
+      "coverageRate": 0.9810393258426966
+    }
+  },
+  "limitations": [
+    "WGI measures perceptions aggregated from multiple sources and should not be treated as definitive government ratings.",
+    "Historical estimates were recalculated and do not represent vintage values available at each prediction origin.",
+    "Country/economy coverage differs from COW system membership.",
+    "Dimensions are correlated and should not be interpreted as independent causal effects without a declared design."
+  ]
+}

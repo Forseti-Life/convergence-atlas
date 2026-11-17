@@ -1,0 +1,415 @@
+{
+  "schemaVersion": "1.0",
+  "rationaleVersion": "1.9.0",
+  "frozenAt": "2026-10-09T10:35:00-04:00",
+  "evidenceTiers": {
+    "A": "Observed anchor directly counted from a declared source",
+    "B": "Value or timescale reported in existing literature",
+    "C": "Proxy-derived calculation using an analogous observed process",
+    "D": "Author-defined scenario convention with no empirical estimate claim",
+    "N": "Neutral normalization point defined by the model scale",
+    "E": "Display or analysis setting with no real-world truth claim"
+  },
+  "defaults": [
+    {
+      "id": "startAgents",
+      "default": 225,
+      "range": [
+        2,
+        225
+      ],
+      "tier": "A+D",
+      "confidence": "medium",
+      "rationale": "Uses 195 country-level Institutions plus 30 strategic technology corporations. They are not legally equivalent; peer-node treatment is an authored future-dependency abstraction.",
+      "derivation": "193 UN Member States + 2 Observer States + 30 revenue-selected technology companies = 225. The author expects sustained international conflict to push strategic firms toward nationalization, state direction, or equivalent dependency; the model does not estimate inevitability.",
+      "sourceIds": [
+        "cow_states"
+      ],
+      "additionalSources": [
+        "https://www.un.org/en/model-united-nations/un-glance",
+        "https://fortune.com/ranking/global500/"
+      ],
+      "sensitivityRequired": true
+    },
+    {
+      "id": "conflictInterval",
+      "default": 25,
+      "range": [
+        1,
+        100
+      ],
+      "tier": "B+D",
+      "confidence": "low",
+      "rationale": "Interpreted as the interval between order-restructuring opportunities, not all wars or disputes. Twenty-five years is one-third of Dalio's roughly 75-year order-cycle heuristic, corresponding to a rise/peak/decline phase interval.",
+      "derivation": "75 years / 3 broad phases = 25 years. COW MID data show ordinary war onsets are much more frequent, so this must not be labeled an empirical war interval.",
+      "sourceIds": [
+        "dalio_cwo",
+        "cow_mids"
+      ],
+      "additionalSources": [],
+      "sensitivityRequired": true
+    },
+    {
+      "id": "qualifyingShare",
+      "default": 0.476,
+      "range": [
+        0,
+        1
+      ],
+      "tier": "D",
+      "confidence": "medium-low",
+      "rationale": "Core authored recurrence assumption: later qualifying waves arrive around a 52.5-year mean. The assumed current wave is not empirical evidence for this rate.",
+      "derivation": "Author selected 52.5 years; with a 25-year baseline interval this implies qualifying share 0.476. It is numerically equivalent to four waves over 1816–2026 only if the assumed current wave is counted. The historical-only reference uses three observed durable waves over 1816–2024: 69.4 years (share 0.36).",
+      "sourceIds": [
+        "cow_mids"
+      ],
+      "additionalSources": [
+        "https://correlatesofwar.org/data-sets/MIDs/"
+      ],
+      "sensitivityRequired": true
+    },
+    {
+      "id": "institutionEventProbability",
+      "default": 0.15,
+      "range": [
+        0.01,
+        0.9
+      ],
+      "tier": "D",
+      "confidence": "low",
+      "rationale": "Core assumption: each Institution has a 15% probability of permanently losing top-level independence in each qualifying wave, including the wave in progress at the 2026 epoch. Losses are durable, matching the model's permanent-loss rule.",
+      "derivation": "Author core assumption of about 15% durable loss. It sits between the durable COW three-wave mean (11.2%) and the 1866–71 durable wave (19.5%), and inside the 8.5%–29.2% envelope across 40 gross/durable specifications. The durable COW mean remains the evidence-based reference case.",
+      "sourceIds": [
+        "cow_states",
+        "cow_intra_state_wars"
+      ],
+      "additionalSources": [
+        "https://www.usitc.gov/publications/332/pub3143.pdf",
+        "https://www.rand.org/pubs/monograph_reports/MR1696.html"
+      ],
+      "sensitivityRequired": true
+    },
+    {
+      "id": "fragmentationPerEvent",
+      "default": 0,
+      "range": [
+        0,
+        10
+      ],
+      "tier": "D",
+      "confidence": "low",
+      "rationale": "Zero isolates consolidation effects in the central scenario. Fragmentation is tested explicitly in alternate scenarios rather than silently embedded.",
+      "derivation": "Control-condition convention; not an estimate that real events create zero successor Institutions.",
+      "sourceIds": [
+        "cow_states"
+      ],
+      "additionalSources": [],
+      "sensitivityRequired": true
+    },
+    {
+      "id": "internalConflict",
+      "default": 0.05,
+      "range": [
+        0,
+        0.5
+      ],
+      "tier": "D",
+      "confidence": "low",
+      "rationale": "Counts completed pre-Apex splits that create a fully independent top-level Institution. It does not predict internal disputes, factions, or partial autonomy inside a parent.",
+      "derivation": "Author scenario convention of 5% completed independent splits per wave, pending lineage data. Numerical similarity to conflict proxies is not calibration.",
+      "sourceIds": [
+        "ucdp",
+        "vdem_v16",
+        "wgi_2026"
+      ],
+      "additionalSources": [],
+      "sensitivityRequired": true
+    },
+    {
+      "id": "institutionalAdoptionRate",
+      "default": 0.07,
+      "range": [
+        0.01,
+        0.3
+      ],
+      "tier": "C",
+      "confidence": "medium-low",
+      "rationale": "IFRS jurisdictional adoption supplies an analogous standards-diffusion timescale.",
+      "derivation": "[logit(140/170) - logit(120/170)] / 10 = 0.0665 per year; rounded to 7%.",
+      "sourceIds": [
+        "ifrs_profiles"
+      ],
+      "additionalSources": [
+        "https://www.ifrs.org/content/dam/ifrs/around-the-world/adoption/the-global-financial-reporting-language-may-2016.pdf"
+      ],
+      "sensitivityRequired": true
+    },
+    {
+      "id": "leadingInstitutionStrength",
+      "default": 0.5,
+      "range": [
+        0,
+        1
+      ],
+      "tier": "N",
+      "confidence": "high-as-neutral-code",
+      "rationale": "Fifty percent is the defined neutral point of a normalized scenario scale, not a claim about current institutional strength.",
+      "derivation": "Centered signal p = 2P - 1; P=0.5 produces p=0 and no strength adjustment.",
+      "sourceIds": [
+        "dalio_cwo",
+        "world_bank_wdi",
+        "wipo_gii",
+        "sipri_milex"
+      ],
+      "additionalSources": [],
+      "sensitivityRequired": true
+    },
+    {
+      "id": "systemicCycleStress",
+      "default": 0.5,
+      "range": [
+        0,
+        1
+      ],
+      "tier": "N",
+      "confidence": "high-as-neutral-code",
+      "rationale": "Fifty percent is the defined neutral point of the systemic-stress scale, not an estimate of present global stress.",
+      "derivation": "Centered signal z = 2Z - 1; Z=0.5 produces z=0 and no stress adjustment.",
+      "sourceIds": [
+        "dalio_cwo",
+        "imf_gdd",
+        "wid",
+        "vdem_v16",
+        "wgi_2026"
+      ],
+      "additionalSources": [],
+      "sensitivityRequired": true
+    },
+    {
+      "id": "economicCoupling",
+      "default": 0.5,
+      "range": [
+        0,
+        1
+      ],
+      "tier": "D",
+      "confidence": "low",
+      "rationale": "The midpoint exposes economic interaction in sensitivity testing while neutral strength/stress leave the baseline unchanged.",
+      "derivation": "Scenario midpoint. The value is not fitted; setting coupling to zero disables the economic layer.",
+      "sourceIds": [
+        "dalio_cwo",
+        "cow_states"
+      ],
+      "additionalSources": [],
+      "sensitivityRequired": true
+    },
+    {
+      "id": "spreadRate",
+      "default": 0.15,
+      "range": [
+        0.01,
+        0.5
+      ],
+      "tier": "B+D",
+      "confidence": "low",
+      "rationale": "A conservative generic logistic diffusion coefficient chosen below recent generative-AI adoption speeds, allowing multi-decade rather than near-immediate diffusion.",
+      "derivation": "With one of 225 Institutions initially adopting, beta=0.15 reaches 90% in about 50.7 years. Stanford's observed recent AI diffusion is faster, so 15% is a scenario convention, not a fit.",
+      "sourceIds": [
+        "stanford_ai_index"
+      ],
+      "additionalSources": [
+        "https://doi.org/10.1287/mnsc.15.5.215"
+      ],
+      "sensitivityRequired": true
+    },
+    {
+      "id": "consolidationAcceleration",
+      "default": 0.25,
+      "range": [
+        0,
+        1
+      ],
+      "tier": "D",
+      "confidence": "low",
+      "rationale": "Represents one bounded feedback from AI adoption and accumulated consolidation into faster, more effective subsequent consolidation pressure.",
+      "derivation": "Author-defined cautious quarter-strength setting. Zero reproduces the constant-rate model; one permits the fixed 5x ceiling when AI adoption and consolidation progress are both complete.",
+      "sourceIds": [
+        "stanford_ai_index",
+        "cow_states"
+      ],
+      "additionalSources": [
+        "https://doi.org/10.1093/biomet/58.1.83",
+        "https://doi.org/10.2307/2234208",
+        "https://doi.org/10.1126/science.286.5439.509"
+      ],
+      "sensitivityRequired": true
+    },
+    {
+      "id": "currentWaveInProgress",
+      "default": 1,
+      "range": [
+        0,
+        1
+      ],
+      "tier": "D",
+      "confidence": "low",
+      "rationale": "Core assumption: a qualifying reorganization wave is under way at the 2026 epoch. Ray Dalio described February 2026 as Stage 6 of his Big Cycle—great disorder and a clash of great powers. The model treats that as interpretive support; consolidating severity remains uncertain.",
+      "derivation": "Author scenario assumption informed by Dalio’s February 23, 2026 current-cycle interpretation. The wave resolves exactly 3 years after the epoch, in 2029, by convention. Neither Dalio’s framework nor the five-year COW clustering rule estimates a 15% loss or the 2029 resolution date.",
+      "sourceIds": [
+        "cow_states"
+      ],
+      "additionalSources": [
+        "https://raydalio.substack.com/p/its-official-the-world-order-has"
+      ],
+      "sensitivityRequired": true
+    },
+    {
+      "id": "horizon",
+      "default": 2000,
+      "range": [
+        50,
+        5000
+      ],
+      "tier": "E",
+      "confidence": "not-applicable",
+      "rationale": "Display and stress-test horizon only. Calendar years at long horizons expose model behavior and have no forecast or evidentiary status.",
+      "derivation": "2,000 years is an interactive display convention; generated analyses extend to 5,000 years to expose censoring and asymptotic behavior, not to predict history.",
+      "sourceIds": [],
+      "additionalSources": [],
+      "sensitivityRequired": false
+    },
+    {
+      "id": "selectedYear",
+      "default": 0,
+      "range": [
+        0,
+        "horizon"
+      ],
+      "tier": "E",
+      "confidence": "not-applicable",
+      "rationale": "The visualization opens at the declared baseline year before any modeled transitions.",
+      "derivation": "Display origin convention.",
+      "sourceIds": [],
+      "additionalSources": [],
+      "sensitivityRequired": false
+    }
+  ],
+  "hiddenConstants": [
+    {
+      "id": "initialInstitutionalAdoption",
+      "value": 0.05,
+      "tier": "D",
+      "confidence": "low",
+      "rationale": "Represents a small pilot or initial enforceable scope for each entering adoption cohort.",
+      "sensitivityRequired": true
+    },
+    {
+      "id": "terminalMajority",
+      "value": 0.5,
+      "tier": "D",
+      "confidence": "medium-as-definition",
+      "rationale": "A strict majority defines effective internal dominance after one top-level Institution remains; duration and reversal still require empirical testing.",
+      "sensitivityRequired": true
+    },
+    {
+      "id": "strengthToConsolidationCoefficient",
+      "value": 0.5,
+      "tier": "D",
+      "confidence": "low",
+      "rationale": "Limits full-coupling strength adjustment to plus or minus 50% of the base consolidation rate.",
+      "sensitivityRequired": true
+    },
+    {
+      "id": "stressToConflictCoefficient",
+      "value": 0.75,
+      "tier": "D",
+      "confidence": "low",
+      "rationale": "Makes systemic stress materially affect restructuring frequency while retaining explicit clamps.",
+      "sensitivityRequired": true
+    },
+    {
+      "id": "strengthToInternalConflictCoefficient",
+      "value": 0.25,
+      "tier": "D",
+      "confidence": "low",
+      "rationale": "Allows strength to partially offset stress-driven internal fracture without eliminating it automatically.",
+      "sensitivityRequired": true
+    },
+    {
+      "id": "requiredObservabilityForEffectiveAlignment",
+      "value": 1,
+      "tier": "D",
+      "confidence": "medium-as-policy-definition",
+      "rationale": "A subordinate agent receives effective-alignment credit only when material data, core applications, infrastructure, lineage, and recovery paths are visible to authorized Apex governance.",
+      "sensitivityRequired": true
+    },
+    {
+      "id": "remediationProbabilityOnDetectedConcealment",
+      "value": 1,
+      "tier": "D",
+      "confidence": "high-as-policy-definition",
+      "rationale": "Detected material concealment always initiates corrective action under the non-tolerance assumption; detection probability remains separate and imperfect.",
+      "sensitivityRequired": true
+    },
+    {
+      "id": "permanentIndependenceLossOnUnconditionalDefeat",
+      "value": 1,
+      "tier": "D",
+      "confidence": "high-as-model-definition",
+      "rationale": "A decisive unconditional defeat permanently ends the losing Institution’s independent top-level authority through subjugation and integration; subordinate organizational continuity is allowed.",
+      "sensitivityRequired": true
+    },
+    {
+      "id": "maximumConsolidationAccelerationMultiplier",
+      "value": 5,
+      "tier": "D",
+      "confidence": "low",
+      "rationale": "Caps the bundled acceleration feedback at 5x to prevent runaway event rates and preserve positive event intervals. Hawkes, coagulation, preferential-attachment, and separate channel ceilings remain excluded.",
+      "sensitivityRequired": true
+    },
+    {
+      "id": "currentWaveResolutionYears",
+      "value": 3,
+      "tier": "D",
+      "confidence": "low",
+      "rationale": "Author-selected resolution at 2029 for the current-wave scenario. The five-year historical clustering rule does not empirically determine this date.",
+      "sensitivityRequired": true
+    },
+    {
+      "id": "clusteredWaveArrivals",
+      "value": 1,
+      "tier": "D",
+      "confidence": "low",
+      "rationale": "Later interarrivals bootstrap normalized 6-, 36-, and 124-year gaps between the 1860, 1866, 1990, and assumed 2026 waves. This preserves short/medium/long clustering around the selected mean without claiming a fitted point process.",
+      "sensitivityRequired": true
+    },
+    {
+      "id": "waveSeverityBetaConcentration",
+      "value": 14,
+      "tier": "C",
+      "confidence": "low",
+      "rationale": "A beta draw around the mean loss assumption precedes each binomial loss draw. Concentration 14 approximates dispersion across the three observed durable COW wave shares and induces correlated within-wave losses.",
+      "sensitivityRequired": true
+    },
+    {
+      "id": "maximumEventsPerRun",
+      "value": 10000,
+      "tier": "E",
+      "confidence": "high-as-computational-guard",
+      "rationale": "Runs that reach 10,000 events before the horizon are computationally censored, reported as event-limit, and excluded from summaries requiring unknown post-limit states.",
+      "sensitivityRequired": false
+    },
+    {
+      "id": "clusteredWaveGapYears",
+      "value": [
+        6,
+        36,
+        124
+      ],
+      "tier": "D",
+      "confidence": "low",
+      "rationale": "Sparse observed/assumed gap set used by the clustered bootstrap. The 36-year gap depends on the authored current-wave assumption; all three gaps receive equal sampling weight.",
+      "sensitivityRequired": true
+    }
+  ]
+}

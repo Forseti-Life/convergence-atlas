@@ -1,0 +1,12 @@
+id,name,category,effectiveInstitutionEventProbability,waveIntervalYears,outcome,events,topLevelInstitutionsAtHorizon,structuralYear,structuralCalendarYear,dominanceYear,dominanceCalendarYear,targetFiveProbability,apexProbability,question
+cow-central,Core authored scenario,authored core,0.15,52.52100840336135,unified,79,1,1263.1205223790203,3289,1281.1674953119395,3307,1,1,What follows from the declared core assumptions?
+cow-no-acceleration,Core scenario without acceleration,authored ablation,0.15,52.52100840336135,unified,79,1,2175.661233167966,4202,2185.055037641339,4211,1,0.998,What does the baseline do without AI feedback?
+post-cold-war,Post-Cold-War low-loss regime,sovereign anchor,0.030864197530864196,52.52100840336135,horizon,99,225,,,,,0,0,Can weak waves overcome ongoing fragmentation?
+italian-consolidation,Italian-consolidation regime,sovereign anchor,0.1111111111111111,52.52100840336135,unified,67,1,2042.947923336469,4069,2054.6931128552114,4081,1,1,What happens near the lower historical unification case?
+german-consolidation,German-consolidation regime,sovereign anchor,0.21951219512195122,52.52100840336135,unified,30,1,747.887655435968,2774,760.988510061489,2787,1,1,Where does eventual consolidation begin?
+wartime-gross-exit,Wartime gross-exit regime,sovereign anchor,0.2727272727272727,52.52100840336135,unified,19,1,556.5574226851273,2583,570.5915113369587,2597,1,1,What if every wave resembles the upper COW case?
+aircraft-secondary,Aircraft corporate benchmark,secondary corporate,0.5238095238095238,52.52100840336135,unified,7,1,233.56919640473322,2260,259.54514895532895,2286,1,1,How much faster is the high-intensity corporate regime?
+frequent-moderate,Frequent moderate waves,mechanism challenge,0.15,33.333333333333336,unified,79,1,806.3166578564983,2832,825.3040137746079,2851,1,1,Can frequency compensate for moderate severity?
+rare-decisive,Rare decisive waves,mechanism challenge,0.5,1000,horizon,5,1,4427.667022061032,6454,4439.583626355321,6466,0.808,0.609,Can very severe but rare events consolidate the field?
+fragmentation-counter-wave,Fragmentation counter-wave,mechanism challenge,0.2727272727272727,52.52100840336135,horizon,187,15,,,,,0.542,0,Can fragmentation offset strong consolidation?
+strong-stressed-contender,"Strong, stressed contender",economic interaction,0.32926829268292684,25,unified,13,1,232.38940780944552,2258,260.81789827813867,2287,1,1,How strongly do power and systemic stress interact?

@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "source": "COW State System Membership v2024",
+  "exits": 49,
+  "categoryCounts": {
+    "immediate_successor_entry_candidate": 5,
+    "nearby_system_entry_candidate": 10,
+    "same_code_interruption_reentry": 26,
+    "terminal_exit_unclassified": 8
+  },
+  "causalLabelsReviewed": 0,
+  "rule": "Same-code re-entry takes precedence; otherwise new COW entries within 1 day, within 370 days, or no nearby entry.",
+  "limitations": [
+    "Temporal proximity does not establish succession, merger, conquest, or fragmentation.",
+    "COW system entry may reflect recognition criteria rather than the causal transition date.",
+    "All causal labels remain blank pending historical review."
+  ]
+}

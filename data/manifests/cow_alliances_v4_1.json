@@ -1,0 +1,23 @@
+{
+  "sourceId": "cow_alliances",
+  "sourceVersion": "v4.1",
+  "sourceUrl": "https://correlatesofwar.org/wp-content/uploads/version4.1_csv.zip",
+  "archivePath": "data/raw/cow_alliances/v4.1/alliance_v4.1_csv.zip",
+  "archiveSha256": "a2422bb361dcc4b0ab5ff0e46f65a7ab2b4c6eafa97bdd9910302dac75e786b6",
+  "retrievedAt": "2026-10-06T13:28:00-04:00",
+  "licenseDecision": "analysis-only; raw and row-level derived data excluded from redistribution pending terms review",
+  "nativeMember": "version4.1_csv/alliance_v4.1_by_directed_yearly.csv",
+  "nativeRows": 148258,
+  "stateYearRows": 9349,
+  "systemYearRows": 197,
+  "coverage": [
+    1816,
+    2012
+  ],
+  "limitations": [
+    "Coverage ends in 2012 and cannot represent current alliances.",
+    "Only formal defense, neutrality, non-aggression, and entente commitments are represented.",
+    "Centrality features are descriptive and not causal.",
+    "Rows may contain multiple alliance records for the same state pair and year."
+  ]
+}

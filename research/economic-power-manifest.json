@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0",
+  "generated": "2026-10-09",
+  "source": "data/processed/wdi_state_year_2026-10-06.csv",
+  "sourceSha256": "bcd9fc3bddfc129bdefec549ed1529b6ae52b77dc0a2e0e070a42f317c408f58",
+  "midSource": "data/processed/cow_mid_state_year_v5.csv",
+  "midSourceSha256": "1aa66d599293ed633f28ab4613f4ef01aa291e0c90722bedfc7951133e3079db",
+  "outputs": {
+    "web/economic-power-data.mjs": "8afe0fb0a6cd810ccdeedc5c37306de1306572a54fa5fcc99b7573a6f7aaa34c",
+    "analysis/output/economic-power-baseline.csv": "c2626e001b3cfb724651288c0fd0aa053e9bf80df0fd8e26c11c9a10dc6b1423"
+  },
+  "counts": {
+    "records": 225,
+    "measuredCountries": 192,
+    "companies": 30
+  },
+  "missingCountryNames": [
+    "Holy See (Observer State)",
+    "Nauru",
+    "North Korea"
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "analysisType": "descriptive network-conflict diagnostic",
+    "allianceVersion": "v4.1",
+    "midVersion": "v5.0",
+    "coverage": [
+      1816,
+      2012
+    ],
+    "observations": 197,
+    "causalClaim": false
+  },
+  "correlations": [
+    {
+      "feature": "network_density",
+      "outcome": "dispute_onsets",
+      "pearsonLevel": -0.5253006104608303,
+      "spearmanLevel": -0.5592705903414025,
+      "pearsonFirstDifference": 0.016816433581749283,
+      "spearmanFirstDifference": 0.04672299274498353,
+      "pearsonNextYear": -0.531415934063474,
+      "observations": 197
+    },
+    {
+      "feature": "network_density",
+      "outcome": "war_onsets",
+      "pearsonLevel": -0.026520428502416652,
+      "spearmanLevel": 0.006371969188543201,
+      "pearsonFirstDifference": 0.09304779119397444,
+      "spearmanFirstDifference": -0.11079398759502698,
+      "pearsonNextYear": -0.046125785285167496,
+      "observations": 197
+    },
+    {
+      "feature": "largest_component_share",
+      "outcome": "dispute_onsets",
+      "pearsonLevel": 0.42341487826367585,
+      "spearmanLevel": 0.3225571695366696,
+      "pearsonFirstDifference": 0.07422006045974032,
+      "spearmanFirstDifference": 0.04247357039988717,
+      "pearsonNextYear": 0.41883324261418187,
+      "observations": 197
+    },
+    {
+      "feature": "largest_component_share",
+      "outcome": "war_onsets",
+      "pearsonLevel": -0.15774380816323993,
+      "spearmanLevel": -0.1745427466509855,
+      "pearsonFirstDifference": 0.11302956970386217,
+      "spearmanFirstDifference": 0.006710100852824049,
+      "pearsonNextYear": -0.17590473032656861,
+      "observations": 197
+    },
+    {
+      "feature": "degree_hhi",
+      "outcome": "dispute_onsets",
+      "pearsonLevel": -0.7310619551934556,
+      "spearmanLevel": -0.7871943157561917,
+      "pearsonFirstDifference": 0.00310356543585219,
+      "spearmanFirstDifference": -0.08714258574591485,
+      "pearsonNextYear": -0.7450936588058527,
+      "observations": 197
+    },
+    {
+      "feature": "degree_hhi",
+      "outcome": "war_onsets",
+      "pearsonLevel": -0.019962815374816312,
+      "spearmanLevel": -0.05275587189662636,
+      "pearsonFirstDifference": 0.30964288282670416,
+      "spearmanFirstDifference": -0.0717333654094973,
+      "pearsonNextYear": -0.10785985279566125,
+      "observations": 197
+    },
+    {
+      "feature": "max_degree",
+      "outcome": "dispute_onsets",
+      "pearsonLevel": 0.8412426185617994,
+      "spearmanLevel": 0.6649701802135455,
+      "pearsonFirstDifference": 0.070984024916514,
+      "spearmanFirstDifference": 0.04972213300450842,
+      "pearsonNextYear": 0.8449174271932057,
+      "observations": 197
+    },
+    {
+      "feature": "max_degree",
+      "outcome": "war_onsets",
+      "pearsonLevel": -0.04337933804081116,
+      "spearmanLevel": 0.002416874514776111,
+      "pearsonFirstDifference": -0.03923058251050605,
+      "spearmanFirstDifference": 0.04085197294834525,
+      "pearsonNextYear": -0.04179297650488398,
+      "observations": 197
+    }
+  ],
+  "strongestFirstDifference": [
+    {
+      "feature": "network_density",
+      "outcome": "war_onsets",
+      "pearsonLevel": -0.026520428502416652,
+      "spearmanLevel": 0.006371969188543201,
+      "pearsonFirstDifference": 0.09304779119397444,
+      "spearmanFirstDifference": -0.11079398759502698,
+      "pearsonNextYear": -0.046125785285167496,
+      "observations": 197
+    },
+    {
+      "feature": "degree_hhi",
+      "outcome": "dispute_onsets",
+      "pearsonLevel": -0.7310619551934556,
+      "spearmanLevel": -0.7871943157561917,
+      "pearsonFirstDifference": 0.00310356543585219,
+      "spearmanFirstDifference": -0.08714258574591485,
+      "pearsonNextYear": -0.7450936588058527,
+      "observations": 197
+    },
+    {
+      "feature": "degree_hhi",
+      "outcome": "war_onsets",
+      "pearsonLevel": -0.019962815374816312,
+      "spearmanLevel": -0.05275587189662636,
+      "pearsonFirstDifference": 0.30964288282670416,
+      "spearmanFirstDifference": -0.0717333654094973,
+      "pearsonNextYear": -0.10785985279566125,
+      "observations": 197
+    },
+    {
+      "feature": "max_degree",
+      "outcome": "dispute_onsets",
+      "pearsonLevel": 0.8412426185617994,
+      "spearmanLevel": 0.6649701802135455,
+      "pearsonFirstDifference": 0.070984024916514,
+      "spearmanFirstDifference": 0.04972213300450842,
+      "pearsonNextYear": 0.8449174271932057,
+      "observations": 197
+    },
+    {
+      "feature": "network_density",
+      "outcome": "dispute_onsets",
+      "pearsonLevel": -0.5253006104608303,
+      "spearmanLevel": -0.5592705903414025,
+      "pearsonFirstDifference": 0.016816433581749283,
+      "spearmanFirstDifference": 0.04672299274498353,
+      "pearsonNextYear": -0.531415934063474,
+      "observations": 197
+    }
+  ]
+}

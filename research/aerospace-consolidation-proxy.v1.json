@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "1.0",
+  "proxyVersion": "1.0.0",
+  "title": "Aircraft and aerospace manufacturing consolidation-wave proxy",
+  "scopeWarning": "These are bounded segment-level consolidation waves, not an exhaustive census of every aircraft manufacturer since aviation began and not a sovereign-state calibration.",
+  "observations": [
+    {
+      "id": "global_lca_1997",
+      "segment": "Global Western large civil aircraft prime manufacturers",
+      "period": "Boeing-McDonnell Douglas merger, 1997",
+      "playersBefore": 3,
+      "playersAfter": 2,
+      "institutionLossProbability": 0.3333333333333333,
+      "source": "USITC Publication 3143",
+      "sourceUrl": "https://www.usitc.gov/publications/332/pub3143.pdf",
+      "sourceEvidence": "USITC states the merger essentially reduced global LCA to Boeing and Airbus."
+    },
+    {
+      "id": "us_combat_1990s",
+      "segment": "Credible U.S. fixed-wing combat-aircraft prime contractors",
+      "period": "1990s consolidation wave",
+      "playersBefore": 7,
+      "playersAfter": 2,
+      "institutionLossProbability": 0.7142857142857143,
+      "source": "RAND MR-1696",
+      "sourceUrl": "https://www.rand.org/pubs/monograph_reports/MR1696.html",
+      "sourceEvidence": "RAND reports credible U.S. primes declined from seven to two."
+    },
+    {
+      "id": "us_missile_1990_1998",
+      "segment": "U.S. missile manufacturers",
+      "period": "1990-1998 consolidation wave",
+      "playersBefore": 14,
+      "playersAfter": 4,
+      "institutionLossProbability": 0.7142857142857143,
+      "source": "RAND MR-1537 summary",
+      "sourceUrl": "https://www.rand.org/pubs/monograph_reports/MR1537.html",
+      "sourceEvidence": "RAND reports missile manufacturers declined from fourteen to four."
+    },
+    {
+      "id": "us_launch_1990_1998",
+      "segment": "U.S. space-launch vehicle producers",
+      "period": "1990-1998 consolidation wave",
+      "playersBefore": 6,
+      "playersAfter": 2,
+      "institutionLossProbability": 0.6666666666666666,
+      "source": "RAND MR-1537 summary",
+      "sourceUrl": "https://www.rand.org/pubs/monograph_reports/MR1537.html",
+      "sourceEvidence": "RAND reports launch-vehicle producers declined from six to two."
+    }
+  ],
+  "aircraftOnlyBounds": {
+    "lower": 0.3333333333333333,
+    "upper": 0.7142857142857143,
+    "midpoint": 0.5238095238095238,
+    "roundedScenarioDefault": 0.5
+  },
+  "lineageMarkers": [
+    {"year": 1967, "event": "McDonnell and Douglas merged to form McDonnell Douglas", "sourceUrl": "https://www.britannica.com/money/McDonnell-Douglas-Corporation"},
+    {"year": 1970, "event": "Airbus began operations as a European consortium", "sourceUrl": "https://www.airbus.com/en/who-we-are/our-history"},
+    {"year": 1995, "event": "Lockheed and Martin Marietta combined as Lockheed Martin", "sourceUrl": "https://www.lockheedmartin.com/en-us/who-we-are/our-history.html"},
+    {"year": 1997, "event": "Boeing combined with McDonnell Douglas", "sourceUrl": "https://www.usitc.gov/publications/332/pub3143.pdf"},
+    {"year": 2000, "event": "Aérospatiale-Matra, DASA, and CASA combined into EADS", "sourceUrl": "https://www.britannica.com/technology/aerospace-industry/Cooperation-and-consolidation-in-a-global-economy"}
+  ],
+  "marketDefinition": {
+    "largeCivilAircraft": "Boeing and Airbus are the primary large civil aircraft producers in the cited USITC structure.",
+    "militaryAerospace": "Lockheed Martin is a major military/aerospace survivor, not a current large-commercial-airliner prime.",
+    "currentEntrants": "COMAC, Embraer, and other firms mean broader aircraft manufacturing is not literally a two- or three-firm universe."
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "schemaVersion": "1.0",
+  "profileVersion": "1.4.0",
+  "frozenAt": "2026-10-09T10:35:00-04:00",
+  "seed": 20261008,
+  "runsPerProfile": 10000,
+  "samplingMethod": "independent Latin hypercube",
+  "fixed": {
+    "startAgents": 225,
+    "horizon": 5000,
+    "selectedYear": 0,
+    "currentWaveInProgress": 1
+  },
+  "variables": {
+    "conflictInterval": {
+      "label": "Conflict interval",
+      "structural": true
+    },
+    "qualifyingShare": {
+      "label": "Qualifying conflict share",
+      "structural": true
+    },
+    "institutionEventProbability": {
+      "label": "Institution event probability",
+      "structural": true
+    },
+    "fragmentationPerEvent": {
+      "label": "External fragments",
+      "structural": true
+    },
+    "internalConflict": {
+      "label": "Internal conflict",
+      "structural": true
+    },
+    "institutionalAdoptionRate": {
+      "label": "Institutional adoption",
+      "structural": false
+    },
+    "leadingInstitutionStrength": {
+      "label": "Institution strength",
+      "structural": true
+    },
+    "systemicCycleStress": {
+      "label": "Systemic stress",
+      "structural": true
+    },
+    "economicCoupling": {
+      "label": "Economic coupling",
+      "structural": true
+    },
+    "spreadRate": {
+      "label": "AI architecture spread",
+      "structural": false
+    },
+    "consolidationAcceleration": {
+      "label": "AI consolidation acceleration",
+      "structural": true
+    }
+  },
+  "profiles": [
+    {
+      "id": "cow_centered",
+      "name": "COW-centered uncertainty",
+      "kind": "proxy-centered exploratory uncertainty",
+      "description": "Transformed bell curves around current COW-primary defaults and declared exploratory ranges.",
+      "distributions": {
+        "conflictInterval": {
+          "type": "logNormal",
+          "median": 25,
+          "lower90": 10,
+          "upper90": 75,
+          "min": 1,
+          "max": 100,
+          "integer": false,
+          "evidence": "literature-plus-convention"
+        },
+        "qualifyingShare": {
+          "type": "logisticNormal",
+          "median": 0.476,
+          "lower90": 0.25,
+          "upper90": 0.7,
+          "min": 0.001,
+          "max": 1,
+          "evidence": "durable-COW-wave-spacing"
+        },
+        "institutionEventProbability": {
+          "type": "logisticNormal",
+          "median": 0.15,
+          "lower90": 0.085,
+          "upper90": 0.25,
+          "min": 0.01,
+          "max": 0.9,
+          "evidence": "durable-COW-definition-envelope"
+        },
+        "fragmentationPerEvent": {
+          "type": "zeroInflatedPoisson",
+          "zeroProbability": 0.85,
+          "lambda": 1.5,
+          "min": 0,
+          "max": 10,
+          "integer": true,
+          "evidence": "author-defined"
+        },
+        "internalConflict": {
+          "type": "logisticNormal",
+          "median": 0.05,
+          "lower90": 0.01,
+          "upper90": 0.15,
+          "min": 0,
+          "max": 0.5,
+          "evidence": "author-defined"
+        },
+        "institutionalAdoptionRate": {
+          "type": "logisticNormal",
+          "median": 0.07,
+          "lower90": 0.03,
+          "upper90": 0.15,
+          "min": 0.01,
+          "max": 0.3,
+          "evidence": "IFRS-proxy"
+        },
+        "leadingInstitutionStrength": {
+          "type": "logisticNormal",
+          "median": 0.5,
+          "lower90": 0.2,
+          "upper90": 0.8,
+          "min": 0,
+          "max": 1,
+          "evidence": "neutral-normalization"
+        },
+        "systemicCycleStress": {
+          "type": "logisticNormal",
+          "median": 0.5,
+          "lower90": 0.2,
+          "upper90": 0.8,
+          "min": 0,
+          "max": 1,
+          "evidence": "neutral-normalization"
+        },
+        "economicCoupling": {
+          "type": "logisticNormal",
+          "median": 0.5,
+          "lower90": 0.1,
+          "upper90": 0.9,
+          "min": 0,
+          "max": 1,
+          "evidence": "author-defined"
+        },
+        "spreadRate": {
+          "type": "logisticNormal",
+          "median": 0.15,
+          "lower90": 0.05,
+          "upper90": 0.3,
+          "min": 0.01,
+          "max": 0.5,
+          "evidence": "literature-plus-convention"
+        },
+        "consolidationAcceleration": {
+          "type": "logisticNormal",
+          "median": 0.25,
+          "lower90": 0.02,
+          "upper90": 0.6,
+          "min": 0,
+          "max": 1,
+          "evidence": "author-defined-bounded-feedback"
+        }
+      }
+    },
+    {
+      "id": "cow_definition_ensemble",
+      "name": "COW-definition sensitivity ensemble",
+      "kind": "model-definition sensitivity",
+      "description": "Uses gross mean probabilities from alternative COW clustering definitions with light within-definition jitter; not a posterior distribution.",
+      "inherits": "cow_centered",
+      "overrides": {
+        "institutionEventProbability": {
+          "type": "cowDefinitionMeans",
+          "mode": "durable",
+          "jitterLogitSigma": 0.12,
+          "min": 0.01,
+          "max": 0.9,
+          "evidence": "authored-definition-sensitivity"
+        }
+      }
+    },
+    {
+      "id": "broad_structural",
+      "name": "Broad structural stress test",
+      "kind": "author-defined global stress test",
+      "description": "Broad ranges map possible model regimes and are not empirically weighted.",
+      "distributions": {
+        "conflictInterval": {
+          "type": "logUniform",
+          "min": 1,
+          "max": 100,
+          "integer": false,
+          "evidence": "author-defined"
+        },
+        "qualifyingShare": {
+          "type": "uniform",
+          "min": 0.01,
+          "max": 1,
+          "evidence": "author-defined"
+        },
+        "institutionEventProbability": {
+          "type": "uniform",
+          "min": 0.01,
+          "max": 0.9,
+          "evidence": "author-defined"
+        },
+        "fragmentationPerEvent": {
+          "type": "zeroInflatedPoisson",
+          "zeroProbability": 0.5,
+          "lambda": 3,
+          "min": 0,
+          "max": 10,
+          "integer": true,
+          "evidence": "author-defined"
+        },
+        "internalConflict": {
+          "type": "uniform",
+          "min": 0,
+          "max": 0.5,
+          "evidence": "author-defined"
+        },
+        "institutionalAdoptionRate": {
+          "type": "uniform",
+          "min": 0.01,
+          "max": 0.3,
+          "evidence": "author-defined"
+        },
+        "leadingInstitutionStrength": {
+          "type": "uniform",
+          "min": 0,
+          "max": 1,
+          "evidence": "author-defined"
+        },
+        "systemicCycleStress": {
+          "type": "uniform",
+          "min": 0,
+          "max": 1,
+          "evidence": "author-defined"
+        },
+        "economicCoupling": {
+          "type": "uniform",
+          "min": 0,
+          "max": 1,
+          "evidence": "author-defined"
+        },
+        "spreadRate": {
+          "type": "uniform",
+          "min": 0.01,
+          "max": 0.5,
+          "evidence": "author-defined"
+        },
+        "consolidationAcceleration": {
+          "type": "uniform",
+          "min": 0,
+          "max": 1,
+          "evidence": "author-defined"
+        }
+      }
+    },
+    {
+      "id": "corporate_secondary",
+      "name": "Secondary corporate uncertainty",
+      "kind": "bounded corporate proxy",
+      "description": "Uses the aircraft/aerospace range only as a secondary high-intensity comparison.",
+      "inherits": "cow_centered",
+      "overrides": {
+        "institutionEventProbability": {
+          "type": "logisticNormal",
+          "median": 0.5238095238,
+          "lower90": 0.3333333333,
+          "upper90": 0.7142857143,
+          "min": 0.01,
+          "max": 0.9,
+          "evidence": "aircraft-corporate-proxy"
+        }
+      }
+    }
+  ],
+  "correlationPolicy": "independent in v1; correlated Gaussian-copula ensembles deferred",
+  "censoringPolicy": "T5, structural unification, and effective dominance are right-censored at 5000 years; conditional means exclude censored runs and restricted means use min(T,5000).",
+  "claimLevel": "L1 model-behavior uncertainty propagation",
+  "forecast": false,
+  "accelerationPolicy": "One bundled adoption-times-consolidation feedback variable; 5x fixed ceiling. Separate Hawkes, coagulation, preferential-attachment, tempo, severity, and suppression models deferred.",
+  "processUncertainty": "Each run draws binomial losses and fragments with a run-specific seed."
+}

@@ -1,0 +1,16 @@
+export const REFERENCE_TO_DEFAULT = Object.freeze({
+  combinedBaseline: "startAgents",
+  conflictInterval: "conflictInterval",
+  qualifyingConflict: "qualifyingShare",
+  institutionEventProbability: "institutionEventProbability",
+  externalFragmentation: "fragmentationPerEvent",
+  internalConflict: "internalConflict",
+  institutionalAdoption: "institutionalAdoptionRate",
+  bigCycleStrength: "leadingInstitutionStrength",
+  bigCycleStress: "systemicCycleStress",
+  bigCycleCoupling: "economicCoupling",
+  aiSpread: "spreadRate",
+  consolidationAcceleration: "consolidationAcceleration",
+  currentWave: "currentWaveInProgress",
+  modelHorizon: "horizon",
+});

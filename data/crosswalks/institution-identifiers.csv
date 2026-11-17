@@ -1,0 +1,196 @@
+institution_id,canonical_name,entity_type,iso_alpha2,iso_alpha3,cow_code,world_bank_code,ucdp_gwno,valid_from,valid_to,predecessor_ids,successor_ids,mapping_status,reviewer,reviewed_at,source_notes
+state-001,Afghanistan,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-002,Albania,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-003,Algeria,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-004,Andorra,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-005,Angola,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-006,Antigua and Barbuda,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-007,Argentina,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-008,Armenia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-009,Australia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-010,Austria,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-011,Azerbaijan,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-012,Bahamas,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-013,Bahrain,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-014,Bangladesh,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-015,Barbados,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-016,Belarus,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-017,Belgium,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-018,Belize,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-019,Benin,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-020,Bhutan,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-021,Bolivia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-022,Bosnia and Herzegovina,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-023,Botswana,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-024,Brazil,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-025,Brunei,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-026,Bulgaria,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-027,Burkina Faso,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-028,Burundi,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-029,Cabo Verde,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-030,Cambodia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-031,Cameroon,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-032,Canada,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-033,Central African Republic,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-034,Chad,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-035,Chile,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-036,China,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-037,Colombia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-038,Comoros,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-039,"Congo, Democratic Republic of the",state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-040,"Congo, Republic of the",state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-041,Costa Rica,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-042,Côte d'Ivoire,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-043,Croatia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-044,Cuba,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-045,Cyprus,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-046,Czechia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-047,Denmark,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-048,Djibouti,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-049,Dominica,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-050,Dominican Republic,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-051,Ecuador,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-052,Egypt,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-053,El Salvador,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-054,Equatorial Guinea,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-055,Eritrea,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-056,Estonia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-057,Eswatini,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-058,Ethiopia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-059,Fiji,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-060,Finland,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-061,France,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-062,Gabon,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-063,Gambia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-064,Georgia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-065,Germany,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-066,Ghana,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-067,Greece,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-068,Grenada,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-069,Guatemala,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-070,Guinea,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-071,Guinea-Bissau,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-072,Guyana,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-073,Haiti,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-074,Holy See (Observer State),state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-075,Honduras,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-076,Hungary,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-077,Iceland,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-078,India,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-079,Indonesia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-080,Iran,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-081,Iraq,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-082,Ireland,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-083,Israel,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-084,Italy,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-085,Jamaica,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-086,Japan,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-087,Jordan,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-088,Kazakhstan,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-089,Kenya,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-090,Kiribati,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-091,Kuwait,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-092,Kyrgyzstan,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-093,Laos,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-094,Latvia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-095,Lebanon,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-096,Lesotho,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-097,Liberia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-098,Libya,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-099,Liechtenstein,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-100,Lithuania,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-101,Luxembourg,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-102,Madagascar,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-103,Malawi,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-104,Malaysia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-105,Maldives,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-106,Mali,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-107,Malta,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-108,Marshall Islands,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-109,Mauritania,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-110,Mauritius,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-111,Mexico,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-112,Micronesia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-113,Moldova,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-114,Monaco,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-115,Mongolia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-116,Montenegro,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-117,Morocco,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-118,Mozambique,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-119,Myanmar,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-120,Namibia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-121,Nauru,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-122,Nepal,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-123,Netherlands,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-124,New Zealand,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-125,Nicaragua,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-126,Niger,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-127,Nigeria,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-128,North Korea,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-129,North Macedonia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-130,Norway,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-131,Oman,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-132,Pakistan,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-133,Palau,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-134,Panama,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-135,Papua New Guinea,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-136,Paraguay,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-137,Peru,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-138,Philippines,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-139,Poland,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-140,Portugal,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-141,Qatar,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-142,Romania,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-143,Russia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-144,Rwanda,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-145,Saint Kitts and Nevis,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-146,Saint Lucia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-147,Saint Vincent and the Grenadines,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-148,Samoa,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-149,San Marino,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-150,Sao Tome and Principe,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-151,Saudi Arabia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-152,Senegal,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-153,Serbia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-154,Seychelles,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-155,Sierra Leone,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-156,Singapore,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-157,Slovakia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-158,Slovenia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-159,Solomon Islands,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-160,Somalia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-161,South Africa,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-162,South Korea,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-163,South Sudan,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-164,Spain,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-165,Sri Lanka,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-166,State of Palestine (Observer State),state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-167,Sudan,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-168,Suriname,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-169,Sweden,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-170,Switzerland,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-171,Syria,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-172,Tajikistan,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-173,Tanzania,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-174,Thailand,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-175,Timor-Leste,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-176,Togo,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-177,Tonga,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-178,Trinidad and Tobago,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-179,Tunisia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-180,Türkiye,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-181,Turkmenistan,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-182,Tuvalu,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-183,Uganda,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-184,Ukraine,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-185,United Arab Emirates,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-186,United Kingdom,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-187,United States,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-188,Uruguay,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-189,Uzbekistan,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-190,Vanuatu,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-191,Venezuela,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-192,Vietnam,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-193,Yemen,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-194,Zambia,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.
+state-195,Zimbabwe,state,,,,,,,,,,unresolved,,,Seeded from the 195-entity country baseline; external identifiers not yet verified.

@@ -1,0 +1,21 @@
+{
+  "manifestVersion": "1.0.0",
+  "contractVersion": "1.0.0",
+  "frozenAt": "2026-10-06T12:46:41-04:00",
+  "gateA": "PASS",
+  "sourceArtifacts": {
+    "research/analysis-contract.v1.json": "f07bf40de0165223355368b257dc6b902eb8d36b7909d5cc1e6b3ab8be2c5b6d",
+    "research/variables.v1.1.json": "667628ad98972011097415804907052f2803dc2e5f5241a0f591017556e14965",
+    "research/source-catalog.v1.json": "7f170cda8832ffe02a6ab803021070bb59e160918e477b23f70805f337a3e080",
+    "research/causal-graphs.v1.json": "bed50de3f609cd10945f61679f84da106b2e5ef96af892932322afe833e8e7fe",
+    "research/generate_phase0_docs.py": "880d6e86c5aad2207911a550e10e5eb4884a9c11bbaba2e2221de471b7053837"
+  },
+  "generatedArtifacts": {
+    "docs/HYPOTHESIS_REGISTRY.md": "42a0e8cd0629c99f21d816ad5afc1429f98b75f1b54ea3df9dd498b45293962e",
+    "docs/VARIABLE_DICTIONARY.md": "6d54bf3b8b959878b394b048a6c9863743b89542e801c5df64c73cee9e3f1e54",
+    "docs/CAUSAL_DIAGRAMS.md": "8719ad4642c73929a937bcbf704eb305460c6754de06fa19f2b96a8408b2b8c5",
+    "docs/DATA_GOVERNANCE.md": "544bd447fd50d27ad5806c9f3e0ec3fe864d87b40e4e74216e86a03034d8c542",
+    "docs/PHASE_0_REPORT.md": "7c05998aade0c5c102240283917a0416dfcadfa0e0bbd7932cce1e2ba6cb277e"
+  },
+  "validationErrors": []
+}

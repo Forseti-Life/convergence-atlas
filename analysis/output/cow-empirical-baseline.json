@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "source": "COW State System Membership",
+    "version": "v2024",
+    "analysisType": "empirical membership-spell baseline",
+    "generated": "2026-10-06"
+  },
+  "spells": 244,
+  "observedExits": 49,
+  "rightCensored": 195,
+  "exposureYears": 17374.054224248266,
+  "annualExitHazard": 0.002820297402526388,
+  "bootstrap": {
+    "iterations": 2000,
+    "seed": 20261006,
+    "median": 0.0028168555559911898,
+    "lower95": 0.0020777510459340535,
+    "upper95": 0.0036832883903957785
+  },
+  "kaplanMeier": [
+    {
+      "years": 1,
+      "survival": 0.9959016393442623,
+      "exitRisk": 0.004098360655737654
+    },
+    {
+      "years": 5,
+      "survival": 0.9918032786885247,
+      "exitRisk": 0.008196721311475308
+    },
+    {
+      "years": 10,
+      "survival": 0.987704918032787,
+      "exitRisk": 0.012295081967212962
+    },
+    {
+      "years": 25,
+      "survival": 0.9251943570836312,
+      "exitRisk": 0.07480564291636882
+    },
+    {
+      "years": 50,
+      "survival": 0.871844618153791,
+      "exitRisk": 0.128155381846209
+    },
+    {
+      "years": 100,
+      "survival": 0.7808326316020122,
+      "exitRisk": 0.21916736839798778
+    }
+  ],
+  "rollingBacktest": [
+    {
+      "originYear": 1900,
+      "horizonYears": 10,
+      "riskSet": 42,
+      "trainingEvents": 16,
+      "trainingExposureYears": 2906.819441877656,
+      "annualExitHazard": 0.005504297848532629,
+      "predictedExitRisk": 0.05355552967042143,
+      "observedExits": 1,
+      "observedExitRate": 0.023809523809523808,
+      "brier": 0.024127455250164083,
+      "noExitNullBrier": 0.023809523809523808,
+      "brierImprovement": -0.00031793144064027473
+    },
+    {
+      "originYear": 1925,
+      "horizonYears": 10,
+      "riskSet": 62,
+      "trainingEvents": 22,
+      "trainingExposureYears": 4090.3262900675563,
+      "annualExitHazard": 0.005378544018217345,
+      "predictedExitRisk": 0.052364590828515745,
+      "observedExits": 0,
+      "observedExitRate": 0.0,
+      "brier": 0.0027420503726378765,
+      "noExitNullBrier": 0.0,
+      "brierImprovement": -0.0027420503726378765
+    },
+    {
+      "originYear": 1950,
+      "horizonYears": 10,
+      "riskSet": 75,
+      "trainingEvents": 40,
+      "trainingExposureYears": 5658.821194138141,
+      "annualExitHazard": 0.007068609985668957,
+      "predictedExitRisk": 0.06824567595617181,
+      "observedExits": 1,
+      "observedExitRate": 0.013333333333333334,
+      "brier": 0.016170920927883557,
+      "noExitNullBrier": 0.013333333333333334,
+      "brierImprovement": -0.0028375875945502223
+    },
+    {
+      "originYear": 1975,
+      "horizonYears": 10,
+      "riskSet": 143,
+      "trainingEvents": 42,
+      "trainingExposureYears": 8367.78304824877,
+      "annualExitHazard": 0.00501925058977119,
+      "predictedExitRisk": 0.048953675149132736,
+      "observedExits": 1,
+      "observedExitRate": 0.006993006993006993,
+      "brier": 0.008704802518311251,
+      "noExitNullBrier": 0.006993006993006993,
+      "brierImprovement": -0.0017117955253042579
+    },
+    {
+      "originYear": 2000,
+      "horizonYears": 10,
+      "riskSet": 190,
+      "trainingEvents": 48,
+      "trainingExposureYears": 12528.60496793227,
+      "annualExitHazard": 0.0038312326171077256,
+      "predictedExitRisk": 0.03758769260517725,
+      "observedExits": 1,
+      "observedExitRate": 0.005263157894736842,
+      "brier": 0.006280332607958379,
+      "noExitNullBrier": 0.005263157894736842,
+      "brierImprovement": -0.0010171747132215374
+    },
+    {
+      "originYear": 2010,
+      "horizonYears": 10,
+      "riskSet": 194,
+      "trainingEvents": 49,
+      "trainingExposureYears": 14450.911380794945,
+      "annualExitHazard": 0.0033907895985799416,
+      "predictedExitRisk": 0.033339466146993235,
+      "observedExits": 0,
+      "observedExitRate": 0.0,
+      "brier": 0.001111520002966508,
+      "noExitNullBrier": 0.0,
+      "brierImprovement": -0.001111520002966508
+    }
+  ]
+}

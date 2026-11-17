@@ -1,0 +1,530 @@
+{
+  "metadata": {
+    "generated": "2026-10-09",
+    "origins": [
+      1875,
+      1900,
+      1925,
+      1950,
+      1975,
+      2000
+    ],
+    "testBlockYears": 25,
+    "forecast": false
+  },
+  "models": [
+    "no_exit",
+    "production_prior",
+    "constant_hazard",
+    "trend",
+    "birth_death",
+    "wave_memory",
+    "full_wave"
+  ],
+  "summary": [
+    {
+      "model": "production_prior",
+      "exposure": 15525,
+      "observedExits": 35,
+      "predictedExits": 44.3394,
+      "brier": 0.0022497077826988733,
+      "logLoss": 0.016060830767753193,
+      "annualExitCountMae": 0.46499301333333337
+    },
+    {
+      "model": "wave_memory",
+      "exposure": 15525,
+      "observedExits": 35,
+      "predictedExits": 83.70377908474441,
+      "brier": 0.0022765398848304057,
+      "logLoss": 0.016746758594706618,
+      "annualExitCountMae": 0.6503060459257411
+    },
+    {
+      "model": "constant_hazard",
+      "exposure": 15525,
+      "observedExits": 35,
+      "predictedExits": 80.1347146162546,
+      "brier": 0.002257933581115686,
+      "logLoss": 0.016929725539536655,
+      "annualExitCountMae": 0.6476333809741878
+    },
+    {
+      "model": "birth_death",
+      "exposure": 15525,
+      "observedExits": 35,
+      "predictedExits": 123.02888113564683,
+      "brier": 0.002290080209569603,
+      "logLoss": 0.017590249337812225,
+      "annualExitCountMae": 0.8127730751425292
+    },
+    {
+      "model": "trend",
+      "exposure": 15525,
+      "observedExits": 35,
+      "predictedExits": 143.49460048054016,
+      "brier": 0.002526275806291115,
+      "logLoss": 0.020459658240518937,
+      "annualExitCountMae": 1.02933435644457
+    },
+    {
+      "model": "full_wave",
+      "exposure": 15525,
+      "observedExits": 35,
+      "predictedExits": 185.9346943234717,
+      "brier": 0.0026217299361665607,
+      "logLoss": 0.02178656555823344,
+      "annualExitCountMae": 1.2250357342617535
+    },
+    {
+      "model": "no_exit",
+      "exposure": 15525,
+      "observedExits": 35,
+      "predictedExits": 0.0,
+      "brier": 0.0022544283413848632,
+      "logLoss": 0.046719118826610236,
+      "annualExitCountMae": 0.23333333333333334
+    }
+  ],
+  "folds": [
+    {
+      "origin": 1875,
+      "testEnd": 1899,
+      "trainYears": 59,
+      "testYears": 25,
+      "observedExits": 2,
+      "models": [
+        {
+          "model": "no_exit",
+          "exposure": 936,
+          "observedExits": 2,
+          "predictedExits": 0.0,
+          "brier": 0.002136752136752137,
+          "logLoss": 0.04428048355544099,
+          "annualExitCountMae": 0.08
+        },
+        {
+          "model": "production_prior",
+          "exposure": 936,
+          "observedExits": 2,
+          "predictedExits": 2.6732160000000005,
+          "brier": 0.002132703744547009,
+          "logLoss": 0.015371780911325936,
+          "annualExitCountMae": 0.17002112
+        },
+        {
+          "model": "constant_hazard",
+          "exposure": 936,
+          "observedExits": 2,
+          "predictedExits": 6.598187311178246,
+          "brier": 0.0021563199998044518,
+          "logLoss": 0.017646416719347673,
+          "annualExitCountMae": 0.30219536757301096
+        },
+        {
+          "model": "trend",
+          "exposure": 936,
+          "observedExits": 2,
+          "predictedExits": 56.632393513783455,
+          "brier": 0.006309509012400503,
+          "logLoss": 0.06967251494357339,
+          "annualExitCountMae": 2.185295740551338
+        },
+        {
+          "model": "birth_death",
+          "exposure": 936,
+          "observedExits": 2,
+          "predictedExits": 7.5310344260484126,
+          "brier": 0.0022107597923704467,
+          "logLoss": 0.019693846325430437,
+          "annualExitCountMae": 0.354023532839796
+        },
+        {
+          "model": "wave_memory",
+          "exposure": 936,
+          "observedExits": 2,
+          "predictedExits": 11.437654756763829,
+          "brier": 0.002400721175201666,
+          "logLoss": 0.021782869727000397,
+          "annualExitCountMae": 0.44861843740676405
+        },
+        {
+          "model": "full_wave",
+          "exposure": 936,
+          "observedExits": 2,
+          "predictedExits": 43.622124540337886,
+          "brier": 0.005173315005226964,
+          "logLoss": 0.056563491495233265,
+          "annualExitCountMae": 1.7047126348321908
+        }
+      ]
+    },
+    {
+      "origin": 1900,
+      "testEnd": 1924,
+      "trainYears": 84,
+      "testYears": 25,
+      "observedExits": 6,
+      "models": [
+        {
+          "model": "no_exit",
+          "exposure": 1197,
+          "observedExits": 6,
+          "predictedExits": 0.0,
+          "brier": 0.005012531328320802,
+          "logLoss": 0.10387602022780154,
+          "annualExitCountMae": 0.24
+        },
+        {
+          "model": "production_prior",
+          "exposure": 1197,
+          "observedExits": 6,
+          "predictedExits": 3.4186319999999992,
+          "brier": 0.004992056485373434,
+          "logLoss": 0.032210828748154084,
+          "annualExitCountMae": 0.31437023999999997
+        },
+        {
+          "model": "constant_hazard",
+          "exposure": 1197,
+          "observedExits": 6,
+          "predictedExits": 6.554414784394251,
+          "brier": 0.0049876203846801305,
+          "logLoss": 0.03156565605956673,
+          "annualExitCountMae": 0.3825872689938397
+        },
+        {
+          "model": "trend",
+          "exposure": 1197,
+          "observedExits": 6,
+          "predictedExits": 11.88589007374339,
+          "brier": 0.00501352384820852,
+          "logLoss": 0.0331176199823882,
+          "annualExitCountMae": 0.5008323509000059
+        },
+        {
+          "model": "birth_death",
+          "exposure": 1197,
+          "observedExits": 6,
+          "predictedExits": 8.090402631144546,
+          "brier": 0.004987071699252284,
+          "logLoss": 0.03137802027689128,
+          "annualExitCountMae": 0.38374795337112283
+        },
+        {
+          "model": "wave_memory",
+          "exposure": 1197,
+          "observedExits": 6,
+          "predictedExits": 14.343213670003362,
+          "brier": 0.005078081859634631,
+          "logLoss": 0.035701689862782986,
+          "annualExitCountMae": 0.5503278345285693
+        },
+        {
+          "model": "full_wave",
+          "exposure": 1197,
+          "observedExits": 6,
+          "predictedExits": 7.320141821586785,
+          "brier": 0.004984434167570155,
+          "logLoss": 0.03120408672544192,
+          "annualExitCountMae": 0.369305630178058
+        }
+      ]
+    },
+    {
+      "origin": 1925,
+      "testEnd": 1949,
+      "trainYears": 109,
+      "testYears": 25,
+      "observedExits": 18,
+      "models": [
+        {
+          "model": "no_exit",
+          "exposure": 1595,
+          "observedExits": 18,
+          "predictedExits": 0.0,
+          "brier": 0.01128526645768025,
+          "logLoss": 0.2338675778319971,
+          "annualExitCountMae": 0.72
+        },
+        {
+          "model": "production_prior",
+          "exposure": 1595,
+          "observedExits": 18,
+          "predictedExits": 4.555319999999998,
+          "brier": 0.011228961751673984,
+          "logLoss": 0.06894066086486092,
+          "annualExitCountMae": 0.8037379200000001
+        },
+        {
+          "model": "constant_hazard",
+          "exposure": 1595,
+          "observedExits": 18,
+          "predictedExits": 8.519058023792182,
+          "brier": 0.011193242307271435,
+          "logLoss": 0.06434314155089868,
+          "annualExitCountMae": 0.8766011167759165
+        },
+        {
+          "model": "trend",
+          "exposure": 1595,
+          "observedExits": 18,
+          "predictedExits": 10.778915785476382,
+          "brier": 0.011176548699685103,
+          "logLoss": 0.06295734918227577,
+          "annualExitCountMae": 0.9154572612175529
+        },
+        {
+          "model": "birth_death",
+          "exposure": 1595,
+          "observedExits": 18,
+          "predictedExits": 23.12208584222751,
+          "brier": 0.011016358717587523,
+          "logLoss": 0.056355646451086414,
+          "annualExitCountMae": 0.9409846523055286
+        },
+        {
+          "model": "wave_memory",
+          "exposure": 1595,
+          "observedExits": 18,
+          "predictedExits": 9.768466646129223,
+          "brier": 0.011132593108089745,
+          "logLoss": 0.05966863692807628,
+          "annualExitCountMae": 0.8262121890634374
+        },
+        {
+          "model": "full_wave",
+          "exposure": 1595,
+          "observedExits": 18,
+          "predictedExits": 21.584787464125682,
+          "brier": 0.011011629037511544,
+          "logLoss": 0.056177120057401504,
+          "annualExitCountMae": 0.9162702055647699
+        }
+      ]
+    },
+    {
+      "origin": 1950,
+      "testEnd": 1974,
+      "trainYears": 134,
+      "testYears": 25,
+      "observedExits": 2,
+      "models": [
+        {
+          "model": "no_exit",
+          "exposure": 2752,
+          "observedExits": 2,
+          "predictedExits": 0.0,
+          "brier": 0.0007267441860465116,
+          "logLoss": 0.015060513962170325,
+          "annualExitCountMae": 0.08
+        },
+        {
+          "model": "production_prior",
+          "exposure": 2752,
+          "observedExits": 2,
+          "predictedExits": 7.859711999999999,
+          "brier": 0.0007307497592558139,
+          "logLoss": 0.007115517217002217,
+          "annualExitCountMae": 0.34595072000000004
+        },
+        {
+          "model": "constant_hazard",
+          "exposure": 2752,
+          "observedExits": 2,
+          "predictedExits": 19.26496324816241,
+          "brier": 0.0007655741590630176,
+          "logLoss": 0.010625817829810431,
+          "annualExitCountMae": 0.7318725936296815
+        },
+        {
+          "model": "trend",
+          "exposure": 2752,
+          "observedExits": 2,
+          "predictedExits": 37.09853377067241,
+          "brier": 0.0008903314426321576,
+          "logLoss": 0.0167136137292501,
+          "annualExitCountMae": 1.4039413508268965
+        },
+        {
+          "model": "birth_death",
+          "exposure": 2752,
+          "observedExits": 2,
+          "predictedExits": 36.027373671045574,
+          "brier": 0.0009888452090624181,
+          "logLoss": 0.017242095561858448,
+          "annualExitCountMae": 1.4523398681654875
+        },
+        {
+          "model": "wave_memory",
+          "exposure": 2752,
+          "observedExits": 2,
+          "predictedExits": 15.594539310992802,
+          "brier": 0.0007670470626845082,
+          "logLoss": 0.010041476527262625,
+          "annualExitCountMae": 0.6613998834611917
+        },
+        {
+          "model": "full_wave",
+          "exposure": 2752,
+          "observedExits": 2,
+          "predictedExits": 70.69529480792387,
+          "brier": 0.0018820425267624993,
+          "logLoss": 0.030046946476713708,
+          "annualExitCountMae": 2.8021897558472615
+        }
+      ]
+    },
+    {
+      "origin": 1975,
+      "testEnd": 1999,
+      "trainYears": 159,
+      "testYears": 25,
+      "observedExits": 6,
+      "models": [
+        {
+          "model": "no_exit",
+          "exposure": 4197,
+          "observedExits": 6,
+          "predictedExits": 0.0,
+          "brier": 0.0014295925661186562,
+          "logLoss": 0.029625827784769677,
+          "annualExitCountMae": 0.24
+        },
+        {
+          "model": "production_prior",
+          "exposure": 4197,
+          "observedExits": 6,
+          "predictedExits": 11.986632,
+          "brier": 0.0014295834693809867,
+          "logLoss": 0.01123102703387941,
+          "annualExitCountMae": 0.6061392
+        },
+        {
+          "model": "constant_hazard",
+          "exposure": 4197,
+          "observedExits": 6,
+          "predictedExits": 20.82140326009922,
+          "brier": 0.0014400198148386669,
+          "logLoss": 0.012551881113419922,
+          "annualExitCountMae": 0.8760028348688871
+        },
+        {
+          "model": "trend",
+          "exposure": 4197,
+          "observedExits": 6,
+          "predictedExits": 16.772422570640458,
+          "brier": 0.0014341537805696108,
+          "logLoss": 0.011894800117909493,
+          "annualExitCountMae": 0.7516948948092125
+        },
+        {
+          "model": "birth_death",
+          "exposure": 4197,
+          "observedExits": 6,
+          "predictedExits": 26.415969519371338,
+          "brier": 0.0014532469250388498,
+          "logLoss": 0.01246615816635489,
+          "annualExitCountMae": 0.892858868529506
+        },
+        {
+          "model": "wave_memory",
+          "exposure": 4197,
+          "observedExits": 6,
+          "predictedExits": 21.171681828803074,
+          "brier": 0.0014599484245167642,
+          "logLoss": 0.013470643514974092,
+          "annualExitCountMae": 0.9534188161764391
+        },
+        {
+          "model": "full_wave",
+          "exposure": 4197,
+          "observedExits": 6,
+          "predictedExits": 20.03734634098717,
+          "brier": 0.0014312016940706686,
+          "logLoss": 0.011275884714627399,
+          "annualExitCountMae": 0.6691199982562863
+        }
+      ]
+    },
+    {
+      "origin": 2000,
+      "testEnd": 2024,
+      "trainYears": 184,
+      "testYears": 25,
+      "observedExits": 1,
+      "models": [
+        {
+          "model": "no_exit",
+          "exposure": 4848,
+          "observedExits": 1,
+          "predictedExits": 0.0,
+          "brier": 0.00020627062706270627,
+          "logLoss": 0.004274602038767797,
+          "annualExitCountMae": 0.04
+        },
+        {
+          "model": "production_prior",
+          "exposure": 4848,
+          "observedExits": 1,
+          "predictedExits": 13.845887999999999,
+          "brier": 0.00021324914524092404,
+          "logLoss": 0.00406789826794383,
+          "annualExitCountMae": 0.5497388799999999
+        },
+        {
+          "model": "constant_hazard",
+          "exposure": 4848,
+          "observedExits": 1,
+          "predictedExits": 18.37668798862829,
+          "brier": 0.0002190752883301772,
+          "logLoss": 0.004946997973257144,
+          "annualExitCountMae": 0.7165411040037907
+        },
+        {
+          "model": "trend",
+          "exposure": 4848,
+          "observedExits": 1,
+          "predictedExits": 10.326444766224046,
+          "brier": 0.00020990360717512577,
+          "logLoss": 0.003392247535986134,
+          "annualExitCountMae": 0.4187845403624147
+        },
+        {
+          "model": "birth_death",
+          "exposure": 4848,
+          "observedExits": 1,
+          "predictedExits": 21.842015045809433,
+          "brier": 0.00023164763812385302,
+          "logLoss": 0.005659596047356493,
+          "annualExitCountMae": 0.8526835756437339
+        },
+        {
+          "model": "wave_memory",
+          "exposure": 4848,
+          "observedExits": 1,
+          "predictedExits": 11.388222872052129,
+          "brier": 0.0002110024019003453,
+          "logLoss": 0.003615476117356024,
+          "annualExitCountMae": 0.4618591149180453
+        },
+        {
+          "model": "full_wave",
+          "exposure": 4848,
+          "observedExits": 1,
+          "predictedExits": 22.67499934851032,
+          "brier": 0.00023599089459901612,
+          "logLoss": 0.005842640078159886,
+          "annualExitCountMae": 0.8886161808919539
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "The comparison predicts COW membership exit, not permanent subjugation.",
+    "No-exit probabilities are clipped to 1e-9 only when calculating finite log loss.",
+    "Wave-memory test features use only observed prior years, including prior years within each test block.",
+    "The production prior is a reduced-form annual mapping, not the full structural simulation.",
+    "Sparse exits make all estimates unstable."
+  ]
+}

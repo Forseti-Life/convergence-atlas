@@ -1,0 +1,104 @@
+{
+  "sourceId": "world_bank_wdi",
+  "snapshot": "2026-10-06",
+  "apiVersion": "v2",
+  "baseUrl": "https://api.worldbank.org/v2",
+  "retrievedAt": "2026-10-06T13:52:00-04:00",
+  "licenseDecision": "local non-commercial research; raw API responses excluded from redistribution pending dataset-specific terms review",
+  "rawFiles": {
+    "data/raw/world_bank_wdi/2026-10-06/countries.json": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce",
+    "data/raw/world_bank_wdi/2026-10-06/NY.GDP.MKTP.CD.json": "337b37071281a128340331068a39abae870868ab49c4032b56e17b89871deed1",
+    "data/raw/world_bank_wdi/2026-10-06/SP.POP.TOTL.json": "21816454b5ea6e6b7a602aa7e1b10d8d275bf2bb59f38f882477e4d1ed3b09ab",
+    "data/raw/world_bank_wdi/2026-10-06/NE.TRD.GNFS.ZS.json": "44b01eb1a06d091e026651546c94888c77dc7e4950a19661d4c4d9153e8fa67d",
+    "data/raw/world_bank_wdi/2026-10-06/SE.SEC.ENRR.json": "c05a11192498255c1d5bbf7a0fe02c3c03edf2e6c8455c7b40ab97166ece5a15",
+    "data/raw/world_bank_wdi/2026-10-06/GB.XPD.RSDV.GD.ZS.json": "2e4d89052b6c042eae2fa1b3dd3faeee0ed3e4dbc154c185a5bb01bcf384fd15",
+    "data/raw/world_bank_wdi/2026-10-06/NY.GDP.PCAP.KD.json": "60bdf145e781d722bffa9e9ea4eb0b3b74f220dcdba36f7d391b1f2c048dc930"
+  },
+  "countryRecords": 217,
+  "panelRows": 14322,
+  "coverage": [
+    1960,
+    2025
+  ],
+  "indicators": {
+    "NY.GDP.MKTP.CD": {
+      "column": "gdp_current_usd",
+      "sourceNote": null,
+      "lastUpdated": "2026-07-13"
+    },
+    "SP.POP.TOTL": {
+      "column": "population_total",
+      "sourceNote": null,
+      "lastUpdated": "2026-07-13"
+    },
+    "NE.TRD.GNFS.ZS": {
+      "column": "trade_percent_gdp",
+      "sourceNote": null,
+      "lastUpdated": "2026-07-13"
+    },
+    "SE.SEC.ENRR": {
+      "column": "secondary_enrollment_gross_percent",
+      "sourceNote": null,
+      "lastUpdated": "2026-07-13"
+    },
+    "GB.XPD.RSDV.GD.ZS": {
+      "column": "research_development_percent_gdp",
+      "sourceNote": null,
+      "lastUpdated": "2026-07-13"
+    },
+    "NY.GDP.PCAP.KD": {
+      "column": "gdp_per_capita_constant_2015_usd",
+      "sourceNote": null,
+      "lastUpdated": "2026-07-13"
+    }
+  },
+  "missingness": {
+    "NY.GDP.MKTP.CD": {
+      "column": "gdp_current_usd",
+      "nonMissing": 11764,
+      "totalRows": 14322,
+      "coverageRate": 0.8213936601033375
+    },
+    "SP.POP.TOTL": {
+      "column": "population_total",
+      "nonMissing": 14292,
+      "totalRows": 14322,
+      "coverageRate": 0.9979053204859657
+    },
+    "NE.TRD.GNFS.ZS": {
+      "column": "trade_percent_gdp",
+      "nonMissing": 9029,
+      "totalRows": 14322,
+      "coverageRate": 0.6304287110738723
+    },
+    "SE.SEC.ENRR": {
+      "column": "secondary_enrollment_gross_percent",
+      "nonMissing": 6280,
+      "totalRows": 14322,
+      "coverageRate": 0.4384862449378578
+    },
+    "GB.XPD.RSDV.GD.ZS": {
+      "column": "research_development_percent_gdp",
+      "nonMissing": 2467,
+      "totalRows": 14322,
+      "coverageRate": 0.1722524787040916
+    },
+    "NY.GDP.PCAP.KD": {
+      "column": "gdp_per_capita_constant_2015_usd",
+      "nonMissing": 11533,
+      "totalRows": 14322,
+      "coverageRate": 0.805264627845273
+    }
+  },
+  "crosswalkCandidates": {
+    "provisional": 188,
+    "unresolved": 7,
+    "verified": 0
+  },
+  "limitations": [
+    "World Bank country/economy coverage does not equal COW state-system membership.",
+    "Current API responses may contain revised historical values unavailable at earlier prediction origins.",
+    "Indicator coverage is uneven and missingness is not random.",
+    "Crosswalk candidates are unreviewed and must not be merged automatically."
+  ]
+}

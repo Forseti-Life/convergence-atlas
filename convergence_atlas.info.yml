@@ -1,0 +1,5 @@
+name: 'Convergence Atlas'
+type: module
+description: 'Embeds the Convergence Atlas interactive model in the Forseti Drupal site.'
+core_version_requirement: ^10.3 || ^11
+package: 'Forseti'

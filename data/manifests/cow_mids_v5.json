@@ -1,0 +1,23 @@
+{
+  "sourceId": "cow_mids",
+  "sourceVersion": "v5.0",
+  "sourceUrl": "https://correlatesofwar.org/wp-content/uploads/MID-5-Data-and-Supporting-Materials.zip",
+  "archivePath": "data/raw/cow_mids/v5.0/MID-5-Data-and-Supporting-Materials.zip",
+  "archiveSha256": "f1d2f47ed02cd62e348e755a37108e302cb6a6e576a5fa03f6f7a8d5cbdc8009",
+  "retrievedAt": "2026-10-06T13:31:00-04:00",
+  "licenseDecision": "analysis-only; raw and row-level derived data excluded from redistribution pending terms review",
+  "nativeDisputes": 2436,
+  "nativeParticipants": 5883,
+  "stateYearRows": 4774,
+  "systemYearRows": 199,
+  "coverage": [
+    1816,
+    2014
+  ],
+  "limitations": [
+    "Coverage ends in 2014.",
+    "Fatality is a categorical code and is not converted to battle-death counts.",
+    "Dispute involvement is not equivalent to institutional consolidation pressure.",
+    "Participant data do not establish direct dyadic interaction in every multi-party dispute."
+  ]
+}

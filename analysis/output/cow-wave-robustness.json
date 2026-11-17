@@ -1,0 +1,628 @@
+{
+  "metadata": {
+    "generated": "2026-10-07",
+    "specificationCount": 40,
+    "forecast": false
+  },
+  "grid": {
+    "gapYears": [
+      1,
+      3,
+      5,
+      7,
+      10
+    ],
+    "minimumUniqueExits": [
+      2,
+      3,
+      5,
+      10
+    ],
+    "modes": [
+      "gross",
+      "durable"
+    ]
+  },
+  "baselineWaves": [
+    {
+      "start": "1860-03-15",
+      "end": "1861-02-13",
+      "uniqueExits": 5,
+      "activeAtStart": 45,
+      "lossProbability": 0.1111111111111111,
+      "institutions": [
+        "Modena",
+        "Parma",
+        "Tuscany",
+        "Papal States",
+        "Two Sicilies"
+      ]
+    },
+    {
+      "start": "1866-07-26",
+      "end": "1871-01-18",
+      "uniqueExits": 9,
+      "activeAtStart": 41,
+      "lossProbability": 0.21951219512195122,
+      "institutions": [
+        "Hanover",
+        "Hesse Electoral",
+        "Saxony",
+        "Hesse Grand Ducal",
+        "Mecklenburg Schwerin",
+        "Paraguay",
+        "Bavaria",
+        "Baden",
+        "Wuerttemburg"
+      ]
+    },
+    {
+      "start": "1936-05-05",
+      "end": "1945-08-14",
+      "uniqueExits": 18,
+      "activeAtStart": 66,
+      "lossProbability": 0.2727272727272727,
+      "institutions": [
+        "Ethiopia",
+        "Austria",
+        "Czechoslovakia",
+        "Albania",
+        "Poland",
+        "Denmark",
+        "Norway",
+        "Luxembourg",
+        "Belgium",
+        "Lithuania",
+        "Estonia",
+        "Latvia",
+        "Netherlands",
+        "Yugoslavia",
+        "Greece",
+        "France",
+        "Germany",
+        "Japan"
+      ]
+    },
+    {
+      "start": "1990-05-21",
+      "end": "1992-12-31",
+      "uniqueExits": 5,
+      "activeAtStart": 162,
+      "lossProbability": 0.030864197530864196,
+      "institutions": [
+        "Yemen Arab Republic",
+        "Yemen People's Republic",
+        "German Federal Republic",
+        "German Democratic Republic",
+        "Czechoslovakia"
+      ]
+    }
+  ],
+  "baselineMean": 0.1585536941227998,
+  "roundedDefault": 0.15,
+  "leaveOneOut": [
+    {
+      "omittedStart": "1860-03-15",
+      "omittedEnd": "1861-02-13",
+      "omittedLossProbability": 0.1111111111111111,
+      "retainedWaveCount": 3,
+      "leaveOneOutMean": 0.17436788846002937
+    },
+    {
+      "omittedStart": "1866-07-26",
+      "omittedEnd": "1871-01-18",
+      "omittedLossProbability": 0.21951219512195122,
+      "retainedWaveCount": 3,
+      "leaveOneOutMean": 0.13823419378974933
+    },
+    {
+      "omittedStart": "1936-05-05",
+      "omittedEnd": "1945-08-14",
+      "omittedLossProbability": 0.2727272727272727,
+      "retainedWaveCount": 3,
+      "leaveOneOutMean": 0.12049583458797551
+    },
+    {
+      "omittedStart": "1990-05-21",
+      "omittedEnd": "1992-12-31",
+      "omittedLossProbability": 0.030864197530864196,
+      "retainedWaveCount": 3,
+      "leaveOneOutMean": 0.201116859653445
+    }
+  ],
+  "specifications": [
+    {
+      "mode": "gross",
+      "gapYears": 1,
+      "minimumUniqueExits": 2,
+      "waveCount": 21,
+      "majorWaveCount": 7,
+      "meanLossProbability": 0.09194851064769764,
+      "medianLossProbability": 0.10810810810810811,
+      "minimumLossProbability": 0.024691358024691357,
+      "maximumLossProbability": 0.2,
+      "pooledLossProbability": 0.07692307692307693
+    },
+    {
+      "mode": "gross",
+      "gapYears": 1,
+      "minimumUniqueExits": 3,
+      "waveCount": 21,
+      "majorWaveCount": 5,
+      "meanLossProbability": 0.11317235935122114,
+      "medianLossProbability": 0.1111111111111111,
+      "minimumLossProbability": 0.024691358024691357,
+      "maximumLossProbability": 0.2,
+      "pooledLossProbability": 0.08857142857142856
+    },
+    {
+      "mode": "gross",
+      "gapYears": 1,
+      "minimumUniqueExits": 5,
+      "waveCount": 21,
+      "majorWaveCount": 3,
+      "meanLossProbability": 0.14435411020776875,
+      "medianLossProbability": 0.12195121951219512,
+      "minimumLossProbability": 0.1111111111111111,
+      "maximumLossProbability": 0.2,
+      "pooledLossProbability": 0.152317880794702
+    },
+    {
+      "mode": "gross",
+      "gapYears": 1,
+      "minimumUniqueExits": 10,
+      "waveCount": 21,
+      "majorWaveCount": 1,
+      "meanLossProbability": 0.2,
+      "medianLossProbability": 0.2,
+      "minimumLossProbability": 0.2,
+      "maximumLossProbability": 0.2,
+      "pooledLossProbability": 0.2
+    },
+    {
+      "mode": "gross",
+      "gapYears": 3,
+      "minimumUniqueExits": 2,
+      "waveCount": 13,
+      "majorWaveCount": 8,
+      "meanLossProbability": 0.10124088426933955,
+      "medianLossProbability": 0.08738738738738738,
+      "minimumLossProbability": 0.030864197530864196,
+      "maximumLossProbability": 0.2727272727272727,
+      "pooledLossProbability": 0.09205020920502092
+    },
+    {
+      "mode": "gross",
+      "gapYears": 3,
+      "minimumUniqueExits": 3,
+      "waveCount": 13,
+      "majorWaveCount": 6,
+      "meanLossProbability": 0.11857142927603631,
+      "medianLossProbability": 0.10960960960960961,
+      "minimumLossProbability": 0.030864197530864196,
+      "maximumLossProbability": 0.2727272727272727,
+      "pooledLossProbability": 0.10101010101010101
+    },
+    {
+      "mode": "gross",
+      "gapYears": 3,
+      "minimumUniqueExits": 5,
+      "waveCount": 13,
+      "majorWaveCount": 4,
+      "meanLossProbability": 0.13416345022036077,
+      "medianLossProbability": 0.11653116531165311,
+      "minimumLossProbability": 0.030864197530864196,
+      "maximumLossProbability": 0.2727272727272727,
+      "pooledLossProbability": 0.10509554140127389
+    },
+    {
+      "mode": "gross",
+      "gapYears": 3,
+      "minimumUniqueExits": 10,
+      "waveCount": 13,
+      "majorWaveCount": 1,
+      "meanLossProbability": 0.2727272727272727,
+      "medianLossProbability": 0.2727272727272727,
+      "minimumLossProbability": 0.2727272727272727,
+      "maximumLossProbability": 0.2727272727272727,
+      "pooledLossProbability": 0.2727272727272727
+    },
+    {
+      "mode": "gross",
+      "gapYears": 5,
+      "minimumUniqueExits": 2,
+      "waveCount": 11,
+      "majorWaveCount": 7,
+      "meanLossProbability": 0.11737173769694095,
+      "medianLossProbability": 0.08888888888888889,
+      "minimumLossProbability": 0.030864197530864196,
+      "maximumLossProbability": 0.2727272727272727,
+      "pooledLossProbability": 0.10204081632653061
+    },
+    {
+      "mode": "gross",
+      "gapYears": 5,
+      "minimumUniqueExits": 3,
+      "waveCount": 11,
+      "majorWaveCount": 5,
+      "meanLossProbability": 0.14462073307601764,
+      "medianLossProbability": 0.1111111111111111,
+      "minimumLossProbability": 0.030864197530864196,
+      "maximumLossProbability": 0.2727272727272727,
+      "pooledLossProbability": 0.11420612813370473
+    },
+    {
+      "mode": "gross",
+      "gapYears": 5,
+      "minimumUniqueExits": 5,
+      "waveCount": 11,
+      "majorWaveCount": 4,
+      "meanLossProbability": 0.1585536941227998,
+      "medianLossProbability": 0.16531165311653118,
+      "minimumLossProbability": 0.030864197530864196,
+      "maximumLossProbability": 0.2727272727272727,
+      "pooledLossProbability": 0.1178343949044586
+    },
+    {
+      "mode": "gross",
+      "gapYears": 5,
+      "minimumUniqueExits": 10,
+      "waveCount": 11,
+      "majorWaveCount": 1,
+      "meanLossProbability": 0.2727272727272727,
+      "medianLossProbability": 0.2727272727272727,
+      "minimumLossProbability": 0.2727272727272727,
+      "maximumLossProbability": 0.2727272727272727,
+      "pooledLossProbability": 0.2727272727272727
+    },
+    {
+      "mode": "gross",
+      "gapYears": 7,
+      "minimumUniqueExits": 2,
+      "waveCount": 8,
+      "majorWaveCount": 6,
+      "meanLossProbability": 0.13742697981149915,
+      "medianLossProbability": 0.0936936936936937,
+      "minimumLossProbability": 0.02247191011235955,
+      "maximumLossProbability": 0.3111111111111111,
+      "pooledLossProbability": 0.10585585585585586
+    },
+    {
+      "mode": "gross",
+      "gapYears": 7,
+      "minimumUniqueExits": 3,
+      "waveCount": 8,
+      "majorWaveCount": 4,
+      "meanLossProbability": 0.18700897867564534,
+      "medianLossProbability": 0.203030303030303,
+      "minimumLossProbability": 0.030864197530864196,
+      "maximumLossProbability": 0.3111111111111111,
+      "pooledLossProbability": 0.13522012578616352
+    },
+    {
+      "mode": "gross",
+      "gapYears": 7,
+      "minimumUniqueExits": 5,
+      "waveCount": 8,
+      "majorWaveCount": 4,
+      "meanLossProbability": 0.18700897867564534,
+      "medianLossProbability": 0.203030303030303,
+      "minimumLossProbability": 0.030864197530864196,
+      "maximumLossProbability": 0.3111111111111111,
+      "pooledLossProbability": 0.13522012578616352
+    },
+    {
+      "mode": "gross",
+      "gapYears": 7,
+      "minimumUniqueExits": 10,
+      "waveCount": 8,
+      "majorWaveCount": 2,
+      "meanLossProbability": 0.2919191919191919,
+      "medianLossProbability": 0.2919191919191919,
+      "minimumLossProbability": 0.2727272727272727,
+      "maximumLossProbability": 0.3111111111111111,
+      "pooledLossProbability": 0.2882882882882883
+    },
+    {
+      "mode": "gross",
+      "gapYears": 10,
+      "minimumUniqueExits": 2,
+      "waveCount": 8,
+      "majorWaveCount": 6,
+      "meanLossProbability": 0.13742697981149915,
+      "medianLossProbability": 0.0936936936936937,
+      "minimumLossProbability": 0.02247191011235955,
+      "maximumLossProbability": 0.3111111111111111,
+      "pooledLossProbability": 0.10585585585585586
+    },
+    {
+      "mode": "gross",
+      "gapYears": 10,
+      "minimumUniqueExits": 3,
+      "waveCount": 8,
+      "majorWaveCount": 4,
+      "meanLossProbability": 0.18700897867564534,
+      "medianLossProbability": 0.203030303030303,
+      "minimumLossProbability": 0.030864197530864196,
+      "maximumLossProbability": 0.3111111111111111,
+      "pooledLossProbability": 0.13522012578616352
+    },
+    {
+      "mode": "gross",
+      "gapYears": 10,
+      "minimumUniqueExits": 5,
+      "waveCount": 8,
+      "majorWaveCount": 4,
+      "meanLossProbability": 0.18700897867564534,
+      "medianLossProbability": 0.203030303030303,
+      "minimumLossProbability": 0.030864197530864196,
+      "maximumLossProbability": 0.3111111111111111,
+      "pooledLossProbability": 0.13522012578616352
+    },
+    {
+      "mode": "gross",
+      "gapYears": 10,
+      "minimumUniqueExits": 10,
+      "waveCount": 8,
+      "majorWaveCount": 2,
+      "meanLossProbability": 0.2919191919191919,
+      "medianLossProbability": 0.2919191919191919,
+      "minimumLossProbability": 0.2727272727272727,
+      "maximumLossProbability": 0.3111111111111111,
+      "pooledLossProbability": 0.2882882882882883
+    },
+    {
+      "mode": "durable",
+      "gapYears": 1,
+      "minimumUniqueExits": 2,
+      "waveCount": 10,
+      "majorWaveCount": 4,
+      "meanLossProbability": 0.08527175549533272,
+      "medianLossProbability": 0.09722222222222221,
+      "minimumLossProbability": 0.024691358024691357,
+      "maximumLossProbability": 0.12195121951219512,
+      "pooledLossProbability": 0.05985915492957746
+    },
+    {
+      "mode": "durable",
+      "gapYears": 1,
+      "minimumUniqueExits": 3,
+      "waveCount": 10,
+      "majorWaveCount": 4,
+      "meanLossProbability": 0.08527175549533272,
+      "medianLossProbability": 0.09722222222222221,
+      "minimumLossProbability": 0.024691358024691357,
+      "maximumLossProbability": 0.12195121951219512,
+      "pooledLossProbability": 0.05985915492957746
+    },
+    {
+      "mode": "durable",
+      "gapYears": 1,
+      "minimumUniqueExits": 5,
+      "waveCount": 10,
+      "majorWaveCount": 2,
+      "meanLossProbability": 0.11653116531165311,
+      "medianLossProbability": 0.11653116531165311,
+      "minimumLossProbability": 0.1111111111111111,
+      "maximumLossProbability": 0.12195121951219512,
+      "pooledLossProbability": 0.11627906976744186
+    },
+    {
+      "mode": "durable",
+      "gapYears": 1,
+      "minimumUniqueExits": 10,
+      "waveCount": 10,
+      "majorWaveCount": 0,
+      "meanLossProbability": null,
+      "medianLossProbability": null,
+      "minimumLossProbability": null,
+      "maximumLossProbability": null,
+      "pooledLossProbability": null
+    },
+    {
+      "mode": "durable",
+      "gapYears": 3,
+      "minimumUniqueExits": 2,
+      "waveCount": 9,
+      "majorWaveCount": 4,
+      "meanLossProbability": 0.08681496537187594,
+      "medianLossProbability": 0.09722222222222221,
+      "minimumLossProbability": 0.030864197530864196,
+      "maximumLossProbability": 0.12195121951219512,
+      "pooledLossProbability": 0.06338028169014084
+    },
+    {
+      "mode": "durable",
+      "gapYears": 3,
+      "minimumUniqueExits": 3,
+      "waveCount": 9,
+      "majorWaveCount": 4,
+      "meanLossProbability": 0.08681496537187594,
+      "medianLossProbability": 0.09722222222222221,
+      "minimumLossProbability": 0.030864197530864196,
+      "maximumLossProbability": 0.12195121951219512,
+      "pooledLossProbability": 0.06338028169014084
+    },
+    {
+      "mode": "durable",
+      "gapYears": 3,
+      "minimumUniqueExits": 5,
+      "waveCount": 9,
+      "majorWaveCount": 3,
+      "meanLossProbability": 0.08797550938472347,
+      "medianLossProbability": 0.1111111111111111,
+      "minimumLossProbability": 0.030864197530864196,
+      "maximumLossProbability": 0.12195121951219512,
+      "pooledLossProbability": 0.06048387096774194
+    },
+    {
+      "mode": "durable",
+      "gapYears": 3,
+      "minimumUniqueExits": 10,
+      "waveCount": 9,
+      "majorWaveCount": 0,
+      "meanLossProbability": null,
+      "medianLossProbability": null,
+      "minimumLossProbability": null,
+      "maximumLossProbability": null,
+      "pooledLossProbability": null
+    },
+    {
+      "mode": "durable",
+      "gapYears": 5,
+      "minimumUniqueExits": 2,
+      "waveCount": 8,
+      "majorWaveCount": 3,
+      "meanLossProbability": 0.1123657532871625,
+      "medianLossProbability": 0.1111111111111111,
+      "minimumLossProbability": 0.030864197530864196,
+      "maximumLossProbability": 0.1951219512195122,
+      "pooledLossProbability": 0.07258064516129033
+    },
+    {
+      "mode": "durable",
+      "gapYears": 5,
+      "minimumUniqueExits": 3,
+      "waveCount": 8,
+      "majorWaveCount": 3,
+      "meanLossProbability": 0.1123657532871625,
+      "medianLossProbability": 0.1111111111111111,
+      "minimumLossProbability": 0.030864197530864196,
+      "maximumLossProbability": 0.1951219512195122,
+      "pooledLossProbability": 0.07258064516129033
+    },
+    {
+      "mode": "durable",
+      "gapYears": 5,
+      "minimumUniqueExits": 5,
+      "waveCount": 8,
+      "majorWaveCount": 3,
+      "meanLossProbability": 0.1123657532871625,
+      "medianLossProbability": 0.1111111111111111,
+      "minimumLossProbability": 0.030864197530864196,
+      "maximumLossProbability": 0.1951219512195122,
+      "pooledLossProbability": 0.07258064516129033
+    },
+    {
+      "mode": "durable",
+      "gapYears": 5,
+      "minimumUniqueExits": 10,
+      "waveCount": 8,
+      "majorWaveCount": 0,
+      "meanLossProbability": null,
+      "medianLossProbability": null,
+      "minimumLossProbability": null,
+      "maximumLossProbability": null,
+      "pooledLossProbability": null
+    },
+    {
+      "mode": "durable",
+      "gapYears": 7,
+      "minimumUniqueExits": 2,
+      "waveCount": 7,
+      "majorWaveCount": 2,
+      "meanLossProbability": 0.15987654320987654,
+      "medianLossProbability": 0.15987654320987654,
+      "minimumLossProbability": 0.030864197530864196,
+      "maximumLossProbability": 0.28888888888888886,
+      "pooledLossProbability": 0.08695652173913043
+    },
+    {
+      "mode": "durable",
+      "gapYears": 7,
+      "minimumUniqueExits": 3,
+      "waveCount": 7,
+      "majorWaveCount": 2,
+      "meanLossProbability": 0.15987654320987654,
+      "medianLossProbability": 0.15987654320987654,
+      "minimumLossProbability": 0.030864197530864196,
+      "maximumLossProbability": 0.28888888888888886,
+      "pooledLossProbability": 0.08695652173913043
+    },
+    {
+      "mode": "durable",
+      "gapYears": 7,
+      "minimumUniqueExits": 5,
+      "waveCount": 7,
+      "majorWaveCount": 2,
+      "meanLossProbability": 0.15987654320987654,
+      "medianLossProbability": 0.15987654320987654,
+      "minimumLossProbability": 0.030864197530864196,
+      "maximumLossProbability": 0.28888888888888886,
+      "pooledLossProbability": 0.08695652173913043
+    },
+    {
+      "mode": "durable",
+      "gapYears": 7,
+      "minimumUniqueExits": 10,
+      "waveCount": 7,
+      "majorWaveCount": 1,
+      "meanLossProbability": 0.28888888888888886,
+      "medianLossProbability": 0.28888888888888886,
+      "minimumLossProbability": 0.28888888888888886,
+      "maximumLossProbability": 0.28888888888888886,
+      "pooledLossProbability": 0.28888888888888886
+    },
+    {
+      "mode": "durable",
+      "gapYears": 10,
+      "minimumUniqueExits": 2,
+      "waveCount": 7,
+      "majorWaveCount": 2,
+      "meanLossProbability": 0.15987654320987654,
+      "medianLossProbability": 0.15987654320987654,
+      "minimumLossProbability": 0.030864197530864196,
+      "maximumLossProbability": 0.28888888888888886,
+      "pooledLossProbability": 0.08695652173913043
+    },
+    {
+      "mode": "durable",
+      "gapYears": 10,
+      "minimumUniqueExits": 3,
+      "waveCount": 7,
+      "majorWaveCount": 2,
+      "meanLossProbability": 0.15987654320987654,
+      "medianLossProbability": 0.15987654320987654,
+      "minimumLossProbability": 0.030864197530864196,
+      "maximumLossProbability": 0.28888888888888886,
+      "pooledLossProbability": 0.08695652173913043
+    },
+    {
+      "mode": "durable",
+      "gapYears": 10,
+      "minimumUniqueExits": 5,
+      "waveCount": 7,
+      "majorWaveCount": 2,
+      "meanLossProbability": 0.15987654320987654,
+      "medianLossProbability": 0.15987654320987654,
+      "minimumLossProbability": 0.030864197530864196,
+      "maximumLossProbability": 0.28888888888888886,
+      "pooledLossProbability": 0.08695652173913043
+    },
+    {
+      "mode": "durable",
+      "gapYears": 10,
+      "minimumUniqueExits": 10,
+      "waveCount": 7,
+      "majorWaveCount": 1,
+      "meanLossProbability": 0.28888888888888886,
+      "medianLossProbability": 0.28888888888888886,
+      "minimumLossProbability": 0.28888888888888886,
+      "maximumLossProbability": 0.28888888888888886,
+      "pooledLossProbability": 0.28888888888888886
+    }
+  ],
+  "summary": {
+    "grossEstimatedSpecifications": 20,
+    "grossMeanMinimum": 0.09194851064769764,
+    "grossMeanMaximum": 0.2919191919191919,
+    "durableEstimatedSpecifications": 17,
+    "durableMeanMinimum": 0.08527175549533272,
+    "durableMeanMaximum": 0.28888888888888886
+  },
+  "limitations": [
+    "Clustering gaps and wave thresholds are author-defined.",
+    "Durable means no later COW spell with the same code, not proven permanent subjugation.",
+    "The specification range is not a sampling confidence interval."
+  ]
+}

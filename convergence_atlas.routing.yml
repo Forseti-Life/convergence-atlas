@@ -1,0 +1,7 @@
+convergence_atlas.page:
+  path: '/convergence-atlas'
+  defaults:
+    _controller: '\Drupal\convergence_atlas\Controller\ConvergenceAtlasController::page'
+    _title: 'Convergence Atlas'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0",
+  "proxyVersion": "1.0.0",
+  "generated": "2026-10-07",
+  "primarySource": "COW State System Membership v2024",
+  "supportingSource": "COW Intra-State War v5.1",
+  "waveRule": "Cluster consecutive exits separated by no more than five years; major waves have at least five unique exits.",
+  "majorWaves": [
+    {
+      "start": "1860-03-15",
+      "end": "1861-02-13",
+      "exitCount": 5,
+      "uniqueInstitutionExits": 5,
+      "activeInstitutionsAtStart": 45,
+      "grossLossProbability": 0.1111111111111111,
+      "institutions": [
+        "Modena",
+        "Parma",
+        "Tuscany",
+        "Papal States",
+        "Two Sicilies"
+      ]
+    },
+    {
+      "start": "1866-07-26",
+      "end": "1871-01-18",
+      "exitCount": 9,
+      "uniqueInstitutionExits": 9,
+      "activeInstitutionsAtStart": 41,
+      "grossLossProbability": 0.21951219512195122,
+      "institutions": [
+        "Hanover",
+        "Hesse Electoral",
+        "Saxony",
+        "Hesse Grand Ducal",
+        "Mecklenburg Schwerin",
+        "Paraguay",
+        "Bavaria",
+        "Baden",
+        "Wuerttemburg"
+      ]
+    },
+    {
+      "start": "1936-05-05",
+      "end": "1945-08-14",
+      "exitCount": 18,
+      "uniqueInstitutionExits": 18,
+      "activeInstitutionsAtStart": 66,
+      "grossLossProbability": 0.2727272727272727,
+      "institutions": [
+        "Ethiopia",
+        "Austria",
+        "Czechoslovakia",
+        "Albania",
+        "Poland",
+        "Denmark",
+        "Norway",
+        "Luxembourg",
+        "Belgium",
+        "Lithuania",
+        "Estonia",
+        "Latvia",
+        "Netherlands",
+        "Yugoslavia",
+        "Greece",
+        "France",
+        "Germany",
+        "Japan"
+      ]
+    },
+    {
+      "start": "1990-05-21",
+      "end": "1992-12-31",
+      "exitCount": 5,
+      "uniqueInstitutionExits": 5,
+      "activeInstitutionsAtStart": 162,
+      "grossLossProbability": 0.030864197530864196,
+      "institutions": [
+        "Yemen Arab Republic",
+        "Yemen People's Republic",
+        "German Federal Republic",
+        "German Democratic Republic",
+        "Czechoslovakia"
+      ]
+    }
+  ],
+  "meanMajorWaveGrossLossProbability": 0.15855369412279982,
+  "roundedDefault": 0.15,
+  "futurePermanenceRule": 1,
+  "futurePermanenceCondition": "decisive unconditional defeat",
+  "civilWarLinkage": {
+    "exposed": {
+      "exitEvents": 21,
+      "stateYears": 1639,
+      "fiveYearExitRisk": 0.012812690665039659
+    },
+    "unexposed": {
+      "exitEvents": 268,
+      "stateYears": 12903,
+      "fiveYearExitRisk": 0.020770363481360923
+    },
+    "challengerVictory": {
+      "exitEvents": 10,
+      "stateYears": 435,
+      "fiveYearExitRisk": 0.022988505747126436
+    }
+  },
+  "secondaryCorporateProxy": {
+    "name": "aircraft/aerospace manufacturing",
+    "range": [
+      0.3333333333333333,
+      0.7142857142857143
+    ],
+    "midpoint": 0.5238095238095238
+  },
+  "claimLevel": "L1 sourced-exploratory",
+  "forecast": false,
+  "limitations": [
+    "COW coverage begins in 1816.",
+    "The five-year wave rule and five-exit threshold are author-defined.",
+    "COW v5.1 has side-winner outcomes but no dedicated unconditional-surrender field.",
+    "Gross exits combine temporary interruption, occupation, unification, and dissolution.",
+    "Future permanence is a model assumption, not a historical observation."
+  ]
+}

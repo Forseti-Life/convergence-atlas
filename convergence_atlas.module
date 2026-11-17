@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * @file
+ * Primary hook implementations for the Convergence Atlas module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function convergence_atlas_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.convergence_atlas':
+      return '<p>' . t('Provides the Convergence Atlas interactive model page for Forseti.') . '</p>';
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function convergence_atlas_theme($existing, $type, $theme, $path) {
+  return [
+    'convergence_atlas_page' => [
+      'variables' => [],
+    ],
+  ];
+}

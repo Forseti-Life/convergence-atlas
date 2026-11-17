@@ -1,0 +1,226 @@
+rankBase,name,type,basis,basePowerUsd,baseYear,averageGrowthRate,growthStartYear,growthEndYear,growthMethod,sourceStatus,sourceName
+1,United States,country,GDP,30769700000000,2025,0.053365377612968334,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,United States
+2,China,country,GDP,19498039388042.6,2025,0.056245927427525766,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,China
+3,Germany,country,GDP,5050922925047.05,2025,0.039608337708004315,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Germany
+4,Japan,country,GDP,4435162999976.94,2025,-0.002211242662733648,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Japan
+5,United Kingdom,country,GDP,4002587541846.01,2025,0.031138501744782277,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,United Kingdom
+6,India,country,GDP,3956067115771.63,2025,0.06519786962732455,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,India
+7,France,country,GDP,3366315927447.33,2025,0.032600483773463695,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,France
+8,Russia,country,GDP,2561310169358.74,2025,0.06507764828954055,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Russian Federation
+9,Italy,country,GDP,2551556954100.35,2025,0.032929818952448286,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Italy
+10,Canada,country,GDP,2319899772425.92,2025,0.04071477458699646,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Canada
+11,Brazil,country,GDP,2279920092492.13,2025,0.02379114731186638,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Brazil
+12,Spain,country,GDP,1906453309985.88,2025,0.04684396368892685,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Spain
+13,South Korea,country,GDP,1872374961553.15,2025,0.019786902668745165,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,"Korea, Rep."
+14,Mexico,country,GDP,1832641364775.52,2025,0.04210415324064143,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Mexico
+15,Australia,country,GDP,1798518933689.21,2025,0.02858392081967942,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Australia
+16,Türkiye,country,GDP,1597293229287,2025,0.06319704895623524,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Turkiye
+17,Indonesia,country,GDP,1445642584163.81,2025,0.05320553143599405,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Indonesia
+18,Netherlands,country,GDP,1332767651100.39,2025,0.05561030196512018,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Netherlands
+19,Saudi Arabia,country,GDP,1276942933333.33,2025,0.06296230382847856,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Saudi Arabia
+20,Switzerland,country,GDP,1043529899250.92,2025,0.039819073148089856,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Switzerland
+21,Poland,country,GDP,1035491784197.44,2025,0.07990523315437392,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Poland
+22,Belgium,country,GDP,725466462859.646,2025,0.04637516711736067,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Belgium
+23,Ireland,country,GDP,721701359046.313,2025,0.09098927224501341,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Ireland
+24,Argentina,country,GDP,683097891618.597,2025,0.013946175860945154,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Argentina
+25,Sweden,country,GDP,668998664082.081,2025,0.029216093814457444,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Sweden
+26,Amazon,company,Revenue,637900000000,2025,0.053365377612968334,,,origin GDP CAGR proxy (United States),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+27,Israel,country,GDP,610777842873.595,2025,0.07267172478850026,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Israel
+28,Singapore,country,GDP,603869516998.738,2025,0.06964445513314166,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Singapore
+29,Austria,country,GDP,579470021095.418,2025,0.04322177694424534,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Austria
+30,Thailand,country,GDP,577009981112.015,2025,0.03698344638786022,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Thailand
+31,United Arab Emirates,country,GDP,552324919095.872,2024,0.026566595417803596,2014,2024,nominal USD GDP CAGR,World Bank WDI measured,United Arab Emirates
+32,Norway,country,GDP,530755719438.879,2025,0.02851558090818873,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Norway
+33,Vietnam,country,GDP,514697215165.065,2025,0.07961391983983823,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Viet Nam
+34,Philippines,country,GDP,487086123720.417,2025,0.047430457499890055,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Philippines
+35,Malaysia,country,GDP,472193128644.597,2025,0.045933534946783094,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Malaysia
+36,Denmark,country,GDP,462526660468.393,2025,0.043632668171877276,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Denmark
+37,Colombia,country,GDP,457410034202.523,2025,0.045372057130840915,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Colombia
+38,Bangladesh,country,GDP,456319229255.578,2025,0.08865626482780709,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Bangladesh
+39,Romania,country,GDP,428677977854.826,2025,0.09194094815825271,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Romania
+40,South Africa,country,GDP,427184325997.307,2025,0.021092109971765804,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,South Africa
+41,Apple,company,Revenue,416000000000,2025,0.053365377612968334,,,origin GDP CAGR proxy (United States),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+42,Pakistan,country,GDP,407307214476.222,2025,0.03106336459578296,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Pakistan
+43,Czechia,country,GDP,391026962800.475,2025,0.07534977739195337,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Czechia
+44,Egypt,country,GDP,365254630179.737,2025,0.010396004987887508,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,"Egypt, Arab Rep."
+45,Iran,country,GDP,362682115433.364,2025,-0.011993199523818499,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,"Iran, Islamic Rep."
+46,Chile,country,GDP,357371159574.862,2025,0.039560256366288904,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Chile
+47,Alphabet (Google),company,Revenue,350000000000,2025,0.053365377612968334,,,origin GDP CAGR proxy (United States),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+48,Portugal,country,GDP,346639825141.821,2025,0.05704659513102017,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Portugal
+49,Peru,country,GDP,334854659181.893,2025,0.058413407799656314,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Peru
+50,Finland,country,GDP,317039368819.607,2025,0.031184712690698113,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Finland
+51,Kazakhstan,country,GDP,306239209650.024,2025,0.052041129411529496,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Kazakhstan
+52,Nigeria,country,GDP,290794361542.112,2025,-0.051425259413068636,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Nigeria
+53,Algeria,country,GDP,287031225987.736,2025,0.04350422211921079,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Algeria
+54,Microsoft,company,Revenue,281700000000,2025,0.053365377612968334,,,origin GDP CAGR proxy (United States),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+55,Greece,country,GDP,280635521324.441,2025,0.03730688960326978,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Greece
+56,New Zealand,country,GDP,264057413739.965,2025,0.04014018121142238,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,New Zealand
+57,Iraq,country,GDP,254367293538.462,2025,0.04311758068531235,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Iraq
+58,Hungary,country,GDP,246490213513.054,2025,0.07005039396505275,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Hungary
+59,Samsung Electronics,company,Revenue,220300000000,2025,0.019786902668745165,,,origin GDP CAGR proxy (South Korea),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+60,Qatar,country,GDP,215559615384.615,2025,0.02914130243932811,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Qatar
+61,Ukraine,country,GDP,214233312784.397,2025,0.08935588608856304,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Ukraine
+62,Foxconn,company,Revenue,213900000000,2025,0.04764023347127366,,,measured-country median GDP CAGR proxy,Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+63,Morocco,country,GDP,182374250612.28,2025,0.05146302930211388,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Morocco
+64,Meta Platforms,company,Revenue,164500000000,2025,0.053365377612968334,,,origin GDP CAGR proxy (United States),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+65,JD.com,company,Revenue,158800000000,2025,0.056245927427525766,,,origin GDP CAGR proxy (China),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+66,Kuwait,country,GDP,157209026926.418,2025,0.03213085306986163,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Kuwait
+67,Slovakia,country,GDP,154530066506.895,2025,0.056514006795264526,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Slovak Republic
+68,Uzbekistan,country,GDP,147038081129.405,2025,0.041870567713590434,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Uzbekistan
+69,Alibaba Group,company,Revenue,137300000000.00002,2025,0.056245927427525766,,,origin GDP CAGR proxy (China),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+70,Kenya,country,GDP,135941278878.815,2025,0.06844130125982928,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Kenya
+71,Bulgaria,country,GDP,130777235529.606,2025,0.09924315933419092,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Bulgaria
+72,Nvidia,company,Revenue,130500000000,2025,0.053365377612968334,,,origin GDP CAGR proxy (United States),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+73,Ecuador,country,GDP,130320560400,2025,0.02974667197312275,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Ecuador
+74,Dominican Republic,country,GDP,127407463759.043,2025,0.06026390171378404,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Dominican Republic
+75,Ethiopia,country,GDP,126358758448.356,2025,0.07361602332163097,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Ethiopia
+76,Guatemala,country,GDP,123306008821.471,2025,0.0708511695637879,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Guatemala
+77,AT&T,company,Revenue,122300000000,2025,0.053365377612968334,,,origin GDP CAGR proxy (United States),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+78,Angola,country,GDP,122174889423.635,2025,0.017671388941730815,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Angola
+79,Huawei,company,Revenue,118100000000,2025,0.056245927427525766,,,origin GDP CAGR proxy (China),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+80,Ghana,country,GDP,114209905278.717,2025,0.08733992935976209,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Ghana
+81,Deutsche Telekom,company,Revenue,112000000000,2025,0.039608337708004315,,,origin GDP CAGR proxy (Germany),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+82,Oman,country,GDP,109604780696.23,2025,0.03366430871713111,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Oman
+83,Sri Lanka,country,GDP,108825231671.196,2025,0.024908167631198186,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Sri Lanka
+84,Cuba,country,GDP,107352000000,2020,0.060677569125939135,2010,2020,nominal USD GDP CAGR,World Bank WDI measured,Cuba
+85,Croatia,country,GDP,105060182186.274,2025,0.07494790613781799,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Croatia
+86,Costa Rica,country,GDP,102904921157.478,2025,0.0618995477906501,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Costa Rica
+87,Luxembourg,country,GDP,101157829491.107,2025,0.053496365579303484,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Luxembourg
+88,Serbia,country,GDP,99953324472.9042,2025,0.09241446500849992,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Serbia
+89,Côte d'Ivoire,country,GDP,99773555666.1988,2025,0.08093796611996296,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Cote d'Ivoire
+90,Venezuela,country,GDP,99661244155.6306,2025,-0.022594278037693538,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,"Venezuela, RB"
+91,Dell Technologies,company,Revenue,95600000000,2025,0.053365377612968334,,,origin GDP CAGR proxy (United States),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+92,Lithuania,country,GDP,95210150818.3512,2025,0.08647735231089548,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Lithuania
+93,Belarus,country,GDP,93397215864.198,2025,0.0516308768475795,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Belarus
+94,Tencent,company,Revenue,91800000000,2025,0.056245927427525766,,,origin GDP CAGR proxy (China),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+95,"Congo, Democratic Republic of the",country,GDP,91030531316.9936,2025,0.08522096322294126,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,"Congo, Dem. Rep."
+96,Panama,country,GDP,90462600000,2025,0.049563092752914484,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Panama
+97,Tanzania,country,GDP,90143496090.4411,2025,0.06635756347627009,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Tanzania
+98,Sony,company,Revenue,90100000000,2025,-0.002211242662733648,,,origin GDP CAGR proxy (Japan),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+99,TSMC,company,Revenue,88300000000,2025,0.04764023347127366,,,measured-country median GDP CAGR proxy,Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+100,Uruguay,country,GDP,85347696277.6859,2025,0.03995945601439277,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Uruguay
+101,Myanmar,country,GDP,81665773809.5238,2025,0.03198662840199873,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Myanmar
+102,Hitachi,company,Revenue,80400000000,2025,-0.002211242662733648,,,origin GDP CAGR proxy (Japan),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+103,Slovenia,country,GDP,79648204979.3618,2025,0.06430274632198096,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Slovenia
+104,Azerbaijan,country,GDP,75937647058.8235,2025,0.03646753299715577,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Azerbaijan
+105,Lenovo,company,Revenue,69000000000,2025,0.05480565252024705,,,origin GDP CAGR proxy (China + United States),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+106,Accenture,company,Revenue,64900000000.00001,2025,0.07217732492899087,,,origin GDP CAGR proxy (Ireland + United States),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+107,Bolivia,country,GDP,64768947525.3256,2025,0.06975673425872286,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Bolivia
+108,IBM,company,Revenue,62700000000,2025,0.053365377612968334,,,origin GDP CAGR proxy (United States),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+109,Uganda,country,GDP,61985829288.1496,2025,0.06706757473756908,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Uganda
+110,Jordan,country,GDP,61610052535.2113,2025,0.03808918824176999,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Jordan
+111,Sudan,country,GDP,60162634574.4689,2025,0.015222321825949736,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Sudan
+112,Cameroon,country,GDP,58933453923.761,2025,0.062274613668521495,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Cameroon
+113,LG Electronics,company,Revenue,57700000000,2025,0.019786902668745165,,,origin GDP CAGR proxy (South Korea),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+114,Tunisia,country,GDP,57502836548.0878,2025,0.023061703660282484,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Tunisia
+115,Oracle,company,Revenue,57400000000,2025,0.053365377612968334,,,origin GDP CAGR proxy (United States),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+116,Cisco,company,Revenue,56700000000,2025,0.053365377612968334,,,origin GDP CAGR proxy (United States),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+117,Panasonic,company,Revenue,55300000000,2025,-0.002211242662733648,,,origin GDP CAGR proxy (Japan),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+118,HP Inc.,company,Revenue,53600000000,2025,0.053365377612968334,,,origin GDP CAGR proxy (United States),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+119,Intel,company,Revenue,53100000000,2025,0.053365377612968334,,,origin GDP CAGR proxy (United States),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+120,Broadcom,company,Revenue,51600000000,2025,0.053365377612968334,,,origin GDP CAGR proxy (United States),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+121,Cambodia,country,GDP,51267065842.9641,2025,0.0780742882672616,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Cambodia
+122,Zimbabwe,country,GDP,51215643905.5886,2025,0.09874114981668325,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Zimbabwe
+123,Turkmenistan,country,GDP,49828621355.6516,2025,0.033617684216795896,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Turkmenistan
+124,Paraguay,country,GDP,49278227554.3339,2025,0.031290266721952786,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Paraguay
+125,Bahrain,country,GDP,48965725531.9149,2025,0.04176499829625069,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Bahrain
+126,Latvia,country,GDP,48618869160.3254,2025,0.06319121806546923,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Latvia
+127,Libya,country,GDP,48098909613.6316,2025,-0.0012770666433161715,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Libya
+128,Estonia,country,GDP,47030833798.5866,2025,0.07270572396024777,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Estonia
+129,Nepal,country,GDP,45489810283.1132,2025,0.06444262091889219,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Nepal
+130,Cyprus,country,GDP,41225787247.3309,2025,0.07550235125243598,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Cyprus
+131,Honduras,country,GDP,39601409103.3005,2025,0.06559198877299433,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Honduras
+132,Iceland,country,GDP,38582528789.0033,2025,0.08103697239777863,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Iceland
+133,Georgia,country,GDP,38143612855.1367,2025,0.09620022425463648,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Georgia
+134,Salesforce,company,Revenue,37900000000,2025,0.053365377612968334,,,origin GDP CAGR proxy (United States),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+135,SAP,company,Revenue,37600000000,2025,0.039608337708004315,,,origin GDP CAGR proxy (Germany),Approximate reported revenue; growth is a GDP proxy,Fortune Global 500-derived technology revenue list
+136,Senegal,country,GDP,37006536238.3731,2025,0.0760871686256015,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Senegal
+137,El Salvador,country,GDP,36708110000,2025,0.04588444206327824,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,El Salvador
+138,Bosnia and Herzegovina,country,GDP,32599982936.3931,2025,0.07108969000624055,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Bosnia and Herzegovina
+139,Papua New Guinea,country,GDP,32498658653.8415,2025,0.041102980365891106,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Papua New Guinea
+140,Haiti,country,GDP,32077278409.2339,2025,0.08006076551906527,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Haiti
+141,Albania,country,GDP,30540188271.3421,2025,0.10288486937837527,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Albania
+142,Mali,country,GDP,30069148580.7688,2025,0.06793913364756787,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Mali
+143,Armenia,country,GDP,29243452882.3545,2025,0.10729638533277441,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Armenia
+144,Zambia,country,GDP,28879806220.1264,2025,0.031148103370794544,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Zambia
+145,Guinea,country,GDP,28346024753.2924,2025,0.12416374206347736,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Guinea
+146,Malta,country,GDP,27771821560.9411,2025,0.09369469833520028,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Malta
+147,Burkina Faso,country,GDP,27627297461.3181,2025,0.08849750900848652,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Burkina Faso
+148,Guyana,country,GDP,27097477218.2254,2025,0.2026801156429412,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Guyana
+149,Lebanon,country,GDP,25971643441.3408,2024,-0.05975776112650222,2014,2024,nominal USD GDP CAGR,World Bank WDI measured,Lebanon
+150,Trinidad and Tobago,country,GDP,25942749718.4685,2025,-0.003398579274503488,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Trinidad and Tobago
+151,Mongolia,country,GDP,25369107325.4549,2025,0.08121063091555802,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Mongolia
+152,Benin,country,GDP,24566420903.5337,2025,0.0799131486469109,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Benin
+153,Syria,country,GDP,23737634644.3994,2022,-0.05809933413633961,2012,2022,nominal USD GDP CAGR,World Bank WDI measured,Syrian Arab Republic
+154,Jamaica,country,GDP,22704903217.5631,2025,0.042577590287740996,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Jamaica
+155,Kyrgyzstan,country,GDP,22623752095.4613,2025,0.12977163675458536,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Kyrgyz Republic
+156,Mozambique,country,GDP,22337997046.1913,2025,0.032592196842022414,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Mozambique
+157,Nicaragua,country,GDP,22237167113.0916,2025,0.05714393976650567,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Nicaragua
+158,Niger,country,GDP,21646191388.2507,2025,0.08376036392796982,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Niger
+159,Yemen,country,GDP,21606160663.0318,2018,-0.021715868065134147,2008,2018,nominal USD GDP CAGR,World Bank WDI measured,"Yemen, Rep."
+160,Chad,country,GDP,21472835225.4338,2025,0.03961849309384968,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Chad
+161,Gabon,country,GDP,21427119323.2764,2025,0.04066537599316167,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Gabon
+162,Moldova,country,GDP,20351796275.2943,2025,0.10068691880378933,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Moldova
+163,Botswana,country,GDP,19928479839.4476,2025,0.039477836593686755,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Botswana
+164,Madagascar,country,GDP,19620352035.7899,2025,0.05651203702184482,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Madagascar
+165,North Macedonia,country,GDP,19101199817.0174,2025,0.0661707366702502,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,North Macedonia
+166,Laos,country,GDP,18302970218.5902,2025,0.024085979034212723,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Lao PDR
+167,Afghanistan,country,GDP,17778508875.7396,2024,-0.014128684398025948,2014,2024,nominal USD GDP CAGR,World Bank WDI measured,Afghanistan
+168,Tajikistan,country,GDP,17660626562.4832,2025,0.07880398758913287,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Tajikistan
+169,State of Palestine (Observer State),country,GDP,17167100000,2025,0.02080453951757666,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,West Bank and Gaza
+170,Rwanda,country,GDP,16372132990.2271,2025,0.06841492825751039,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Rwanda
+171,"Congo, Republic of the",country,GDP,16306633778.765,2025,0.027478097131175883,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,"Congo, Rep."
+172,Mauritius,country,GDP,16157804491.7614,2025,0.0288142707031962,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Mauritius
+173,Bahamas,country,GDP,15832800000,2024,0.03578773063104479,2014,2024,nominal USD GDP CAGR,World Bank WDI measured,"Bahamas, The"
+174,Namibia,country,GDP,15080340653.5276,2025,0.02895965252209831,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Namibia
+175,Brunei,country,GDP,15031980994.1121,2025,0.015174668157837745,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Brunei Darussalam
+176,Malawi,country,GDP,14918276698.303,2025,0.04930380962700309,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Malawi
+177,Somalia,country,GDP,12995200000.2658,2025,0.07764473527912363,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,"Somalia, Fed. Rep."
+178,Equatorial Guinea,country,GDP,12823210425.9217,2025,-0.0027821886236448767,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Equatorial Guinea
+179,South Sudan,country,GDP,11997800760.2242,2015,-0.027522193396518624,2008,2015,nominal USD GDP CAGR,World Bank WDI measured,South Sudan
+180,Togo,country,GDP,11889949067.4697,2025,0.07525138779865137,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Togo
+181,Mauritania,country,GDP,11679910946.4371,2025,0.0656851639892504,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Mauritania
+182,Monaco,country,GDP,11125788838.2812,2024,0.04638389043575586,2014,2024,nominal USD GDP CAGR,World Bank WDI measured,Monaco
+183,Montenegro,country,GDP,9232801464.79257,2025,0.08694942805093109,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Montenegro
+184,Liechtenstein,country,GDP,8905764270.4054,2024,0.02952246103558198,2014,2024,nominal USD GDP CAGR,World Bank WDI measured,Liechtenstein
+185,Barbados,country,GDP,8016550000,2025,0.03469932761664518,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Barbados
+186,Maldives,country,GDP,7741066860.6337,2025,0.06485452043967799,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Maldives
+187,Sierra Leone,country,GDP,7464157904.43509,2025,0.009535604203218417,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Sierra Leone
+188,Fiji,country,GDP,6198013062.06553,2025,0.028436914182744744,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Fiji
+189,Liberia,country,GDP,5245938900,2025,0.0497875247686872,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Liberia
+190,Eswatini,country,GDP,5160679612.81734,2025,0.02818866710361445,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Eswatini
+191,Djibouti,country,GDP,4624533092.31886,2025,0.06671034955336164,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Djibouti
+192,Suriname,country,GDP,4523657796.86421,2025,-0.012427243462058701,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Suriname
+193,Andorra,country,GDP,4500982731.80784,2025,0.04899196766470837,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Andorra
+194,Bhutan,country,GDP,3579320145.13077,2025,0.05045869196611452,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Bhutan
+195,Burundi,country,GDP,3364713864.08488,2025,0.018159801006977894,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Burundi
+196,Belize,country,GDP,3326500000,2025,0.042540668378807656,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Belize
+197,Central African Republic,country,GDP,3066109226.40165,2025,0.06101284234902438,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Central African Republic
+198,Cabo Verde,country,GDP,3056630435.32463,2025,0.05736278771307668,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Cabo Verde
+199,Saint Lucia,country,GDP,2656444444.44444,2025,0.03924719665150889,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,St. Lucia
+200,Gambia,country,GDP,2593673987.53306,2025,0.06527332251573692,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,"Gambia, The"
+201,Lesotho,country,GDP,2573572920.05159,2025,0.008714381895818635,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Lesotho
+202,Guinea-Bissau,country,GDP,2527930272.92988,2025,0.0817247855625376,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Guinea-Bissau
+203,Seychelles,country,GDP,2387022853.48583,2025,0.052395845160190246,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Seychelles
+204,Antigua and Barbuda,country,GDP,2338196296.2963,2025,0.04985122440908052,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Antigua and Barbuda
+205,Eritrea,country,GDP,2065001626.01626,2011,0.1062385670345789,2001,2011,nominal USD GDP CAGR,World Bank WDI measured,Eritrea
+206,San Marino,country,GDP,2027243193.5116,2023,0.019042296220600052,2013,2023,nominal USD GDP CAGR,World Bank WDI measured,San Marino
+207,Timor-Leste,country,GDP,1902180257.82737,2025,0.018070238376566294,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Timor-Leste
+208,Comoros,country,GDP,1814920856.27026,2025,0.06509102649149257,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Comoros
+209,Solomon Islands,country,GDP,1749572442.95016,2025,0.029521560908595923,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Solomon Islands
+210,Grenada,country,GDP,1420173228.56948,2025,0.03601082595628813,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Grenada
+211,Vanuatu,country,GDP,1353658840.63993,2025,0.046974288684928256,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Vanuatu
+212,Samoa,country,GDP,1287936621.64619,2025,0.04565591057887164,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Samoa
+213,Saint Vincent and the Grenadines,country,GDP,1255222222.22222,2025,0.04785000944265727,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,St. Vincent and the Grenadines
+214,Saint Kitts and Nevis,country,GDP,1183514814.81481,2025,0.021447600671248734,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,St. Kitts and Nevis
+215,Sao Tome and Principe,country,GDP,981293586.906408,2025,0.1420434330763285,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Sao Tome and Principe
+216,Dominica,country,GDP,723859259.259259,2025,0.021845688257391194,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Dominica
+217,Tonga,country,GDP,679218218.578017,2025,0.044962226579057685,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Tonga
+218,Micronesia,country,GDP,501797600,2025,0.04866650974940545,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,"Micronesia, Fed. Sts."
+219,Kiribati,country,GDP,349227254.158833,2025,0.061892287195422835,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Kiribati
+220,Palau,country,GDP,345000000,2025,0.01992629664704948,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Palau
+221,Marshall Islands,country,GDP,308000000,2025,0.05303827295288044,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Marshall Islands
+222,Tuvalu,country,GDP,57345434.7234984,2025,0.045485222563704575,2015,2025,nominal USD GDP CAGR,World Bank WDI measured,Tuvalu
+223,Holy See (Observer State),country,GDP,,,,,,unavailable,GDP unavailable in cached WDI panel,Holy See (Observer State)
+224,Nauru,country,GDP,,,,,,unavailable,GDP unavailable in cached WDI panel,Nauru
+225,North Korea,country,GDP,,,,,,unavailable,GDP unavailable in cached WDI panel,"Korea, Dem. People's Rep."

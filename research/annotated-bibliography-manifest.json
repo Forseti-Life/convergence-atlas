@@ -1,0 +1,14 @@
+{
+  "generated": "2026-10-09",
+  "sourceCatalogSha256": "7f170cda8832ffe02a6ab803021070bb59e160918e477b23f70805f337a3e080",
+  "supplementalSourcesSha256": "8ee837d00b03106bb50bf2663a4102591847f2979e4f398a1ba8790a182f2d13",
+  "referenceRegistrySha256": "6fa6da5527d7569710ecbde5c9fa0a48de9f84f9191e72f1bc9703b04bf79884",
+  "outputs": {
+    "analysis/output/annotated-bibliography.json": "47b18c8c06d6f44197f1cec430583c94335fdbc792cf255e26abb7177502a3b3",
+    "analysis/output/ANNOTATED_BIBLIOGRAPHY.md": "1fa3deed10a1187de29a6992f4b4d12ba10983a5c93972bc5d4d4ba14038fe97",
+    "web/annotated-bibliography.mjs": "ad97ed804202f50ad950310d499563b1ead6003fde3a4d3bd1760cf9cab52041",
+    "web/ANNOTATED_BIBLIOGRAPHY.md": "1fa3deed10a1187de29a6992f4b4d12ba10983a5c93972bc5d4d4ba14038fe97",
+    "web/annotated-bibliography-fragment.html": "dd8674fa87abb5af546589b9592f5ca2fbfa52f210f6afa3ff63e1f94e745b8e"
+  },
+  "uniqueSourceCount": 74
+}

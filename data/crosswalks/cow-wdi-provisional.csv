@@ -1,0 +1,188 @@
+institution_id,canonical_name,cow_code,world_bank_code,mapping_status
+state-001,Afghanistan,700,AFG,provisional_unreviewed
+state-002,Albania,339,ALB,provisional_unreviewed
+state-003,Algeria,615,DZA,provisional_unreviewed
+state-004,Andorra,232,AND,provisional_unreviewed
+state-005,Angola,540,AGO,provisional_unreviewed
+state-006,Antigua and Barbuda,58,ATG,provisional_unreviewed
+state-007,Argentina,160,ARG,provisional_unreviewed
+state-008,Armenia,371,ARM,provisional_unreviewed
+state-009,Australia,900,AUS,provisional_unreviewed
+state-010,Austria,305,AUT,provisional_unreviewed
+state-011,Azerbaijan,373,AZE,provisional_unreviewed
+state-012,Bahamas,31,BHS,provisional_unreviewed
+state-013,Bahrain,692,BHR,provisional_unreviewed
+state-014,Bangladesh,771,BGD,provisional_unreviewed
+state-015,Barbados,53,BRB,provisional_unreviewed
+state-016,Belarus,370,BLR,provisional_unreviewed
+state-017,Belgium,211,BEL,provisional_unreviewed
+state-018,Belize,80,BLZ,provisional_unreviewed
+state-019,Benin,434,BEN,provisional_unreviewed
+state-020,Bhutan,760,BTN,provisional_unreviewed
+state-021,Bolivia,145,BOL,provisional_unreviewed
+state-022,Bosnia and Herzegovina,346,BIH,provisional_unreviewed
+state-023,Botswana,571,BWA,provisional_unreviewed
+state-024,Brazil,140,BRA,provisional_unreviewed
+state-026,Bulgaria,355,BGR,provisional_unreviewed
+state-027,Burkina Faso,439,BFA,provisional_unreviewed
+state-028,Burundi,516,BDI,provisional_unreviewed
+state-029,Cabo Verde,402,CPV,provisional_unreviewed
+state-030,Cambodia,811,KHM,provisional_unreviewed
+state-031,Cameroon,471,CMR,provisional_unreviewed
+state-032,Canada,20,CAN,provisional_unreviewed
+state-033,Central African Republic,482,CAF,provisional_unreviewed
+state-034,Chad,483,TCD,provisional_unreviewed
+state-035,Chile,155,CHL,provisional_unreviewed
+state-036,China,710,CHN,provisional_unreviewed
+state-037,Colombia,100,COL,provisional_unreviewed
+state-038,Comoros,581,COM,provisional_unreviewed
+state-039,"Congo, Democratic Republic of the",490,COD,provisional_unreviewed
+state-040,"Congo, Republic of the",484,COG,provisional_unreviewed
+state-041,Costa Rica,94,CRI,provisional_unreviewed
+state-042,Côte d'Ivoire,437,CIV,provisional_unreviewed
+state-043,Croatia,344,HRV,provisional_unreviewed
+state-044,Cuba,40,CUB,provisional_unreviewed
+state-045,Cyprus,352,CYP,provisional_unreviewed
+state-046,Czechia,316,CZE,provisional_unreviewed
+state-047,Denmark,390,DNK,provisional_unreviewed
+state-048,Djibouti,522,DJI,provisional_unreviewed
+state-049,Dominica,54,DMA,provisional_unreviewed
+state-050,Dominican Republic,42,DOM,provisional_unreviewed
+state-051,Ecuador,130,ECU,provisional_unreviewed
+state-052,Egypt,651,EGY,provisional_unreviewed
+state-053,El Salvador,92,SLV,provisional_unreviewed
+state-054,Equatorial Guinea,411,GNQ,provisional_unreviewed
+state-055,Eritrea,531,ERI,provisional_unreviewed
+state-056,Estonia,366,EST,provisional_unreviewed
+state-057,Eswatini,572,SWZ,provisional_unreviewed
+state-058,Ethiopia,530,ETH,provisional_unreviewed
+state-059,Fiji,950,FJI,provisional_unreviewed
+state-060,Finland,375,FIN,provisional_unreviewed
+state-061,France,220,FRA,provisional_unreviewed
+state-062,Gabon,481,GAB,provisional_unreviewed
+state-063,Gambia,420,GMB,provisional_unreviewed
+state-064,Georgia,372,GEO,provisional_unreviewed
+state-065,Germany,255,DEU,provisional_unreviewed
+state-066,Ghana,452,GHA,provisional_unreviewed
+state-067,Greece,350,GRC,provisional_unreviewed
+state-068,Grenada,55,GRD,provisional_unreviewed
+state-069,Guatemala,90,GTM,provisional_unreviewed
+state-070,Guinea,438,GIN,provisional_unreviewed
+state-071,Guinea-Bissau,404,GNB,provisional_unreviewed
+state-072,Guyana,110,GUY,provisional_unreviewed
+state-073,Haiti,41,HTI,provisional_unreviewed
+state-075,Honduras,91,HND,provisional_unreviewed
+state-076,Hungary,310,HUN,provisional_unreviewed
+state-077,Iceland,395,ISL,provisional_unreviewed
+state-078,India,750,IND,provisional_unreviewed
+state-079,Indonesia,850,IDN,provisional_unreviewed
+state-080,Iran,630,IRN,provisional_unreviewed
+state-081,Iraq,645,IRQ,provisional_unreviewed
+state-082,Ireland,205,IRL,provisional_unreviewed
+state-083,Israel,666,ISR,provisional_unreviewed
+state-084,Italy,325,ITA,provisional_unreviewed
+state-085,Jamaica,51,JAM,provisional_unreviewed
+state-086,Japan,740,JPN,provisional_unreviewed
+state-087,Jordan,663,JOR,provisional_unreviewed
+state-088,Kazakhstan,705,KAZ,provisional_unreviewed
+state-089,Kenya,501,KEN,provisional_unreviewed
+state-090,Kiribati,946,KIR,provisional_unreviewed
+state-091,Kuwait,690,KWT,provisional_unreviewed
+state-092,Kyrgyzstan,703,KGZ,provisional_unreviewed
+state-093,Laos,812,LAO,provisional_unreviewed
+state-094,Latvia,367,LVA,provisional_unreviewed
+state-095,Lebanon,660,LBN,provisional_unreviewed
+state-096,Lesotho,570,LSO,provisional_unreviewed
+state-097,Liberia,450,LBR,provisional_unreviewed
+state-098,Libya,620,LBY,provisional_unreviewed
+state-099,Liechtenstein,223,LIE,provisional_unreviewed
+state-100,Lithuania,368,LTU,provisional_unreviewed
+state-101,Luxembourg,212,LUX,provisional_unreviewed
+state-102,Madagascar,580,MDG,provisional_unreviewed
+state-103,Malawi,553,MWI,provisional_unreviewed
+state-104,Malaysia,820,MYS,provisional_unreviewed
+state-105,Maldives,781,MDV,provisional_unreviewed
+state-106,Mali,432,MLI,provisional_unreviewed
+state-107,Malta,338,MLT,provisional_unreviewed
+state-108,Marshall Islands,983,MHL,provisional_unreviewed
+state-109,Mauritania,435,MRT,provisional_unreviewed
+state-110,Mauritius,590,MUS,provisional_unreviewed
+state-111,Mexico,70,MEX,provisional_unreviewed
+state-112,Micronesia,987,FSM,provisional_unreviewed
+state-113,Moldova,359,MDA,provisional_unreviewed
+state-114,Monaco,221,MCO,provisional_unreviewed
+state-115,Mongolia,712,MNG,provisional_unreviewed
+state-116,Montenegro,341,MNE,provisional_unreviewed
+state-117,Morocco,600,MAR,provisional_unreviewed
+state-118,Mozambique,541,MOZ,provisional_unreviewed
+state-119,Myanmar,775,MMR,provisional_unreviewed
+state-120,Namibia,565,NAM,provisional_unreviewed
+state-122,Nepal,790,NPL,provisional_unreviewed
+state-123,Netherlands,210,NLD,provisional_unreviewed
+state-124,New Zealand,920,NZL,provisional_unreviewed
+state-125,Nicaragua,93,NIC,provisional_unreviewed
+state-126,Niger,436,NER,provisional_unreviewed
+state-127,Nigeria,475,NGA,provisional_unreviewed
+state-128,North Korea,731,PRK,provisional_unreviewed
+state-129,North Macedonia,343,MKD,provisional_unreviewed
+state-130,Norway,385,NOR,provisional_unreviewed
+state-131,Oman,698,OMN,provisional_unreviewed
+state-132,Pakistan,770,PAK,provisional_unreviewed
+state-133,Palau,986,PLW,provisional_unreviewed
+state-134,Panama,95,PAN,provisional_unreviewed
+state-135,Papua New Guinea,910,PNG,provisional_unreviewed
+state-136,Paraguay,150,PRY,provisional_unreviewed
+state-137,Peru,135,PER,provisional_unreviewed
+state-138,Philippines,840,PHL,provisional_unreviewed
+state-139,Poland,290,POL,provisional_unreviewed
+state-140,Portugal,235,PRT,provisional_unreviewed
+state-141,Qatar,694,QAT,provisional_unreviewed
+state-142,Romania,360,ROU,provisional_unreviewed
+state-143,Russia,365,RUS,provisional_unreviewed
+state-144,Rwanda,517,RWA,provisional_unreviewed
+state-148,Samoa,990,WSM,provisional_unreviewed
+state-149,San Marino,331,SMR,provisional_unreviewed
+state-150,Sao Tome and Principe,403,STP,provisional_unreviewed
+state-151,Saudi Arabia,670,SAU,provisional_unreviewed
+state-152,Senegal,433,SEN,provisional_unreviewed
+state-153,Serbia,345,SRB,provisional_unreviewed
+state-154,Seychelles,591,SYC,provisional_unreviewed
+state-155,Sierra Leone,451,SLE,provisional_unreviewed
+state-156,Singapore,830,SGP,provisional_unreviewed
+state-157,Slovakia,317,SVK,provisional_unreviewed
+state-158,Slovenia,349,SVN,provisional_unreviewed
+state-159,Solomon Islands,940,SLB,provisional_unreviewed
+state-161,South Africa,560,ZAF,provisional_unreviewed
+state-162,South Korea,732,KOR,provisional_unreviewed
+state-163,South Sudan,626,SSD,provisional_unreviewed
+state-164,Spain,230,ESP,provisional_unreviewed
+state-165,Sri Lanka,780,LKA,provisional_unreviewed
+state-167,Sudan,625,SDN,provisional_unreviewed
+state-168,Suriname,115,SUR,provisional_unreviewed
+state-169,Sweden,380,SWE,provisional_unreviewed
+state-170,Switzerland,225,CHE,provisional_unreviewed
+state-171,Syria,652,SYR,provisional_unreviewed
+state-172,Tajikistan,702,TJK,provisional_unreviewed
+state-173,Tanzania,510,TZA,provisional_unreviewed
+state-174,Thailand,800,THA,provisional_unreviewed
+state-175,Timor-Leste,860,TLS,provisional_unreviewed
+state-176,Togo,461,TGO,provisional_unreviewed
+state-177,Tonga,955,TON,provisional_unreviewed
+state-178,Trinidad and Tobago,52,TTO,provisional_unreviewed
+state-179,Tunisia,616,TUN,provisional_unreviewed
+state-180,Türkiye,640,TUR,provisional_unreviewed
+state-181,Turkmenistan,701,TKM,provisional_unreviewed
+state-182,Tuvalu,947,TUV,provisional_unreviewed
+state-183,Uganda,500,UGA,provisional_unreviewed
+state-184,Ukraine,369,UKR,provisional_unreviewed
+state-185,United Arab Emirates,696,ARE,provisional_unreviewed
+state-186,United Kingdom,200,GBR,provisional_unreviewed
+state-187,United States,2,USA,provisional_unreviewed
+state-188,Uruguay,165,URY,provisional_unreviewed
+state-189,Uzbekistan,704,UZB,provisional_unreviewed
+state-190,Vanuatu,935,VUT,provisional_unreviewed
+state-191,Venezuela,101,VEN,provisional_unreviewed
+state-192,Vietnam,816,VNM,provisional_unreviewed
+state-193,Yemen,679,YEM,provisional_unreviewed
+state-194,Zambia,551,ZMB,provisional_unreviewed
+state-195,Zimbabwe,552,ZWE,provisional_unreviewed

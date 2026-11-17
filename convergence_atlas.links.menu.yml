@@ -1,0 +1,6 @@
+convergence_atlas.page:
+  title: 'Convergence Atlas'
+  description: 'Interactive model for institutional consolidation scenarios'
+  route_name: convergence_atlas.page
+  menu_name: main
+  weight: 75

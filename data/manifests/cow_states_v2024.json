@@ -1,0 +1,26 @@
+{
+  "sourceId": "cow_states",
+  "sourceVersion": "v2024",
+  "sourceUrl": "https://correlatesofwar.org/wp-content/uploads/States2024.zip",
+  "archivePath": "data/raw/cow_states/v2024/States2024.zip",
+  "archiveSha256": "c11689e8c0aa70ede855f6b605c4dd71c7b04122b71d5827dab5ba06b32e2015",
+  "retrievedAt": "2026-10-06T13:18:00-04:00",
+  "licenseDecision": "analysis-only; raw archive excluded from version control; redistribution unresolved",
+  "nativeMember": "States2024/statelist2024.csv",
+  "nativeRows": 244,
+  "spellRows": 244,
+  "stateYearRows": 17512,
+  "transitionRows": 293,
+  "annualCountRows": 209,
+  "crosswalkCandidates": {
+    "provisional": 193,
+    "unresolved": 2,
+    "verified": 0
+  },
+  "limitations": [
+    "Membership entries and exits are not yet classified as consolidation, fragmentation, or dissolution.",
+    "Crosswalk candidates are unreviewed and must not be promoted automatically.",
+    "Annual expansion counts a spell active if any portion of the year is covered.",
+    "COW system-membership criteria are source-specific and do not equal universal recognition."
+  ]
+}

@@ -1,0 +1,196 @@
+institution_id,canonical_name,candidate_world_bank_code,candidate_world_bank_name,match_method,candidate_status,review_status
+state-001,Afghanistan,AFG,Afghanistan,normalized_exact,provisional_candidate,unreviewed
+state-002,Albania,ALB,Albania,normalized_exact,provisional_candidate,unreviewed
+state-003,Algeria,DZA,Algeria,normalized_exact,provisional_candidate,unreviewed
+state-004,Andorra,AND,Andorra,normalized_exact,provisional_candidate,unreviewed
+state-005,Angola,AGO,Angola,normalized_exact,provisional_candidate,unreviewed
+state-006,Antigua and Barbuda,ATG,Antigua and Barbuda,normalized_exact,provisional_candidate,unreviewed
+state-007,Argentina,ARG,Argentina,normalized_exact,provisional_candidate,unreviewed
+state-008,Armenia,ARM,Armenia,normalized_exact,provisional_candidate,unreviewed
+state-009,Australia,AUS,Australia,normalized_exact,provisional_candidate,unreviewed
+state-010,Austria,AUT,Austria,normalized_exact,provisional_candidate,unreviewed
+state-011,Azerbaijan,AZE,Azerbaijan,normalized_exact,provisional_candidate,unreviewed
+state-012,Bahamas,BHS,"Bahamas, The",alias,provisional_candidate,unreviewed
+state-013,Bahrain,BHR,Bahrain,normalized_exact,provisional_candidate,unreviewed
+state-014,Bangladesh,BGD,Bangladesh,normalized_exact,provisional_candidate,unreviewed
+state-015,Barbados,BRB,Barbados,normalized_exact,provisional_candidate,unreviewed
+state-016,Belarus,BLR,Belarus,normalized_exact,provisional_candidate,unreviewed
+state-017,Belgium,BEL,Belgium,normalized_exact,provisional_candidate,unreviewed
+state-018,Belize,BLZ,Belize,normalized_exact,provisional_candidate,unreviewed
+state-019,Benin,BEN,Benin,normalized_exact,provisional_candidate,unreviewed
+state-020,Bhutan,BTN,Bhutan,normalized_exact,provisional_candidate,unreviewed
+state-021,Bolivia,BOL,Bolivia,alias,provisional_candidate,unreviewed
+state-022,Bosnia and Herzegovina,BIH,Bosnia and Herzegovina,normalized_exact,provisional_candidate,unreviewed
+state-023,Botswana,BWA,Botswana,normalized_exact,provisional_candidate,unreviewed
+state-024,Brazil,BRA,Brazil,normalized_exact,provisional_candidate,unreviewed
+state-025,Brunei,,,unmatched,unresolved,unreviewed
+state-026,Bulgaria,BGR,Bulgaria,normalized_exact,provisional_candidate,unreviewed
+state-027,Burkina Faso,BFA,Burkina Faso,normalized_exact,provisional_candidate,unreviewed
+state-028,Burundi,BDI,Burundi,normalized_exact,provisional_candidate,unreviewed
+state-029,Cabo Verde,CPV,Cabo Verde,normalized_exact,provisional_candidate,unreviewed
+state-030,Cambodia,KHM,Cambodia,normalized_exact,provisional_candidate,unreviewed
+state-031,Cameroon,CMR,Cameroon,normalized_exact,provisional_candidate,unreviewed
+state-032,Canada,CAN,Canada,normalized_exact,provisional_candidate,unreviewed
+state-033,Central African Republic,CAF,Central African Republic,normalized_exact,provisional_candidate,unreviewed
+state-034,Chad,TCD,Chad,normalized_exact,provisional_candidate,unreviewed
+state-035,Chile,CHL,Chile,normalized_exact,provisional_candidate,unreviewed
+state-036,China,CHN,China,normalized_exact,provisional_candidate,unreviewed
+state-037,Colombia,COL,Colombia,normalized_exact,provisional_candidate,unreviewed
+state-038,Comoros,COM,Comoros,normalized_exact,provisional_candidate,unreviewed
+state-039,"Congo, Democratic Republic of the",COD,"Congo, Dem. Rep.",alias,provisional_candidate,unreviewed
+state-040,"Congo, Republic of the",COG,"Congo, Rep.",alias,provisional_candidate,unreviewed
+state-041,Costa Rica,CRI,Costa Rica,normalized_exact,provisional_candidate,unreviewed
+state-042,Côte d'Ivoire,CIV,Cote d'Ivoire,alias,provisional_candidate,unreviewed
+state-043,Croatia,HRV,Croatia,normalized_exact,provisional_candidate,unreviewed
+state-044,Cuba,CUB,Cuba,normalized_exact,provisional_candidate,unreviewed
+state-045,Cyprus,CYP,Cyprus,normalized_exact,provisional_candidate,unreviewed
+state-046,Czechia,CZE,Czechia,normalized_exact,provisional_candidate,unreviewed
+state-047,Denmark,DNK,Denmark,normalized_exact,provisional_candidate,unreviewed
+state-048,Djibouti,DJI,Djibouti,normalized_exact,provisional_candidate,unreviewed
+state-049,Dominica,DMA,Dominica,normalized_exact,provisional_candidate,unreviewed
+state-050,Dominican Republic,DOM,Dominican Republic,normalized_exact,provisional_candidate,unreviewed
+state-051,Ecuador,ECU,Ecuador,normalized_exact,provisional_candidate,unreviewed
+state-052,Egypt,EGY,"Egypt, Arab Rep.",alias,provisional_candidate,unreviewed
+state-053,El Salvador,SLV,El Salvador,normalized_exact,provisional_candidate,unreviewed
+state-054,Equatorial Guinea,GNQ,Equatorial Guinea,normalized_exact,provisional_candidate,unreviewed
+state-055,Eritrea,ERI,Eritrea,normalized_exact,provisional_candidate,unreviewed
+state-056,Estonia,EST,Estonia,normalized_exact,provisional_candidate,unreviewed
+state-057,Eswatini,SWZ,Eswatini,normalized_exact,provisional_candidate,unreviewed
+state-058,Ethiopia,ETH,Ethiopia,normalized_exact,provisional_candidate,unreviewed
+state-059,Fiji,FJI,Fiji,normalized_exact,provisional_candidate,unreviewed
+state-060,Finland,FIN,Finland,normalized_exact,provisional_candidate,unreviewed
+state-061,France,FRA,France,normalized_exact,provisional_candidate,unreviewed
+state-062,Gabon,GAB,Gabon,normalized_exact,provisional_candidate,unreviewed
+state-063,Gambia,GMB,"Gambia, The",alias,provisional_candidate,unreviewed
+state-064,Georgia,GEO,Georgia,normalized_exact,provisional_candidate,unreviewed
+state-065,Germany,DEU,Germany,normalized_exact,provisional_candidate,unreviewed
+state-066,Ghana,GHA,Ghana,normalized_exact,provisional_candidate,unreviewed
+state-067,Greece,GRC,Greece,normalized_exact,provisional_candidate,unreviewed
+state-068,Grenada,GRD,Grenada,normalized_exact,provisional_candidate,unreviewed
+state-069,Guatemala,GTM,Guatemala,normalized_exact,provisional_candidate,unreviewed
+state-070,Guinea,GIN,Guinea,normalized_exact,provisional_candidate,unreviewed
+state-071,Guinea-Bissau,GNB,Guinea-Bissau,normalized_exact,provisional_candidate,unreviewed
+state-072,Guyana,GUY,Guyana,normalized_exact,provisional_candidate,unreviewed
+state-073,Haiti,HTI,Haiti,normalized_exact,provisional_candidate,unreviewed
+state-074,Holy See (Observer State),,,unmatched,unresolved,unreviewed
+state-075,Honduras,HND,Honduras,normalized_exact,provisional_candidate,unreviewed
+state-076,Hungary,HUN,Hungary,normalized_exact,provisional_candidate,unreviewed
+state-077,Iceland,ISL,Iceland,normalized_exact,provisional_candidate,unreviewed
+state-078,India,IND,India,normalized_exact,provisional_candidate,unreviewed
+state-079,Indonesia,IDN,Indonesia,normalized_exact,provisional_candidate,unreviewed
+state-080,Iran,IRN,"Iran, Islamic Rep.",alias,provisional_candidate,unreviewed
+state-081,Iraq,IRQ,Iraq,normalized_exact,provisional_candidate,unreviewed
+state-082,Ireland,IRL,Ireland,normalized_exact,provisional_candidate,unreviewed
+state-083,Israel,ISR,Israel,normalized_exact,provisional_candidate,unreviewed
+state-084,Italy,ITA,Italy,normalized_exact,provisional_candidate,unreviewed
+state-085,Jamaica,JAM,Jamaica,normalized_exact,provisional_candidate,unreviewed
+state-086,Japan,JPN,Japan,normalized_exact,provisional_candidate,unreviewed
+state-087,Jordan,JOR,Jordan,normalized_exact,provisional_candidate,unreviewed
+state-088,Kazakhstan,KAZ,Kazakhstan,normalized_exact,provisional_candidate,unreviewed
+state-089,Kenya,KEN,Kenya,normalized_exact,provisional_candidate,unreviewed
+state-090,Kiribati,KIR,Kiribati,normalized_exact,provisional_candidate,unreviewed
+state-091,Kuwait,KWT,Kuwait,normalized_exact,provisional_candidate,unreviewed
+state-092,Kyrgyzstan,KGZ,Kyrgyz Republic,alias,provisional_candidate,unreviewed
+state-093,Laos,LAO,Lao PDR,alias,provisional_candidate,unreviewed
+state-094,Latvia,LVA,Latvia,normalized_exact,provisional_candidate,unreviewed
+state-095,Lebanon,LBN,Lebanon,normalized_exact,provisional_candidate,unreviewed
+state-096,Lesotho,LSO,Lesotho,normalized_exact,provisional_candidate,unreviewed
+state-097,Liberia,LBR,Liberia,normalized_exact,provisional_candidate,unreviewed
+state-098,Libya,LBY,Libya,normalized_exact,provisional_candidate,unreviewed
+state-099,Liechtenstein,LIE,Liechtenstein,normalized_exact,provisional_candidate,unreviewed
+state-100,Lithuania,LTU,Lithuania,normalized_exact,provisional_candidate,unreviewed
+state-101,Luxembourg,LUX,Luxembourg,normalized_exact,provisional_candidate,unreviewed
+state-102,Madagascar,MDG,Madagascar,normalized_exact,provisional_candidate,unreviewed
+state-103,Malawi,MWI,Malawi,normalized_exact,provisional_candidate,unreviewed
+state-104,Malaysia,MYS,Malaysia,normalized_exact,provisional_candidate,unreviewed
+state-105,Maldives,MDV,Maldives,normalized_exact,provisional_candidate,unreviewed
+state-106,Mali,MLI,Mali,normalized_exact,provisional_candidate,unreviewed
+state-107,Malta,MLT,Malta,normalized_exact,provisional_candidate,unreviewed
+state-108,Marshall Islands,MHL,Marshall Islands,normalized_exact,provisional_candidate,unreviewed
+state-109,Mauritania,MRT,Mauritania,normalized_exact,provisional_candidate,unreviewed
+state-110,Mauritius,MUS,Mauritius,normalized_exact,provisional_candidate,unreviewed
+state-111,Mexico,MEX,Mexico,normalized_exact,provisional_candidate,unreviewed
+state-112,Micronesia,FSM,"Micronesia, Fed. Sts.",alias,provisional_candidate,unreviewed
+state-113,Moldova,MDA,Moldova,alias,provisional_candidate,unreviewed
+state-114,Monaco,MCO,Monaco,normalized_exact,provisional_candidate,unreviewed
+state-115,Mongolia,MNG,Mongolia,normalized_exact,provisional_candidate,unreviewed
+state-116,Montenegro,MNE,Montenegro,normalized_exact,provisional_candidate,unreviewed
+state-117,Morocco,MAR,Morocco,normalized_exact,provisional_candidate,unreviewed
+state-118,Mozambique,MOZ,Mozambique,normalized_exact,provisional_candidate,unreviewed
+state-119,Myanmar,MMR,Myanmar,normalized_exact,provisional_candidate,unreviewed
+state-120,Namibia,NAM,Namibia,normalized_exact,provisional_candidate,unreviewed
+state-121,Nauru,,,unmatched,unresolved,unreviewed
+state-122,Nepal,NPL,Nepal,normalized_exact,provisional_candidate,unreviewed
+state-123,Netherlands,NLD,Netherlands,normalized_exact,provisional_candidate,unreviewed
+state-124,New Zealand,NZL,New Zealand,normalized_exact,provisional_candidate,unreviewed
+state-125,Nicaragua,NIC,Nicaragua,normalized_exact,provisional_candidate,unreviewed
+state-126,Niger,NER,Niger,normalized_exact,provisional_candidate,unreviewed
+state-127,Nigeria,NGA,Nigeria,normalized_exact,provisional_candidate,unreviewed
+state-128,North Korea,PRK,"Korea, Dem. People's Rep.",alias,provisional_candidate,unreviewed
+state-129,North Macedonia,MKD,North Macedonia,normalized_exact,provisional_candidate,unreviewed
+state-130,Norway,NOR,Norway,normalized_exact,provisional_candidate,unreviewed
+state-131,Oman,OMN,Oman,normalized_exact,provisional_candidate,unreviewed
+state-132,Pakistan,PAK,Pakistan,normalized_exact,provisional_candidate,unreviewed
+state-133,Palau,PLW,Palau,normalized_exact,provisional_candidate,unreviewed
+state-134,Panama,PAN,Panama,normalized_exact,provisional_candidate,unreviewed
+state-135,Papua New Guinea,PNG,Papua New Guinea,normalized_exact,provisional_candidate,unreviewed
+state-136,Paraguay,PRY,Paraguay,normalized_exact,provisional_candidate,unreviewed
+state-137,Peru,PER,Peru,normalized_exact,provisional_candidate,unreviewed
+state-138,Philippines,PHL,Philippines,normalized_exact,provisional_candidate,unreviewed
+state-139,Poland,POL,Poland,normalized_exact,provisional_candidate,unreviewed
+state-140,Portugal,PRT,Portugal,normalized_exact,provisional_candidate,unreviewed
+state-141,Qatar,QAT,Qatar,normalized_exact,provisional_candidate,unreviewed
+state-142,Romania,ROU,Romania,normalized_exact,provisional_candidate,unreviewed
+state-143,Russia,RUS,Russian Federation,alias,provisional_candidate,unreviewed
+state-144,Rwanda,RWA,Rwanda,normalized_exact,provisional_candidate,unreviewed
+state-145,Saint Kitts and Nevis,,,unmatched,unresolved,unreviewed
+state-146,Saint Lucia,,,unmatched,unresolved,unreviewed
+state-147,Saint Vincent and the Grenadines,,,unmatched,unresolved,unreviewed
+state-148,Samoa,WSM,Samoa,normalized_exact,provisional_candidate,unreviewed
+state-149,San Marino,SMR,San Marino,normalized_exact,provisional_candidate,unreviewed
+state-150,Sao Tome and Principe,STP,Sao Tome and Principe,normalized_exact,provisional_candidate,unreviewed
+state-151,Saudi Arabia,SAU,Saudi Arabia,normalized_exact,provisional_candidate,unreviewed
+state-152,Senegal,SEN,Senegal,normalized_exact,provisional_candidate,unreviewed
+state-153,Serbia,SRB,Serbia,normalized_exact,provisional_candidate,unreviewed
+state-154,Seychelles,SYC,Seychelles,normalized_exact,provisional_candidate,unreviewed
+state-155,Sierra Leone,SLE,Sierra Leone,normalized_exact,provisional_candidate,unreviewed
+state-156,Singapore,SGP,Singapore,normalized_exact,provisional_candidate,unreviewed
+state-157,Slovakia,SVK,Slovak Republic,alias,provisional_candidate,unreviewed
+state-158,Slovenia,SVN,Slovenia,normalized_exact,provisional_candidate,unreviewed
+state-159,Solomon Islands,SLB,Solomon Islands,normalized_exact,provisional_candidate,unreviewed
+state-160,Somalia,,,unmatched,unresolved,unreviewed
+state-161,South Africa,ZAF,South Africa,normalized_exact,provisional_candidate,unreviewed
+state-162,South Korea,KOR,"Korea, Rep.",alias,provisional_candidate,unreviewed
+state-163,South Sudan,SSD,South Sudan,normalized_exact,provisional_candidate,unreviewed
+state-164,Spain,ESP,Spain,normalized_exact,provisional_candidate,unreviewed
+state-165,Sri Lanka,LKA,Sri Lanka,normalized_exact,provisional_candidate,unreviewed
+state-166,State of Palestine (Observer State),PSE,West Bank and Gaza,alias,provisional_candidate,unreviewed
+state-167,Sudan,SDN,Sudan,normalized_exact,provisional_candidate,unreviewed
+state-168,Suriname,SUR,Suriname,normalized_exact,provisional_candidate,unreviewed
+state-169,Sweden,SWE,Sweden,normalized_exact,provisional_candidate,unreviewed
+state-170,Switzerland,CHE,Switzerland,normalized_exact,provisional_candidate,unreviewed
+state-171,Syria,SYR,Syrian Arab Republic,alias,provisional_candidate,unreviewed
+state-172,Tajikistan,TJK,Tajikistan,normalized_exact,provisional_candidate,unreviewed
+state-173,Tanzania,TZA,Tanzania,alias,provisional_candidate,unreviewed
+state-174,Thailand,THA,Thailand,normalized_exact,provisional_candidate,unreviewed
+state-175,Timor-Leste,TLS,Timor-Leste,normalized_exact,provisional_candidate,unreviewed
+state-176,Togo,TGO,Togo,normalized_exact,provisional_candidate,unreviewed
+state-177,Tonga,TON,Tonga,normalized_exact,provisional_candidate,unreviewed
+state-178,Trinidad and Tobago,TTO,Trinidad and Tobago,normalized_exact,provisional_candidate,unreviewed
+state-179,Tunisia,TUN,Tunisia,normalized_exact,provisional_candidate,unreviewed
+state-180,Türkiye,TUR,Turkiye,alias,provisional_candidate,unreviewed
+state-181,Turkmenistan,TKM,Turkmenistan,normalized_exact,provisional_candidate,unreviewed
+state-182,Tuvalu,TUV,Tuvalu,normalized_exact,provisional_candidate,unreviewed
+state-183,Uganda,UGA,Uganda,normalized_exact,provisional_candidate,unreviewed
+state-184,Ukraine,UKR,Ukraine,normalized_exact,provisional_candidate,unreviewed
+state-185,United Arab Emirates,ARE,United Arab Emirates,normalized_exact,provisional_candidate,unreviewed
+state-186,United Kingdom,GBR,United Kingdom,normalized_exact,provisional_candidate,unreviewed
+state-187,United States,USA,United States,alias,provisional_candidate,unreviewed
+state-188,Uruguay,URY,Uruguay,normalized_exact,provisional_candidate,unreviewed
+state-189,Uzbekistan,UZB,Uzbekistan,normalized_exact,provisional_candidate,unreviewed
+state-190,Vanuatu,VUT,Vanuatu,normalized_exact,provisional_candidate,unreviewed
+state-191,Venezuela,VEN,"Venezuela, RB",alias,provisional_candidate,unreviewed
+state-192,Vietnam,VNM,Viet Nam,alias,provisional_candidate,unreviewed
+state-193,Yemen,YEM,"Yemen, Rep.",alias,provisional_candidate,unreviewed
+state-194,Zambia,ZMB,Zambia,normalized_exact,provisional_candidate,unreviewed
+state-195,Zimbabwe,ZWE,Zimbabwe,normalized_exact,provisional_candidate,unreviewed

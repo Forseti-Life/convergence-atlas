@@ -1,0 +1,257 @@
+{
+  "metadata": {
+    "analysisType": "partial empirical complete-case PCA",
+    "source": "World Bank WDI",
+    "snapshot": "2026-10-06",
+    "completeCases": 1847,
+    "countriesEconomies": 135,
+    "yearRange": [
+      1996,
+      2024
+    ],
+    "earlyCases": 811,
+    "lateCases": 1036,
+    "selectionBiasWarning": "Selection bias: complete cases condition heavily on R&D and education availability; results are not representative of all countries or years."
+  },
+  "variables": [
+    "log_gdp",
+    "log_population",
+    "trade",
+    "education",
+    "rd",
+    "log_gdp_per_capita"
+  ],
+  "components": [
+    {
+      "component": 1,
+      "explainedVariance": 0.4413945036005772,
+      "loadings": [
+        {
+          "variable": "log_gdp_per_capita",
+          "label": "Real GDP per capita (log)",
+          "loading": 0.5495571034502764
+        },
+        {
+          "variable": "rd",
+          "label": "R&D % GDP",
+          "loading": 0.5001294182566354
+        },
+        {
+          "variable": "education",
+          "label": "Secondary enrollment",
+          "loading": 0.4944007553165688
+        },
+        {
+          "variable": "log_gdp",
+          "label": "GDP (log)",
+          "loading": 0.4294654862480594
+        },
+        {
+          "variable": "trade",
+          "label": "Trade % GDP",
+          "loading": 0.13262572099702716
+        },
+        {
+          "variable": "log_population",
+          "label": "Population (log)",
+          "loading": 0.037353211853398016
+        }
+      ]
+    },
+    {
+      "component": 2,
+      "explainedVariance": 0.3284731050633893,
+      "loadings": [
+        {
+          "variable": "log_population",
+          "label": "Population (log)",
+          "loading": 0.6735628941165277
+        },
+        {
+          "variable": "trade",
+          "label": "Trade % GDP",
+          "loading": -0.5059092047549087
+        },
+        {
+          "variable": "log_gdp",
+          "label": "GDP (log)",
+          "loading": 0.4646687872993016
+        },
+        {
+          "variable": "log_gdp_per_capita",
+          "label": "Real GDP per capita (log)",
+          "loading": -0.1976602729079266
+        },
+        {
+          "variable": "education",
+          "label": "Secondary enrollment",
+          "loading": -0.17323814211760752
+        },
+        {
+          "variable": "rd",
+          "label": "R&D % GDP",
+          "loading": 0.0732856394733952
+        }
+      ]
+    },
+    {
+      "component": 3,
+      "explainedVariance": 0.10633551813314117,
+      "loadings": [
+        {
+          "variable": "trade",
+          "label": "Trade % GDP",
+          "loading": 0.8285489571061576
+        },
+        {
+          "variable": "log_population",
+          "label": "Population (log)",
+          "loading": 0.3506123148854512
+        },
+        {
+          "variable": "log_gdp",
+          "label": "GDP (log)",
+          "loading": 0.288439570401226
+        },
+        {
+          "variable": "education",
+          "label": "Secondary enrollment",
+          "loading": -0.285149111241014
+        },
+        {
+          "variable": "rd",
+          "label": "R&D % GDP",
+          "loading": -0.15206747885782373
+        },
+        {
+          "variable": "log_gdp_per_capita",
+          "label": "Real GDP per capita (log)",
+          "loading": -0.05427440269596219
+        }
+      ]
+    },
+    {
+      "component": 4,
+      "explainedVariance": 0.07735583922074152,
+      "loadings": [
+        {
+          "variable": "rd",
+          "label": "R&D % GDP",
+          "loading": 0.7785172047231605
+        },
+        {
+          "variable": "education",
+          "label": "Secondary enrollment",
+          "loading": -0.5928381423544512
+        },
+        {
+          "variable": "log_gdp",
+          "label": "GDP (log)",
+          "loading": -0.15809108393108603
+        },
+        {
+          "variable": "log_population",
+          "label": "Population (log)",
+          "loading": -0.11453590991566741
+        },
+        {
+          "variable": "log_gdp_per_capita",
+          "label": "Real GDP per capita (log)",
+          "loading": -0.05321107116206168
+        },
+        {
+          "variable": "trade",
+          "label": "Trade % GDP",
+          "loading": 0.03887435333006669
+        }
+      ]
+    },
+    {
+      "component": 5,
+      "explainedVariance": 0.04470872829489163,
+      "loadings": [
+        {
+          "variable": "log_gdp_per_capita",
+          "label": "Real GDP per capita (log)",
+          "loading": 0.6625027596995794
+        },
+        {
+          "variable": "education",
+          "label": "Secondary enrollment",
+          "loading": -0.5409729249448957
+        },
+        {
+          "variable": "rd",
+          "label": "R&D % GDP",
+          "loading": -0.3395028259298943
+        },
+        {
+          "variable": "log_gdp",
+          "label": "GDP (log)",
+          "loading": 0.25070155766132995
+        },
+        {
+          "variable": "log_population",
+          "label": "Population (log)",
+          "loading": -0.22789553522864806
+        },
+        {
+          "variable": "trade",
+          "label": "Trade % GDP",
+          "loading": -0.1959300208279795
+        }
+      ]
+    },
+    {
+      "component": 6,
+      "explainedVariance": 0.0017323056872593323,
+      "loadings": [
+        {
+          "variable": "log_gdp",
+          "label": "GDP (log)",
+          "loading": 0.6546761540074207
+        },
+        {
+          "variable": "log_population",
+          "label": "Population (log)",
+          "loading": -0.5974394699439485
+        },
+        {
+          "variable": "log_gdp_per_capita",
+          "label": "Real GDP per capita (log)",
+          "loading": -0.4628502685205342
+        },
+        {
+          "variable": "education",
+          "label": "Secondary enrollment",
+          "loading": -0.01173264943623432
+        },
+        {
+          "variable": "trade",
+          "label": "Trade % GDP",
+          "loading": -0.008551721703200343
+        },
+        {
+          "variable": "rd",
+          "label": "R&D % GDP",
+          "loading": 0.004904594859189187
+        }
+      ]
+    }
+  ],
+  "periodStability": {
+    "early": [
+      1996,
+      2010
+    ],
+    "late": [
+      2011,
+      2025
+    ],
+    "absoluteCosineSimilarityByComponent": [
+      0.9875042767253605,
+      0.9876661555357522,
+      0.9841403134538399
+    ]
+  }
+}

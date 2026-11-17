@@ -1,0 +1,149 @@
+catalog_version: "1.1.0"
+phase: 1
+status: scaffolded
+last_updated: "2026-10-07"
+canonical_source_registry: "../research/source-catalog.v1.json"
+
+rules:
+  raw_immutable: true
+  checksum_required: true
+  license_review_required: true
+  prediction_vintage_required: true
+  corporate_data_deferred: true
+
+priority_datasets:
+  - source_id: cow_states
+    target: state_membership
+    priority: 1
+    status: ingested_local_analysis_only
+    required_version: v2024
+    archive_sha256: c11689e8c0aa70ede855f6b605c4dd71c7b04122b71d5827dab5ba06b32e2015
+    redistribution: unresolved
+    actual_outputs:
+      - interim/cow_state_spells_v2024.csv
+      - processed/cow_state_year_v2024.csv
+      - processed/cow_state_transitions_v2024.csv
+      - processed/cow_system_counts_v2024.csv
+
+  - source_id: cow_mids
+    target: militarized_interstate_conflict
+    priority: 2
+    status: ingested_local_analysis_only
+    required_version: v5.0
+    archive_sha256: f1d2f47ed02cd62e348e755a37108e302cb6a6e576a5fa03f6f7a8d5cbdc8009
+    coverage: 1816-2014
+    redistribution: unresolved
+    actual_outputs:
+      - processed/cow_mid_disputes_v5.csv
+      - processed/cow_mid_participants_v5.csv
+      - processed/cow_mid_state_year_v5.csv
+      - processed/cow_mid_system_year_v5.csv
+
+  - source_id: cow_alliances
+    target: formal_alliance_network
+    priority: 3
+    status: ingested_local_analysis_only
+    required_version: v4.1
+    archive_sha256: a2422bb361dcc4b0ab5ff0e46f65a7ab2b4c6eafa97bdd9910302dac75e786b6
+    coverage: 1816-2012
+    redistribution: unresolved
+    actual_outputs:
+      - processed/cow_alliance_state_year_v4_1.csv
+      - processed/cow_alliance_system_year_v4_1.csv
+
+  - source_id: cow_intra_state_wars
+    target: intra_state_conflict_outcomes
+    priority: 4
+    status: ingested_local_analysis_only
+    required_version: v5.1
+    archive_sha256: b2d1f4892d3cbb02604cf8e506c5c2c3e87fb85df75276f69b1089e67fb25236
+    coverage: 1818-2014
+    redistribution: unresolved
+    actual_outputs:
+      - processed/cow_intra_state_wars_v5_1.csv
+      - processed/cow_intra_state_participants_v5_1.csv
+      - processed/cow_intra_state_state_year_v5_1.csv
+
+  - source_id: ucdp
+    target: conflict_events
+    priority: 4
+    status: version_selection_required
+    required_version: null
+    planned_output: interim/ucdp_conflict_events.parquet
+
+  - source_id: world_bank_wdi
+    target: economic_demographic_panel
+    priority: 5
+    status: ingested_local_noncommercial_snapshot
+    required_version: api-v2-snapshot-2026-10-06
+    coverage: 1960-2025
+    redistribution: dataset-specific-review-pending
+    actual_outputs:
+      - processed/wdi_state_year_2026-10-06.csv
+      - crosswalks/wdi-2026-10-06-candidates.csv
+
+  - source_id: vdem_v16
+    target: governance_panel
+    priority: 6
+    status: ready_for_license_review
+    required_version: v16
+    planned_output: interim/vdem_state_year_v16.parquet
+
+  - source_id: wgi_2026
+    target: governance_capacity_panel
+    priority: 7
+    status: ingested_official_workbook_local_noncommercial
+    required_version: 2026-workbook
+    archive_sha256: 67c38d2e9253fb1a72ee302c3b7c47b2ba7b177a04673163796ca1666f506ecb
+    coverage: 1996-2025
+    redistribution: dataset-terms-apply
+    actual_outputs:
+      - processed/wgi_state_year_2026.csv
+
+  - source_id: cow_nmc
+    target: material_capability_panel
+    priority: 8
+    status: version_selection_required
+    required_version: null
+    planned_output: interim/cow_nmc_state_year.parquet
+
+  - source_id: sipri_milex
+    target: military_expenditure_panel
+    priority: 9
+    status: redistribution_review_required
+    required_version: 2026-release
+    planned_output: interim/sipri_milex_1949_2025.parquet
+
+  - source_id: wid
+    target: inequality_panel
+    priority: 10
+    status: variable_and_license_review_required
+    required_version: null
+    planned_output: interim/wid_state_year.parquet
+
+  - source_id: imf_gdd
+    target: debt_panel
+    priority: 11
+    status: manual_access_and_license_review_required
+    required_version: null
+    planned_output: interim/imf_gdd_state_year.parquet
+
+  - source_id: wipo_gii
+    target: innovation_panel
+    priority: 12
+    status: edition_and_license_review_required
+    required_version: 2026
+    planned_output: interim/wipo_gii_state_year_2026.parquet
+
+promotion_gates:
+  raw_to_interim:
+    - source manifest complete
+    - checksum verified
+    - license decision recorded
+    - native schema archived
+  interim_to_processed:
+    - identifier mapping reviewed
+    - units normalized and documented
+    - missingness report generated
+    - prediction-time leakage test passed
+    - composite key uniqueness passed

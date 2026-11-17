@@ -1,0 +1,866 @@
+{
+  "metadata": {
+    "analysisType": "provisional L2 common-panel feasibility",
+    "mappingStatus": "provisional_unreviewed",
+    "yearRange": [
+      1996,
+      2014
+    ],
+    "institutions": 187,
+    "panelRows": 3512,
+    "completeCases": 970,
+    "pcaVariables": 12
+  },
+  "eventSupport": {
+    "membershipExits": 1,
+    "rowsWithMidOnset": 842,
+    "minimumEventsForTwelvePredictorRule": 120,
+    "membershipExitPredictiveGate": "FAIL",
+    "reason": "Uses a conservative ten-events-per-parameter screening rule; not a universal theorem."
+  },
+  "missingness": {
+    "gdp_current_usd": {
+      "missing": 27,
+      "coverageRate": 0.9923120728929385
+    },
+    "population_total": {
+      "missing": 0,
+      "coverageRate": 1.0
+    },
+    "trade_percent_gdp": {
+      "missing": 511,
+      "coverageRate": 0.854498861047836
+    },
+    "secondary_enrollment_gross_percent": {
+      "missing": 1252,
+      "coverageRate": 0.643507972665148
+    },
+    "research_development_percent_gdp": {
+      "missing": 1973,
+      "coverageRate": 0.4382118451025057
+    },
+    "gdp_per_capita_constant_2015_usd": {
+      "missing": 63,
+      "coverageRate": 0.9820615034168565
+    },
+    "voice_accountability_estimate": {
+      "missing": 548,
+      "coverageRate": 0.8439635535307517
+    },
+    "political_stability_estimate": {
+      "missing": 574,
+      "coverageRate": 0.8365603644646925
+    },
+    "government_effectiveness_estimate": {
+      "missing": 622,
+      "coverageRate": 0.8228929384965832
+    },
+    "regulatory_quality_estimate": {
+      "missing": 619,
+      "coverageRate": 0.82374715261959
+    },
+    "rule_of_law_estimate": {
+      "missing": 548,
+      "coverageRate": 0.8439635535307517
+    },
+    "control_of_corruption_estimate": {
+      "missing": 609,
+      "coverageRate": 0.8265945330296127
+    }
+  },
+  "components": [
+    {
+      "component": 1,
+      "explainedVariance": 0.6144045019222223,
+      "loadings": [
+        {
+          "variable": "rule_law",
+          "label": "Rule of law",
+          "loading": 0.3563417170461849
+        },
+        {
+          "variable": "effectiveness",
+          "label": "Government effectiveness",
+          "loading": 0.35582858406966694
+        },
+        {
+          "variable": "corruption_control",
+          "label": "Control of corruption",
+          "loading": 0.34973156397768096
+        },
+        {
+          "variable": "regulation",
+          "label": "Regulatory quality",
+          "loading": 0.34458988540842117
+        },
+        {
+          "variable": "log_gdp_pc",
+          "label": "Real GDP per capita (log)",
+          "loading": 0.33332768213543995
+        },
+        {
+          "variable": "voice",
+          "label": "Voice/accountability",
+          "loading": 0.3252686802029729
+        },
+        {
+          "variable": "stability",
+          "label": "Political stability",
+          "loading": 0.3079205315922818
+        },
+        {
+          "variable": "rd",
+          "label": "R&D % GDP",
+          "loading": 0.274338223722511
+        },
+        {
+          "variable": "education",
+          "label": "Secondary enrollment",
+          "loading": 0.26055859290473316
+        },
+        {
+          "variable": "log_gdp",
+          "label": "GDP (log)",
+          "loading": 0.14842891496039207
+        },
+        {
+          "variable": "trade",
+          "label": "Trade % GDP",
+          "loading": 0.13080294336623843
+        },
+        {
+          "variable": "log_population",
+          "label": "Population (log)",
+          "loading": -0.10647693453203211
+        }
+      ]
+    },
+    {
+      "component": 2,
+      "explainedVariance": 0.18160082570522237,
+      "loadings": [
+        {
+          "variable": "log_population",
+          "label": "Population (log)",
+          "loading": 0.6095702737373094
+        },
+        {
+          "variable": "log_gdp",
+          "label": "GDP (log)",
+          "loading": 0.5843925636453229
+        },
+        {
+          "variable": "trade",
+          "label": "Trade % GDP",
+          "loading": -0.44568743060504995
+        },
+        {
+          "variable": "rd",
+          "label": "R&D % GDP",
+          "loading": 0.21483333262901771
+        },
+        {
+          "variable": "stability",
+          "label": "Political stability",
+          "loading": -0.1827591356124165
+        },
+        {
+          "variable": "log_gdp_pc",
+          "label": "Real GDP per capita (log)",
+          "loading": 0.07066548710980976
+        },
+        {
+          "variable": "effectiveness",
+          "label": "Government effectiveness",
+          "loading": 0.050316902237711875
+        },
+        {
+          "variable": "voice",
+          "label": "Voice/accountability",
+          "loading": -0.0223539304305984
+        },
+        {
+          "variable": "education",
+          "label": "Secondary enrollment",
+          "loading": 0.020035790632690995
+        },
+        {
+          "variable": "rule_law",
+          "label": "Rule of law",
+          "loading": -0.012677034902162748
+        },
+        {
+          "variable": "regulation",
+          "label": "Regulatory quality",
+          "loading": -0.009545602635643153
+        },
+        {
+          "variable": "corruption_control",
+          "label": "Control of corruption",
+          "loading": 0.006285387770122778
+        }
+      ]
+    },
+    {
+      "component": 3,
+      "explainedVariance": 0.056878552785493315,
+      "loadings": [
+        {
+          "variable": "education",
+          "label": "Secondary enrollment",
+          "loading": 0.7235089145622549
+        },
+        {
+          "variable": "trade",
+          "label": "Trade % GDP",
+          "loading": 0.38786510635401483
+        },
+        {
+          "variable": "voice",
+          "label": "Voice/accountability",
+          "loading": -0.28040138888992466
+        },
+        {
+          "variable": "log_gdp_pc",
+          "label": "Real GDP per capita (log)",
+          "loading": 0.2725305370132779
+        },
+        {
+          "variable": "log_gdp",
+          "label": "GDP (log)",
+          "loading": 0.20596496958940594
+        },
+        {
+          "variable": "rule_law",
+          "label": "Rule of law",
+          "loading": -0.1982974271146048
+        },
+        {
+          "variable": "corruption_control",
+          "label": "Control of corruption",
+          "loading": -0.19114253947769247
+        },
+        {
+          "variable": "regulation",
+          "label": "Regulatory quality",
+          "loading": -0.17419520875716651
+        },
+        {
+          "variable": "effectiveness",
+          "label": "Government effectiveness",
+          "loading": -0.11289273002237735
+        },
+        {
+          "variable": "stability",
+          "label": "Political stability",
+          "loading": -0.10840023029372617
+        },
+        {
+          "variable": "log_population",
+          "label": "Population (log)",
+          "loading": -0.008515606422726474
+        },
+        {
+          "variable": "rd",
+          "label": "R&D % GDP",
+          "loading": 0.0026275279704928126
+        }
+      ]
+    },
+    {
+      "component": 4,
+      "explainedVariance": 0.045724739006795016,
+      "loadings": [
+        {
+          "variable": "trade",
+          "label": "Trade % GDP",
+          "loading": 0.7826311269166324
+        },
+        {
+          "variable": "education",
+          "label": "Secondary enrollment",
+          "loading": -0.40536266264306925
+        },
+        {
+          "variable": "log_population",
+          "label": "Population (log)",
+          "loading": 0.3420749870049853
+        },
+        {
+          "variable": "log_gdp",
+          "label": "GDP (log)",
+          "loading": 0.2158083843023437
+        },
+        {
+          "variable": "regulation",
+          "label": "Regulatory quality",
+          "loading": 0.14018030533841785
+        },
+        {
+          "variable": "log_gdp_pc",
+          "label": "Real GDP per capita (log)",
+          "loading": -0.1245321741016609
+        },
+        {
+          "variable": "stability",
+          "label": "Political stability",
+          "loading": -0.10604349427493233
+        },
+        {
+          "variable": "effectiveness",
+          "label": "Government effectiveness",
+          "loading": 0.0715399226750546
+        },
+        {
+          "variable": "corruption_control",
+          "label": "Control of corruption",
+          "loading": -0.05941465727770552
+        },
+        {
+          "variable": "rd",
+          "label": "R&D % GDP",
+          "loading": 0.04815672813141201
+        },
+        {
+          "variable": "rule_law",
+          "label": "Rule of law",
+          "loading": 0.04688885862934106
+        },
+        {
+          "variable": "voice",
+          "label": "Voice/accountability",
+          "loading": -0.0033726567440845573
+        }
+      ]
+    },
+    {
+      "component": 5,
+      "explainedVariance": 0.035423433488482446,
+      "loadings": [
+        {
+          "variable": "rd",
+          "label": "R&D % GDP",
+          "loading": 0.8720858125184617
+        },
+        {
+          "variable": "stability",
+          "label": "Political stability",
+          "loading": -0.25838295361464614
+        },
+        {
+          "variable": "voice",
+          "label": "Voice/accountability",
+          "loading": -0.2456433344915205
+        },
+        {
+          "variable": "log_gdp",
+          "label": "GDP (log)",
+          "loading": -0.21629575067326717
+        },
+        {
+          "variable": "log_population",
+          "label": "Population (log)",
+          "loading": -0.17197240475015885
+        },
+        {
+          "variable": "regulation",
+          "label": "Regulatory quality",
+          "loading": -0.1427592069079837
+        },
+        {
+          "variable": "education",
+          "label": "Secondary enrollment",
+          "loading": -0.08613169127625483
+        },
+        {
+          "variable": "log_gdp_pc",
+          "label": "Real GDP per capita (log)",
+          "loading": -0.05965686308749769
+        },
+        {
+          "variable": "effectiveness",
+          "label": "Government effectiveness",
+          "loading": 0.04925015340751359
+        },
+        {
+          "variable": "corruption_control",
+          "label": "Control of corruption",
+          "loading": 0.03868420707688342
+        },
+        {
+          "variable": "rule_law",
+          "label": "Rule of law",
+          "loading": -0.0214736814919513
+        },
+        {
+          "variable": "trade",
+          "label": "Trade % GDP",
+          "loading": 0.01626690361481375
+        }
+      ]
+    },
+    {
+      "component": 6,
+      "explainedVariance": 0.021531620373269434,
+      "loadings": [
+        {
+          "variable": "stability",
+          "label": "Political stability",
+          "loading": 0.7601488205202445
+        },
+        {
+          "variable": "voice",
+          "label": "Voice/accountability",
+          "loading": -0.46582024402864963
+        },
+        {
+          "variable": "regulation",
+          "label": "Regulatory quality",
+          "loading": -0.31315279364523735
+        },
+        {
+          "variable": "education",
+          "label": "Secondary enrollment",
+          "loading": -0.21401933906793247
+        },
+        {
+          "variable": "log_gdp",
+          "label": "GDP (log)",
+          "loading": 0.13137876979416557
+        },
+        {
+          "variable": "corruption_control",
+          "label": "Control of corruption",
+          "loading": 0.12292046876690005
+        },
+        {
+          "variable": "log_gdp_pc",
+          "label": "Real GDP per capita (log)",
+          "loading": 0.11403450730757474
+        },
+        {
+          "variable": "effectiveness",
+          "label": "Government effectiveness",
+          "loading": -0.07853255819931126
+        },
+        {
+          "variable": "rd",
+          "label": "R&D % GDP",
+          "loading": 0.07270326874303987
+        },
+        {
+          "variable": "log_population",
+          "label": "Population (log)",
+          "loading": 0.06302839275620024
+        },
+        {
+          "variable": "rule_law",
+          "label": "Rule of law",
+          "loading": -0.01812893111980431
+        },
+        {
+          "variable": "trade",
+          "label": "Trade % GDP",
+          "loading": 0.01372097592255172
+        }
+      ]
+    },
+    {
+      "component": 7,
+      "explainedVariance": 0.01790304354260635,
+      "loadings": [
+        {
+          "variable": "log_gdp_pc",
+          "label": "Real GDP per capita (log)",
+          "loading": 0.5907075760315171
+        },
+        {
+          "variable": "voice",
+          "label": "Voice/accountability",
+          "loading": -0.39169707114774294
+        },
+        {
+          "variable": "stability",
+          "label": "Political stability",
+          "loading": -0.3800438678371634
+        },
+        {
+          "variable": "education",
+          "label": "Secondary enrollment",
+          "loading": -0.3472358435078911
+        },
+        {
+          "variable": "log_population",
+          "label": "Population (log)",
+          "loading": -0.2959188793589618
+        },
+        {
+          "variable": "rd",
+          "label": "R&D % GDP",
+          "loading": -0.23730573305055122
+        },
+        {
+          "variable": "corruption_control",
+          "label": "Control of corruption",
+          "loading": 0.18430740615060912
+        },
+        {
+          "variable": "log_gdp",
+          "label": "GDP (log)",
+          "loading": 0.14955153843379343
+        },
+        {
+          "variable": "effectiveness",
+          "label": "Government effectiveness",
+          "loading": 0.1418078709525887
+        },
+        {
+          "variable": "regulation",
+          "label": "Regulatory quality",
+          "loading": 0.09357264507583389
+        },
+        {
+          "variable": "trade",
+          "label": "Trade % GDP",
+          "loading": -0.05362149834573163
+        },
+        {
+          "variable": "rule_law",
+          "label": "Rule of law",
+          "loading": 0.025969936675759774
+        }
+      ]
+    },
+    {
+      "component": 8,
+      "explainedVariance": 0.012275145927913839,
+      "loadings": [
+        {
+          "variable": "voice",
+          "label": "Voice/accountability",
+          "loading": 0.5404282643916226
+        },
+        {
+          "variable": "log_gdp_pc",
+          "label": "Real GDP per capita (log)",
+          "loading": 0.4361544198898561
+        },
+        {
+          "variable": "corruption_control",
+          "label": "Control of corruption",
+          "loading": -0.40301696670178483
+        },
+        {
+          "variable": "effectiveness",
+          "label": "Government effectiveness",
+          "loading": -0.2803979151063641
+        },
+        {
+          "variable": "education",
+          "label": "Secondary enrollment",
+          "loading": -0.2629875733691757
+        },
+        {
+          "variable": "rule_law",
+          "label": "Rule of law",
+          "loading": -0.21076704179066447
+        },
+        {
+          "variable": "regulation",
+          "label": "Regulatory quality",
+          "loading": -0.2071871535569419
+        },
+        {
+          "variable": "log_population",
+          "label": "Population (log)",
+          "loading": -0.19975388318651066
+        },
+        {
+          "variable": "rd",
+          "label": "R&D % GDP",
+          "loading": 0.1874326546226905
+        },
+        {
+          "variable": "log_gdp",
+          "label": "GDP (log)",
+          "loading": 0.18420512680746712
+        },
+        {
+          "variable": "stability",
+          "label": "Political stability",
+          "loading": 0.10397271325413412
+        },
+        {
+          "variable": "trade",
+          "label": "Trade % GDP",
+          "loading": 0.01935853430129553
+        }
+      ]
+    },
+    {
+      "component": 9,
+      "explainedVariance": 0.0071409251827790335,
+      "loadings": [
+        {
+          "variable": "regulation",
+          "label": "Regulatory quality",
+          "loading": 0.7407458410157969
+        },
+        {
+          "variable": "corruption_control",
+          "label": "Control of corruption",
+          "loading": -0.5337122173434348
+        },
+        {
+          "variable": "voice",
+          "label": "Voice/accountability",
+          "loading": -0.29077643799516634
+        },
+        {
+          "variable": "stability",
+          "label": "Political stability",
+          "loading": 0.19312299481451345
+        },
+        {
+          "variable": "trade",
+          "label": "Trade % GDP",
+          "loading": -0.12302858744715242
+        },
+        {
+          "variable": "rd",
+          "label": "R&D % GDP",
+          "loading": 0.1147137860788739
+        },
+        {
+          "variable": "effectiveness",
+          "label": "Government effectiveness",
+          "loading": -0.10376696525975337
+        },
+        {
+          "variable": "log_population",
+          "label": "Population (log)",
+          "loading": -0.055590064862693446
+        },
+        {
+          "variable": "rule_law",
+          "label": "Rule of law",
+          "loading": -0.04698692402566645
+        },
+        {
+          "variable": "education",
+          "label": "Secondary enrollment",
+          "loading": -0.012652571795756141
+        },
+        {
+          "variable": "log_gdp_pc",
+          "label": "Real GDP per capita (log)",
+          "loading": 0.00812222693019914
+        },
+        {
+          "variable": "log_gdp",
+          "label": "GDP (log)",
+          "loading": -0.003533616798157531
+        }
+      ]
+    },
+    {
+      "component": 10,
+      "explainedVariance": 0.0035783969640024887,
+      "loadings": [
+        {
+          "variable": "effectiveness",
+          "label": "Government effectiveness",
+          "loading": 0.7819077266950512
+        },
+        {
+          "variable": "rule_law",
+          "label": "Rule of law",
+          "loading": -0.5649464945297392
+        },
+        {
+          "variable": "corruption_control",
+          "label": "Control of corruption",
+          "loading": -0.17384062956373694
+        },
+        {
+          "variable": "stability",
+          "label": "Political stability",
+          "loading": 0.10041318108177527
+        },
+        {
+          "variable": "log_gdp_pc",
+          "label": "Real GDP per capita (log)",
+          "loading": -0.09842170194340237
+        },
+        {
+          "variable": "log_population",
+          "label": "Population (log)",
+          "loading": -0.08920990050041991
+        },
+        {
+          "variable": "regulation",
+          "label": "Regulatory quality",
+          "loading": -0.06771366158686948
+        },
+        {
+          "variable": "log_gdp",
+          "label": "GDP (log)",
+          "loading": 0.05120639595610347
+        },
+        {
+          "variable": "voice",
+          "label": "Voice/accountability",
+          "loading": 0.0387104918578565
+        },
+        {
+          "variable": "rd",
+          "label": "R&D % GDP",
+          "loading": -0.034680658026302304
+        },
+        {
+          "variable": "education",
+          "label": "Secondary enrollment",
+          "loading": -0.02830592554759427
+        },
+        {
+          "variable": "trade",
+          "label": "Trade % GDP",
+          "loading": -0.028239077107684092
+        }
+      ]
+    },
+    {
+      "component": 11,
+      "explainedVariance": 0.0026451874382084893,
+      "loadings": [
+        {
+          "variable": "rule_law",
+          "label": "Rule of law",
+          "loading": 0.674538311177742
+        },
+        {
+          "variable": "corruption_control",
+          "label": "Control of corruption",
+          "loading": -0.5544439911611255
+        },
+        {
+          "variable": "effectiveness",
+          "label": "Government effectiveness",
+          "loading": 0.3409069335524505
+        },
+        {
+          "variable": "regulation",
+          "label": "Regulatory quality",
+          "loading": -0.3280904660733601
+        },
+        {
+          "variable": "voice",
+          "label": "Voice/accountability",
+          "loading": -0.07556063015590067
+        },
+        {
+          "variable": "rd",
+          "label": "R&D % GDP",
+          "loading": -0.06785473531928207
+        },
+        {
+          "variable": "trade",
+          "label": "Trade % GDP",
+          "loading": -0.040753705512975864
+        },
+        {
+          "variable": "stability",
+          "label": "Political stability",
+          "loading": -0.030054813288350985
+        },
+        {
+          "variable": "log_gdp",
+          "label": "GDP (log)",
+          "loading": -0.0227687532994599
+        },
+        {
+          "variable": "log_gdp_pc",
+          "label": "Real GDP per capita (log)",
+          "loading": 0.014362606197969283
+        },
+        {
+          "variable": "log_population",
+          "label": "Population (log)",
+          "loading": -0.011094769301213427
+        },
+        {
+          "variable": "education",
+          "label": "Secondary enrollment",
+          "loading": 0.0018469995487832758
+        }
+      ]
+    },
+    {
+      "component": 12,
+      "explainedVariance": 0.000893627663005016,
+      "loadings": [
+        {
+          "variable": "log_gdp",
+          "label": "GDP (log)",
+          "loading": 0.6511259013917841
+        },
+        {
+          "variable": "log_population",
+          "label": "Population (log)",
+          "loading": -0.5725473715235784
+        },
+        {
+          "variable": "log_gdp_pc",
+          "label": "Real GDP per capita (log)",
+          "loading": -0.4779433797858983
+        },
+        {
+          "variable": "rule_law",
+          "label": "Rule of law",
+          "loading": 0.09527975756152157
+        },
+        {
+          "variable": "effectiveness",
+          "label": "Government effectiveness",
+          "loading": -0.08544754076653405
+        },
+        {
+          "variable": "corruption_control",
+          "label": "Control of corruption",
+          "loading": 0.04590768418185533
+        },
+        {
+          "variable": "stability",
+          "label": "Political stability",
+          "loading": -0.025961037469013303
+        },
+        {
+          "variable": "voice",
+          "label": "Voice/accountability",
+          "loading": -0.02206748376529811
+        },
+        {
+          "variable": "regulation",
+          "label": "Regulatory quality",
+          "loading": -0.01058720357525212
+        },
+        {
+          "variable": "rd",
+          "label": "R&D % GDP",
+          "loading": 0.005338288706555659
+        },
+        {
+          "variable": "trade",
+          "label": "Trade % GDP",
+          "loading": -0.00228999449729417
+        },
+        {
+          "variable": "education",
+          "label": "Secondary enrollment",
+          "loading": -0.0009402867564227655
+        }
+      ]
+    }
+  ],
+  "mappingCandidates": 187
+}

@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "1.0",
+  "project": "Institutional Agents",
+  "contractVersion": "1.0.0",
+  "frozenAt": "2026-10-06T12:46:41-04:00",
+  "status": "phase-0-preregistered-internal",
+  "purpose": "Evaluate whether proposed institutional strength, stress, adoption, conflict, and network variables predict institutional consolidation, fragmentation, and loss of top-level autonomy better than simpler alternatives.",
+  "nonGoal": "This contract does not assume or attempt to prove that an Apex Institution must emerge.",
+  "primaryScope": {
+    "population": "Sovereign state-system members, including historical predecessors and successors where identifiers can be reconciled.",
+    "primaryUnit": "state-year",
+    "secondaryUnits": [
+      "state-dyad-year",
+      "institutional-transition-event",
+      "majority-influence-episode"
+    ],
+    "corporateScope": "Deferred to a separately estimated corporate study after the state-only pipeline passes its gates."
+  },
+  "predictionHorizonsYears": [1, 5, 10, 25, 50],
+  "outcomes": [
+    {
+      "id": "transition_any",
+      "label": "Any top-level institutional transition",
+      "type": "time-to-first-event",
+      "eventDefinition": "First observed consolidation, subordination, fragmentation, dissolution, or recognized successor transition after the prediction origin.",
+      "competingEvents": ["consolidation_gain", "loss_top_level_autonomy", "fragmentation", "dissolution"]
+    },
+    {
+      "id": "consolidation_gain",
+      "label": "Institution gains top-level influence or members",
+      "type": "competing-risk-event",
+      "eventDefinition": "A coded merger, federation, annexation, delegated-authority expansion, or successor transition that increases the Institution's top-level scope."
+    },
+    {
+      "id": "loss_top_level_autonomy",
+      "label": "Institution loses top-level autonomy",
+      "type": "competing-risk-event",
+      "eventDefinition": "The Institution ceases to exercise independent highest-level authority through merger, annexation, dissolution, or durable delegation."
+    },
+    {
+      "id": "fragmentation",
+      "label": "Institution fragments",
+      "type": "competing-risk-event",
+      "eventDefinition": "Two or more recognized successor Institutions acquire top-level autonomy from one predecessor."
+    },
+    {
+      "id": "dissolution",
+      "label": "Institution dissolves without coded peer consolidation",
+      "type": "competing-risk-event",
+      "eventDefinition": "The Institution exits the defined system without a single consolidated successor event."
+    },
+    {
+      "id": "standard_adoption",
+      "label": "Institution adopts a common standard",
+      "type": "time-to-event-or-fractional-coverage",
+      "eventDefinition": "Formal requirement plus a separately measured implementation or enforcement indicator."
+    },
+    {
+      "id": "adoption_lag",
+      "label": "Lag from formal adoption to effective implementation",
+      "type": "duration",
+      "eventDefinition": "Elapsed time between formal adoption and the preregistered implementation threshold."
+    },
+    {
+      "id": "majority_episode_duration",
+      "label": "Duration of an influence share above 50 percent",
+      "type": "episode-duration",
+      "eventDefinition": "Time between first crossing above 50 percent and terminal consolidation, reversal below 50 percent, or right-censoring."
+    },
+    {
+      "id": "apex_dominance",
+      "label": "One top-level Institution with majority effective implementation",
+      "type": "compound-time-to-event",
+      "eventDefinition": "Exactly one coded top-level Institution remains and effective implementation of its common standard exceeds 50 percent."
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "Debt stress, inequality, and internal disorder increase fragmentation or loss-of-control hazard.",
+      "units": ["state-year"],
+      "predictors": ["debt_stress", "inequality", "internal_disorder"],
+      "outcomes": ["fragmentation", "loss_top_level_autonomy"],
+      "horizonsYears": [1, 5, 10, 25],
+      "nullModel": "Age/time baseline hazard with region and period strata but no stress variables.",
+      "evaluationMetrics": ["time-dependent Brier score", "concordance index", "calibration slope", "out-of-sample log score"],
+      "falsification": "Reject or revise if effects are absent, reverse sign across most held-out windows, are not calibrated, or fail to improve preregistered out-of-sample metrics.",
+      "sourceIds": ["imf_gdd", "wid", "wgi_2026", "vdem_v16", "ucdp"]
+    },
+    {
+      "id": "H2",
+      "statement": "Relative productive, financial, and material strength predicts which Institution gains influence during restructuring.",
+      "units": ["state-dyad-year", "institutional-transition-event"],
+      "predictors": ["relative_gdp", "relative_trade_share", "relative_innovation", "relative_material_capability", "reserve_currency_share"],
+      "outcomes": ["consolidation_gain", "loss_top_level_autonomy"],
+      "horizonsYears": [1, 5, 10, 25],
+      "nullModel": "Larger-population-only and prior-event-frequency baselines.",
+      "evaluationMetrics": ["pairwise accuracy", "area under precision-recall curve", "Brier score", "out-of-sample log score"],
+      "falsification": "Reject or simplify if the strength vector does not outperform size-only and historical-frequency baselines across held-out periods.",
+      "sourceIds": ["world_bank_wdi", "wipo_gii", "sipri_milex", "cow_nmc", "imf_cofer"]
+    },
+    {
+      "id": "H3",
+      "statement": "Formal institutional consolidation or standard adoption precedes effective implementation by a measurable lag.",
+      "units": ["institutional-transition-event"],
+      "predictors": ["formal_adoption_date", "mandate_strength", "switching_cost", "administrative_capacity"],
+      "outcomes": ["standard_adoption", "adoption_lag"],
+      "horizonsYears": [1, 5, 10, 25],
+      "nullModel": "Immediate implementation at the formal adoption date.",
+      "evaluationMetrics": ["median absolute lag error", "survival calibration", "prediction interval coverage"],
+      "falsification": "Reject the lag mechanism if implementation is indistinguishable from immediate adoption after accounting for reporting delay, or if estimated lags do not generalize across standards.",
+      "sourceIds": ["ifrs_profiles", "iso_survey", "google_ipv6"]
+    },
+    {
+      "id": "H4",
+      "statement": "As the field contracts below approximately 20 Institutions, effective power becomes comparatively balanced and influence above 50 percent is short-lived before terminal consolidation or reversal.",
+      "units": ["majority-influence-episode", "institutional-transition-event"],
+      "predictors": ["remaining_institutions", "largest_influence_share", "second_largest_influence_share", "coalition_blocking_power"],
+      "outcomes": ["majority_episode_duration", "apex_dominance"],
+      "horizonsYears": [1, 5, 10, 25, 50],
+      "nullModel": "Majority episodes have the same duration distribution as non-majority concentration episodes.",
+      "evaluationMetrics": ["median majority duration", "reversal probability", "terminal transition probability", "survival curve difference"],
+      "falsification": "Reject the terminal-majority rule if stable 51–99 percent influence episodes are common and long-lived relative to comparable concentration episodes.",
+      "sourceIds": ["cow_states", "cow_nmc", "cow_alliances", "world_bank_wdi"]
+    },
+    {
+      "id": "H5",
+      "statement": "Technical standardization can increase without producing top-level political or institutional consolidation.",
+      "units": ["state-year", "institutional-transition-event"],
+      "predictors": ["technical_standard_adoption", "architecture_adoption"],
+      "outcomes": ["standard_adoption", "transition_any", "apex_dominance"],
+      "horizonsYears": [1, 5, 10, 25],
+      "nullModel": "Technical adoption and institutional consolidation share one common transition process.",
+      "evaluationMetrics": ["incremental hazard ratio", "mutual information", "out-of-sample Brier score", "calibration"],
+      "falsification": "Reject independence if technical convergence consistently predicts rapid common top-level authority across held-out standards and periods.",
+      "sourceIds": ["ifrs_profiles", "iso_survey", "google_ipv6", "stanford_ai_index"]
+    },
+    {
+      "id": "H6",
+      "statement": "Big Cycle variables improve transition prediction beyond simpler power-transition and debt-only models.",
+      "units": ["state-year", "state-dyad-year"],
+      "predictors": ["productive_strength", "systemic_cycle_stress", "external_transition_pressure"],
+      "outcomes": ["transition_any", "consolidation_gain", "fragmentation", "loss_top_level_autonomy"],
+      "horizonsYears": [5, 10, 25],
+      "nullModel": "Constant hazard, debt-only, material-power-only, and power-transition-only models.",
+      "evaluationMetrics": ["out-of-sample log score", "Brier score", "concordance index", "calibration error"],
+      "falsification": "Reject the composite if it does not exceed the best simple baseline by the preregistered practical margin in rolling held-out tests.",
+      "sourceIds": ["dalio_cwo", "world_bank_wdi", "imf_gdd", "wid", "wipo_gii", "sipri_milex", "vdem_v16"]
+    },
+    {
+      "id": "H7",
+      "statement": "Multiplex network dependency predicts consolidation and subordination beyond direct economic or material size.",
+      "units": ["state-dyad-year"],
+      "predictors": ["alliance_dependency", "trade_dependency", "financial_dependency", "infrastructure_dependency", "network_centrality"],
+      "outcomes": ["consolidation_gain", "loss_top_level_autonomy"],
+      "horizonsYears": [1, 5, 10, 25],
+      "nullModel": "Direct relative-size and geographic-distance model without network measures.",
+      "evaluationMetrics": ["out-of-sample log score", "area under precision-recall curve", "Brier score", "calibration slope"],
+      "falsification": "Reject the network mechanism if network variables add no stable held-out predictive value after direct size, distance, and period controls.",
+      "sourceIds": ["cow_alliances", "cow_trade", "world_bank_wdi", "bis_stats"]
+    }
+  ],
+  "evaluationPolicy": {
+    "splitStrategy": "Rolling-origin temporal evaluation with the final interval held untouched until model selection is complete.",
+    "selectionRule": "A complex model advances only if it improves calibration or predictive score over the best simpler baseline by a preregistered practical margin in a majority of held-out windows.",
+    "rightCensoring": "Retain censoring indicators and event times. Never replace a non-event with the horizon as if it were observed, except clearly labeled exploratory diagnostics.",
+    "rareEvents": "Prefer precision-recall, calibrated probabilities, and proper scoring rules over accuracy.",
+    "multipleTesting": "Declare primary outcomes and adjust or label exploratory secondary analyses.",
+    "negativeResults": "Record null, unstable, and sign-reversing results in the same report as supportive results."
+  },
+  "modelFamilies": [
+    "constant hazard",
+    "historical frequency",
+    "size only",
+    "debt only",
+    "material power only",
+    "governance disorder only",
+    "network only",
+    "power transition",
+    "Big Cycle composite",
+    "full institutional model"
+  ],
+  "phaseGate": {
+    "id": "A",
+    "requirements": [
+      "Every hypothesis has observable outcomes.",
+      "Every hypothesis has at least one prediction horizon.",
+      "Every hypothesis has a falsification condition.",
+      "Every hypothesis has evaluation metrics.",
+      "Every hypothesis has named source identifiers or a documented evidence gap.",
+      "Censoring and leakage rules are explicit."
+    ]
+  }
+}

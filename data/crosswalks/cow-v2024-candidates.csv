@@ -1,0 +1,196 @@
+institution_id,canonical_name,candidate_cow_code,candidate_cow_name,match_method,candidate_status,review_status
+state-001,Afghanistan,700,Afghanistan,normalized_exact,provisional_candidate,unreviewed
+state-002,Albania,339,Albania,normalized_exact,provisional_candidate,unreviewed
+state-003,Algeria,615,Algeria,normalized_exact,provisional_candidate,unreviewed
+state-004,Andorra,232,Andorra,normalized_exact,provisional_candidate,unreviewed
+state-005,Angola,540,Angola,normalized_exact,provisional_candidate,unreviewed
+state-006,Antigua and Barbuda,58,Antigua & Barbuda,normalized_exact,provisional_candidate,unreviewed
+state-007,Argentina,160,Argentina,normalized_exact,provisional_candidate,unreviewed
+state-008,Armenia,371,Armenia,normalized_exact,provisional_candidate,unreviewed
+state-009,Australia,900,Australia,normalized_exact,provisional_candidate,unreviewed
+state-010,Austria,305,Austria,normalized_exact,provisional_candidate,unreviewed
+state-011,Azerbaijan,373,Azerbaijan,normalized_exact,provisional_candidate,unreviewed
+state-012,Bahamas,31,Bahamas,normalized_exact,provisional_candidate,unreviewed
+state-013,Bahrain,692,Bahrain,normalized_exact,provisional_candidate,unreviewed
+state-014,Bangladesh,771,Bangladesh,normalized_exact,provisional_candidate,unreviewed
+state-015,Barbados,53,Barbados,normalized_exact,provisional_candidate,unreviewed
+state-016,Belarus,370,Belarus,normalized_exact,provisional_candidate,unreviewed
+state-017,Belgium,211,Belgium,normalized_exact,provisional_candidate,unreviewed
+state-018,Belize,80,Belize,normalized_exact,provisional_candidate,unreviewed
+state-019,Benin,434,Benin,normalized_exact,provisional_candidate,unreviewed
+state-020,Bhutan,760,Bhutan,normalized_exact,provisional_candidate,unreviewed
+state-021,Bolivia,145,Bolivia,alias,provisional_candidate,unreviewed
+state-022,Bosnia and Herzegovina,346,Bosnia and Herzegovina,normalized_exact,provisional_candidate,unreviewed
+state-023,Botswana,571,Botswana,normalized_exact,provisional_candidate,unreviewed
+state-024,Brazil,140,Brazil,normalized_exact,provisional_candidate,unreviewed
+state-025,Brunei,835,Brunei,alias,provisional_candidate,unreviewed
+state-026,Bulgaria,355,Bulgaria,normalized_exact,provisional_candidate,unreviewed
+state-027,Burkina Faso,439,Burkina Faso,normalized_exact,provisional_candidate,unreviewed
+state-028,Burundi,516,Burundi,normalized_exact,provisional_candidate,unreviewed
+state-029,Cabo Verde,402,Cape Verde,alias,provisional_candidate,unreviewed
+state-030,Cambodia,811,Cambodia,normalized_exact,provisional_candidate,unreviewed
+state-031,Cameroon,471,Cameroon,normalized_exact,provisional_candidate,unreviewed
+state-032,Canada,20,Canada,normalized_exact,provisional_candidate,unreviewed
+state-033,Central African Republic,482,Central African Republic,normalized_exact,provisional_candidate,unreviewed
+state-034,Chad,483,Chad,normalized_exact,provisional_candidate,unreviewed
+state-035,Chile,155,Chile,normalized_exact,provisional_candidate,unreviewed
+state-036,China,710,China,normalized_exact,provisional_candidate,unreviewed
+state-037,Colombia,100,Colombia,normalized_exact,provisional_candidate,unreviewed
+state-038,Comoros,581,Comoros,normalized_exact,provisional_candidate,unreviewed
+state-039,"Congo, Democratic Republic of the",490,Democratic Republic of the Congo,alias,provisional_candidate,unreviewed
+state-040,"Congo, Republic of the",484,Congo,alias,provisional_candidate,unreviewed
+state-041,Costa Rica,94,Costa Rica,normalized_exact,provisional_candidate,unreviewed
+state-042,Côte d'Ivoire,437,Ivory Coast,alias,provisional_candidate,unreviewed
+state-043,Croatia,344,Croatia,normalized_exact,provisional_candidate,unreviewed
+state-044,Cuba,40,Cuba,normalized_exact,provisional_candidate,unreviewed
+state-045,Cyprus,352,Cyprus,normalized_exact,provisional_candidate,unreviewed
+state-046,Czechia,316,Czech Republic,alias,provisional_candidate,unreviewed
+state-047,Denmark,390,Denmark,normalized_exact,provisional_candidate,unreviewed
+state-048,Djibouti,522,Djibouti,normalized_exact,provisional_candidate,unreviewed
+state-049,Dominica,54,Dominica,normalized_exact,provisional_candidate,unreviewed
+state-050,Dominican Republic,42,Dominican Republic,normalized_exact,provisional_candidate,unreviewed
+state-051,Ecuador,130,Ecuador,normalized_exact,provisional_candidate,unreviewed
+state-052,Egypt,651,Egypt,normalized_exact,provisional_candidate,unreviewed
+state-053,El Salvador,92,El Salvador,normalized_exact,provisional_candidate,unreviewed
+state-054,Equatorial Guinea,411,Equatorial Guinea,normalized_exact,provisional_candidate,unreviewed
+state-055,Eritrea,531,Eritrea,normalized_exact,provisional_candidate,unreviewed
+state-056,Estonia,366,Estonia,normalized_exact,provisional_candidate,unreviewed
+state-057,Eswatini,572,Swaziland,alias,provisional_candidate,unreviewed
+state-058,Ethiopia,530,Ethiopia,normalized_exact,provisional_candidate,unreviewed
+state-059,Fiji,950,Fiji,normalized_exact,provisional_candidate,unreviewed
+state-060,Finland,375,Finland,normalized_exact,provisional_candidate,unreviewed
+state-061,France,220,France,normalized_exact,provisional_candidate,unreviewed
+state-062,Gabon,481,Gabon,normalized_exact,provisional_candidate,unreviewed
+state-063,Gambia,420,Gambia,normalized_exact,provisional_candidate,unreviewed
+state-064,Georgia,372,Georgia,normalized_exact,provisional_candidate,unreviewed
+state-065,Germany,255,Germany,normalized_exact,provisional_candidate,unreviewed
+state-066,Ghana,452,Ghana,normalized_exact,provisional_candidate,unreviewed
+state-067,Greece,350,Greece,normalized_exact,provisional_candidate,unreviewed
+state-068,Grenada,55,Grenada,normalized_exact,provisional_candidate,unreviewed
+state-069,Guatemala,90,Guatemala,normalized_exact,provisional_candidate,unreviewed
+state-070,Guinea,438,Guinea,normalized_exact,provisional_candidate,unreviewed
+state-071,Guinea-Bissau,404,Guinea-Bissau,normalized_exact,provisional_candidate,unreviewed
+state-072,Guyana,110,Guyana,normalized_exact,provisional_candidate,unreviewed
+state-073,Haiti,41,Haiti,normalized_exact,provisional_candidate,unreviewed
+state-074,Holy See (Observer State),,,unmatched,unresolved,unreviewed
+state-075,Honduras,91,Honduras,normalized_exact,provisional_candidate,unreviewed
+state-076,Hungary,310,Hungary,normalized_exact,provisional_candidate,unreviewed
+state-077,Iceland,395,Iceland,normalized_exact,provisional_candidate,unreviewed
+state-078,India,750,India,normalized_exact,provisional_candidate,unreviewed
+state-079,Indonesia,850,Indonesia,normalized_exact,provisional_candidate,unreviewed
+state-080,Iran,630,Iran,normalized_exact,provisional_candidate,unreviewed
+state-081,Iraq,645,Iraq,normalized_exact,provisional_candidate,unreviewed
+state-082,Ireland,205,Ireland,normalized_exact,provisional_candidate,unreviewed
+state-083,Israel,666,Israel,normalized_exact,provisional_candidate,unreviewed
+state-084,Italy,325,Italy,normalized_exact,provisional_candidate,unreviewed
+state-085,Jamaica,51,Jamaica,normalized_exact,provisional_candidate,unreviewed
+state-086,Japan,740,Japan,normalized_exact,provisional_candidate,unreviewed
+state-087,Jordan,663,Jordan,normalized_exact,provisional_candidate,unreviewed
+state-088,Kazakhstan,705,Kazakhstan,normalized_exact,provisional_candidate,unreviewed
+state-089,Kenya,501,Kenya,normalized_exact,provisional_candidate,unreviewed
+state-090,Kiribati,946,Kiribati,normalized_exact,provisional_candidate,unreviewed
+state-091,Kuwait,690,Kuwait,normalized_exact,provisional_candidate,unreviewed
+state-092,Kyrgyzstan,703,Kyrgyzstan,normalized_exact,provisional_candidate,unreviewed
+state-093,Laos,812,Laos,alias,provisional_candidate,unreviewed
+state-094,Latvia,367,Latvia,normalized_exact,provisional_candidate,unreviewed
+state-095,Lebanon,660,Lebanon,normalized_exact,provisional_candidate,unreviewed
+state-096,Lesotho,570,Lesotho,normalized_exact,provisional_candidate,unreviewed
+state-097,Liberia,450,Liberia,normalized_exact,provisional_candidate,unreviewed
+state-098,Libya,620,Libya,normalized_exact,provisional_candidate,unreviewed
+state-099,Liechtenstein,223,Liechtenstein,normalized_exact,provisional_candidate,unreviewed
+state-100,Lithuania,368,Lithuania,normalized_exact,provisional_candidate,unreviewed
+state-101,Luxembourg,212,Luxembourg,normalized_exact,provisional_candidate,unreviewed
+state-102,Madagascar,580,Madagascar,normalized_exact,provisional_candidate,unreviewed
+state-103,Malawi,553,Malawi,normalized_exact,provisional_candidate,unreviewed
+state-104,Malaysia,820,Malaysia,normalized_exact,provisional_candidate,unreviewed
+state-105,Maldives,781,Maldives,normalized_exact,provisional_candidate,unreviewed
+state-106,Mali,432,Mali,normalized_exact,provisional_candidate,unreviewed
+state-107,Malta,338,Malta,normalized_exact,provisional_candidate,unreviewed
+state-108,Marshall Islands,983,Marshall Islands,normalized_exact,provisional_candidate,unreviewed
+state-109,Mauritania,435,Mauritania,normalized_exact,provisional_candidate,unreviewed
+state-110,Mauritius,590,Mauritius,normalized_exact,provisional_candidate,unreviewed
+state-111,Mexico,70,Mexico,normalized_exact,provisional_candidate,unreviewed
+state-112,Micronesia,987,Federated States of Micronesia,alias,provisional_candidate,unreviewed
+state-113,Moldova,359,Moldova,alias,provisional_candidate,unreviewed
+state-114,Monaco,221,Monaco,normalized_exact,provisional_candidate,unreviewed
+state-115,Mongolia,712,Mongolia,normalized_exact,provisional_candidate,unreviewed
+state-116,Montenegro,341,Montenegro,normalized_exact,provisional_candidate,unreviewed
+state-117,Morocco,600,Morocco,normalized_exact,provisional_candidate,unreviewed
+state-118,Mozambique,541,Mozambique,normalized_exact,provisional_candidate,unreviewed
+state-119,Myanmar,775,Myanmar,normalized_exact,provisional_candidate,unreviewed
+state-120,Namibia,565,Namibia,normalized_exact,provisional_candidate,unreviewed
+state-121,Nauru,970,Nauru,normalized_exact,provisional_candidate,unreviewed
+state-122,Nepal,790,Nepal,normalized_exact,provisional_candidate,unreviewed
+state-123,Netherlands,210,Netherlands,normalized_exact,provisional_candidate,unreviewed
+state-124,New Zealand,920,New Zealand,normalized_exact,provisional_candidate,unreviewed
+state-125,Nicaragua,93,Nicaragua,normalized_exact,provisional_candidate,unreviewed
+state-126,Niger,436,Niger,normalized_exact,provisional_candidate,unreviewed
+state-127,Nigeria,475,Nigeria,normalized_exact,provisional_candidate,unreviewed
+state-128,North Korea,731,North Korea,alias,provisional_candidate,unreviewed
+state-129,North Macedonia,343,Macedonia,alias,provisional_candidate,unreviewed
+state-130,Norway,385,Norway,normalized_exact,provisional_candidate,unreviewed
+state-131,Oman,698,Oman,normalized_exact,provisional_candidate,unreviewed
+state-132,Pakistan,770,Pakistan,normalized_exact,provisional_candidate,unreviewed
+state-133,Palau,986,Palau,normalized_exact,provisional_candidate,unreviewed
+state-134,Panama,95,Panama,normalized_exact,provisional_candidate,unreviewed
+state-135,Papua New Guinea,910,Papua New Guinea,normalized_exact,provisional_candidate,unreviewed
+state-136,Paraguay,150,Paraguay,normalized_exact,provisional_candidate,unreviewed
+state-137,Peru,135,Peru,normalized_exact,provisional_candidate,unreviewed
+state-138,Philippines,840,Philippines,normalized_exact,provisional_candidate,unreviewed
+state-139,Poland,290,Poland,normalized_exact,provisional_candidate,unreviewed
+state-140,Portugal,235,Portugal,normalized_exact,provisional_candidate,unreviewed
+state-141,Qatar,694,Qatar,normalized_exact,provisional_candidate,unreviewed
+state-142,Romania,360,Romania,normalized_exact,provisional_candidate,unreviewed
+state-143,Russia,365,Russia,alias,provisional_candidate,unreviewed
+state-144,Rwanda,517,Rwanda,normalized_exact,provisional_candidate,unreviewed
+state-145,Saint Kitts and Nevis,60,St. Kitts and Nevis,alias,provisional_candidate,unreviewed
+state-146,Saint Lucia,56,St. Lucia,alias,provisional_candidate,unreviewed
+state-147,Saint Vincent and the Grenadines,57,St. Vincent and the Grenadines,alias,provisional_candidate,unreviewed
+state-148,Samoa,990,Samoa,normalized_exact,provisional_candidate,unreviewed
+state-149,San Marino,331,San Marino,normalized_exact,provisional_candidate,unreviewed
+state-150,Sao Tome and Principe,403,Sao Tome and Principe,normalized_exact,provisional_candidate,unreviewed
+state-151,Saudi Arabia,670,Saudi Arabia,normalized_exact,provisional_candidate,unreviewed
+state-152,Senegal,433,Senegal,normalized_exact,provisional_candidate,unreviewed
+state-153,Serbia,345,Serbia,normalized_exact,provisional_candidate,unreviewed
+state-154,Seychelles,591,Seychelles,normalized_exact,provisional_candidate,unreviewed
+state-155,Sierra Leone,451,Sierra Leone,normalized_exact,provisional_candidate,unreviewed
+state-156,Singapore,830,Singapore,normalized_exact,provisional_candidate,unreviewed
+state-157,Slovakia,317,Slovakia,normalized_exact,provisional_candidate,unreviewed
+state-158,Slovenia,349,Slovenia,normalized_exact,provisional_candidate,unreviewed
+state-159,Solomon Islands,940,Solomon Islands,normalized_exact,provisional_candidate,unreviewed
+state-160,Somalia,520,Somalia,normalized_exact,provisional_candidate,unreviewed
+state-161,South Africa,560,South Africa,normalized_exact,provisional_candidate,unreviewed
+state-162,South Korea,732,South Korea,alias,provisional_candidate,unreviewed
+state-163,South Sudan,626,South Sudan,normalized_exact,provisional_candidate,unreviewed
+state-164,Spain,230,Spain,normalized_exact,provisional_candidate,unreviewed
+state-165,Sri Lanka,780,Sri Lanka,normalized_exact,provisional_candidate,unreviewed
+state-166,State of Palestine (Observer State),,,unmatched,unresolved,unreviewed
+state-167,Sudan,625,Sudan,normalized_exact,provisional_candidate,unreviewed
+state-168,Suriname,115,Suriname,normalized_exact,provisional_candidate,unreviewed
+state-169,Sweden,380,Sweden,normalized_exact,provisional_candidate,unreviewed
+state-170,Switzerland,225,Switzerland,normalized_exact,provisional_candidate,unreviewed
+state-171,Syria,652,Syria,alias,provisional_candidate,unreviewed
+state-172,Tajikistan,702,Tajikistan,normalized_exact,provisional_candidate,unreviewed
+state-173,Tanzania,510,Tanzania,alias,provisional_candidate,unreviewed
+state-174,Thailand,800,Thailand,normalized_exact,provisional_candidate,unreviewed
+state-175,Timor-Leste,860,East Timor,alias,provisional_candidate,unreviewed
+state-176,Togo,461,Togo,normalized_exact,provisional_candidate,unreviewed
+state-177,Tonga,955,Tonga,normalized_exact,provisional_candidate,unreviewed
+state-178,Trinidad and Tobago,52,Trinidad and Tobago,normalized_exact,provisional_candidate,unreviewed
+state-179,Tunisia,616,Tunisia,normalized_exact,provisional_candidate,unreviewed
+state-180,Türkiye,640,Turkey,alias,provisional_candidate,unreviewed
+state-181,Turkmenistan,701,Turkmenistan,normalized_exact,provisional_candidate,unreviewed
+state-182,Tuvalu,947,Tuvalu,normalized_exact,provisional_candidate,unreviewed
+state-183,Uganda,500,Uganda,normalized_exact,provisional_candidate,unreviewed
+state-184,Ukraine,369,Ukraine,normalized_exact,provisional_candidate,unreviewed
+state-185,United Arab Emirates,696,United Arab Emirates,normalized_exact,provisional_candidate,unreviewed
+state-186,United Kingdom,200,United Kingdom,normalized_exact,provisional_candidate,unreviewed
+state-187,United States,2,United States of America,alias,provisional_candidate,unreviewed
+state-188,Uruguay,165,Uruguay,normalized_exact,provisional_candidate,unreviewed
+state-189,Uzbekistan,704,Uzbekistan,normalized_exact,provisional_candidate,unreviewed
+state-190,Vanuatu,935,Vanuatu,normalized_exact,provisional_candidate,unreviewed
+state-191,Venezuela,101,Venezuela,normalized_exact,provisional_candidate,unreviewed
+state-192,Vietnam,816,Vietnam,alias,provisional_candidate,unreviewed
+state-193,Yemen,679,Yemen,normalized_exact,provisional_candidate,unreviewed
+state-194,Zambia,551,Zambia,normalized_exact,provisional_candidate,unreviewed
+state-195,Zimbabwe,552,Zimbabwe,normalized_exact,provisional_candidate,unreviewed

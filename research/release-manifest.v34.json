@@ -1,0 +1,72 @@
+{
+  "release": "Revision 34",
+  "generated": "2026-10-09",
+  "claimLevel": "L1 authored scenario behavior; not a forecast or posterior",
+  "defaults": {
+    "startAgents": 225,
+    "conflictInterval": 25,
+    "qualifyingShare": 0.476,
+    "institutionEventProbability": 0.15,
+    "fragmentationPerEvent": 0,
+    "internalConflict": 0.05,
+    "institutionalAdoptionRate": 0.07,
+    "leadingInstitutionStrength": 0.5,
+    "systemicCycleStress": 0.5,
+    "economicCoupling": 0.5,
+    "spreadRate": 0.15,
+    "consolidationAcceleration": 0.25,
+    "currentWaveInProgress": 1,
+    "horizon": 2000,
+    "selectedYear": 0
+  },
+  "processUncertainty": {
+    "clusteredWaveArrivals": 1,
+    "clusteredGapYears": [
+      6,
+      36,
+      124
+    ],
+    "waveSeverityBetaConcentration": 14,
+    "maximumEventsPerRun": 10000
+  },
+  "headline": {
+    "replicates": 1000,
+    "apexRunShareThresholdCalendarYears": {
+      "p25": 3094,
+      "p50": 3306,
+      "p75": 3565,
+      "p95": 3998
+    },
+    "targetFiveMedianCalendarYear": 3038,
+    "monteCarloRuns": 10000,
+    "monteCarloApexRunShare": 0.7081,
+    "monteCarloComputationalCensoring": 0
+  },
+  "executableInputs": {
+    "web/model.mjs": "f76dd7b56622f4042cf1cf64833e9cddea10924562e96f2baa77fc49ec0b254a",
+    "web/app.mjs": "eb4a7bd35c01a8ce456b9835dcf4ba1e15dd5ac0cb7519631224baeb0041eb24",
+    "web/index.html": "dfbc006e1af45df35fdbfc4ec3502a4e8c2f49a4696fb5c44c71473518bec7e1",
+    "web/styles.css": "eb3a9b9daba0ee258bc36db39b6fb30389f251fefe1452bdb306509a35041811",
+    "web/references.mjs": "6fa6da5527d7569710ecbde5c9fa0a48de9f84f9191e72f1bc9703b04bf79884",
+    "analysis/monte_carlo_sampling.mjs": "7159a8c967ed054ec5dc2bdcf0cdaee2f3ef9af6485f7ab15703b59acc1d89fb",
+    "analysis/monte_carlo_statistics.mjs": "60760e1b507071cf36a154b45d84fd185271dbb3dc3f08d74084e2371f9ffab6",
+    "analysis/target_five_analysis.mjs": "01cfb1d58f74bc4f93b8e90358199fea01c6b3088648255382d55f04717acab3",
+    "analysis/generate_scenario_matrix.mjs": "4d7b7340d2e6a8f1bd421934b5c0512bae4a1510a0afa931b61885de49185ff4",
+    "analysis/model_insight_sweep.mjs": "b65da926858abeb76a9e650d89ab33225778ade5fc3820f2c8ea8f48ce7e18d7",
+    "analysis/monte_carlo_simulation.mjs": "3c909b7009d5915cbf701c5d3344040f8e6fe0f956b82bbac9e5df34fd25e149",
+    "analysis/cow_model_comparison.py": "f93cec87ff4d9c295158d67e2f21ebf3a74b615c166226908ae5827a3b1996a3",
+    "research/defaults-rationale.v1.json": "b34494124123e1439386229ea7079d4c46644544e66652747a70677e6bc24432",
+    "research/monte-carlo-assumptions.v1.json": "c59d6f9e3ee3d2d270a13f709157d5752a77bd63c8096e475904b66b8ebc7d06"
+  },
+  "artifacts": {
+    "analysis/output/target-five-analysis.json": "1860ae36a1a84a53b4cf8017be12ee0e4168b9261c80fec1b235b12141345220",
+    "analysis/output/scenario-matrix.json": "eddb24acac90f66108dccaab86a23d3eea8fe0b05d4e007e66b687c3f0fddca9",
+    "analysis/output/model-insights.json": "48b72a7ed76b9c857b6d229a0579031fc3a2579db661940b7caa6c4ae5ac1be4",
+    "analysis/output/monte-carlo-summary.json": "e4c02f08ed3b3f55c2cf4f03f4fa91d9c812f2d599e39ab4b8b52bdbe69250f4",
+    "analysis/output/cow-model-comparison.json": "c7531358cab5f6a0ee59be518b883bde619f7a6d5750de45abb0dc914fdfdd40",
+    "analysis/output/pca-results.json": "bf1fe15ec1260b0df27b8b37eddddd72bab44a6fd6940ea1a275dd070183ca00",
+    "web/target-five-analysis.mjs": "599975994c950cf6a1885d46ed756f28f8dcbcdfbc59354491a604b1dca72473",
+    "web/scenario-matrix.mjs": "f178dca27132ee072b49a840d39c51998cbf8783fca01537f8e57492fbf7f2dd",
+    "web/monte-carlo-results.mjs": "df71b4f195d5228a509e76111122fd825ca17f3254f6356f04bc7902de4509e4"
+  }
+}
